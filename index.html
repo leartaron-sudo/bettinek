@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Betti Tanuló Bot</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f5f7fb;
+    --card: #ffffff;
+    --primary: #4f46e5;
+    --primary-hover: #4338ca;
+    --success: #16a34a;
+    --success-bg: #dcfce7;
+    --error: #dc2626;
+    --error-bg: #fee2e2;
+    --text: #1f2937;
+    --text-muted: #6b7280;
+    --border: #e5e7eb;
+    --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  header h1 {
+    font-size: 26px;
+    color: var(--primary);
+    margin-bottom: 6px;
+  }
+
+  header p {
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    background: var(--card);
+    padding: 14px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-value {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--primary);
+  }
+
+  .stat-label {
+    color: var(--text-muted);
+    font-size: 12px;
+    margin-top: 2px;
+  }
+
+  .controls {
+    background: var(--card);
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .controls label {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  select, .btn {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  select { flex: 1; min-width: 180px; }
+
+  .btn-toggle {
+    background: var(--bg);
+    user-select: none;
+  }
+
+  .btn-toggle.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+  }
+
+  .card {
+    background: var(--card);
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    margin-bottom: 16px;
+  }
+
+  .tetel-tag {
+    display: inline-block;
+    background: #eef2ff;
+    color: var(--primary);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+
+  .tipus-tag {
+    display: inline-block;
+    background: #fef3c7;
+    color: #92400e;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    margin-left: 6px;
+  }
+
+  .question {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    line-height: 1.4;
+  }
+
+  .answers {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .answer-btn {
+    text-align: left;
+    padding: 14px 16px;
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    background: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+    color: var(--text);
+  }
+
+  .answer-btn:hover:not(:disabled) {
+    border-color: var(--primary);
+    background: #f8faff;
+  }
+
+  .answer-btn:disabled {
+    cursor: not-allowed;
+  }
+
+  .answer-btn.correct {
+    border-color: var(--success);
+    background: var(--success-bg);
+    color: #14532d;
+    font-weight: 600;
+  }
+
+  .answer-btn.wrong {
+    border-color: var(--error);
+    background: var(--error-bg);
+    color: #7f1d1d;
+  }
+
+  .nyitott-area {
+    margin-bottom: 16px;
+  }
+
+  .latin-szo {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary);
+    text-align: center;
+    padding: 24px 12px 8px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+  }
+
+  .latin-kiejtes {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 15px;
+    margin-bottom: 18px;
+  }
+
+  .latin-jelentes {
+    background: #f0fdf4;
+    border-left: 4px solid var(--success);
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .latin-jelentes-szoveg {
+    font-size: 22px;
+    font-weight: 600;
+    color: #14532d;
+  }
+
+  .latin-pelda {
+    background: #fefce8;
+    border-left: 4px solid #ca8a04;
+    padding: 14px 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  .latin-pelda-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #854d0e;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+  }
+
+  .valasz-box {
+    background: #f0fdf4;
+    border-left: 4px solid var(--success);
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    white-space: pre-wrap;
+    line-height: 1.6;
+  }
+
+  .valasz-box-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--success);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+  }
+
+  .magyarazat {
+    background: #eff6ff;
+    border-left: 4px solid #3b82f6;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+  }
+
+  .magyarazat-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1d4ed8;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+  }
+
+  .actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .btn-primary:hover { background: var(--primary-hover); }
+
+  .btn-secondary {
+    background: white;
+    color: var(--text);
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+
+  .btn-secondary:hover { background: var(--bg); }
+
+  .btn-success {
+    background: var(--success);
+    color: white;
+    border-color: var(--success);
+    padding: 12px 18px;
+    font-weight: 600;
+  }
+
+  .btn-error {
+    background: var(--error);
+    color: white;
+    border-color: var(--error);
+    padding: 12px 18px;
+    font-weight: 600;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-muted);
+  }
+
+  .hidden { display: none !important; }
+
+  footer {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 12px;
+    margin-top: 24px;
+    padding: 10px;
+  }
+
+  /* ===== Reszponzív breakpointok ===== */
+
+  /* Tablet (768px alatt) */
+  @media (max-width: 768px) {
+    body { padding: 16px; }
+    header h1 { font-size: 22px; }
+    .card { padding: 20px; }
+    .question { font-size: 17px; }
+  }
+
+  /* Mobil (600px alatt) */
+  @media (max-width: 600px) {
+    body { padding: 10px; }
+    .container { max-width: 100%; }
+    header { margin-bottom: 16px; }
+    header h1 { font-size: 20px; }
+    header p { font-size: 13px; }
+
+    .card { padding: 16px; border-radius: 10px; }
+    .question { font-size: 16px; margin-bottom: 14px; }
+
+    .stats { padding: 10px; gap: 4px; margin-bottom: 12px; }
+    .stat-value { font-size: 18px; }
+    .stat-label { font-size: 11px; }
+
+    .controls {
+      padding: 12px;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 8px;
+    }
+    .controls label {
+      align-self: flex-start;
+    }
+    select, .btn {
+      width: 100%;
+      font-size: 15px;
+      padding: 10px 14px;
+    }
+
+    .answer-btn {
+      padding: 12px 14px;
+      font-size: 14px;
+    }
+
+    .actions {
+      flex-direction: column;
+    }
+    .actions .btn {
+      width: 100%;
+    }
+
+    .tetel-tag, .tipus-tag {
+      font-size: 11px;
+      display: block;
+      margin-left: 0;
+      margin-bottom: 4px;
+      width: fit-content;
+    }
+  }
+
+  /* Kis mobil (380px alatt) */
+  @media (max-width: 380px) {
+    body { padding: 6px; }
+    .card { padding: 14px; }
+    .question { font-size: 15px; }
+    .stat-value { font-size: 16px; }
+    .stat-label { font-size: 10px; }
+    .answer-btn { font-size: 13px; padding: 10px 12px; }
+  }
+
+  /* Tap-friendly: érintőképernyőn ne legyen hover állapot ragadós */
+  @media (hover: none) {
+    .answer-btn:hover:not(:disabled) {
+      border-color: var(--border);
+      background: white;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>Betti Tanuló Bot</h1>
+    <p>Random kérdések a tételekből — kvíz és szóbeli mód</p>
+  </header>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-value" id="stat-osszes">0</div>
+      <div class="stat-label">Megválaszolt</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-helyes" style="color: var(--success);">0</div>
+      <div class="stat-label">Helyes</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-rossz" style="color: var(--error);">0</div>
+      <div class="stat-label">Rossz</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value" id="stat-szazalek">—</div>
+      <div class="stat-label">Arány</div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <label>Tétel:</label>
+    <select id="tetel-szuro">
+      <option value="__all__">Mind</option>
+    </select>
+    <button class="btn btn-toggle" id="csak-rosszak">Csak a rosszakat</button>
+    <button class="btn btn-secondary" id="reset">Nullázás</button>
+  </div>
+
+  <div id="card-container"></div>
+
+  <footer>
+    Minden adat a böngésződben tárolódik (localStorage). Bezárás után is megmarad.
+  </footer>
+
+</div>
+
+<script src="kerdesek.js"></script>
+<script>
+(function() {
+  'use strict';
+
+  // ==================== ÁLLAPOT ====================
+  const STORAGE_KEY = 'betti_tanulo_bot_v1';
+
+  let state = loadState() || {
+    osszes: 0,
+    helyes: 0,
+    rossz: 0,
+    rosszKerdesIndexek: [], // amelyiket eddig elrontott
+    csakRosszak: false,
+    valasztottTetel: '__all__'
+  };
+
+  let aktualisIndex = null;
+  let valaszMegjelent = false;
+
+  // ==================== TÁROLÁS ====================
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      return raw ? JSON.parse(raw) : null;
+    } catch (e) { return null; }
+  }
+
+  function saveState() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) { /* tárolás kikapcsolva */ }
+  }
+
+  // ==================== UI ELEMEK ====================
+  const elTetelSzuro = document.getElementById('tetel-szuro');
+  const elCsakRosszak = document.getElementById('csak-rosszak');
+  const elReset = document.getElementById('reset');
+  const elCard = document.getElementById('card-container');
+
+  // ==================== TÉTEL SZŰRŐ FELTÖLTÉS ====================
+  function feltoltTetelSzuro() {
+    const tetelek = [...new Set(KERDESEK.map(k => k.tetel))].sort();
+    elTetelSzuro.innerHTML = '<option value="__all__">Mind (' + KERDESEK.length + ')</option>';
+    tetelek.forEach(t => {
+      const db = KERDESEK.filter(k => k.tetel === t).length;
+      const opt = document.createElement('option');
+      opt.value = t;
+      opt.textContent = t + ' (' + db + ')';
+      elTetelSzuro.appendChild(opt);
+    });
+    elTetelSzuro.value = state.valasztottTetel;
+  }
+
+  // ==================== KÉRDÉS KIVÁLASZTÁS ====================
+  function elerhetoIndexek() {
+    let indexek = KERDESEK.map((_, i) => i);
+
+    if (state.valasztottTetel !== '__all__') {
+      indexek = indexek.filter(i => KERDESEK[i].tetel === state.valasztottTetel);
+    }
+
+    if (state.csakRosszak && state.rosszKerdesIndexek.length > 0) {
+      indexek = indexek.filter(i => state.rosszKerdesIndexek.includes(i));
+    }
+
+    return indexek;
+  }
+
+  function valasszKerdest() {
+    const indexek = elerhetoIndexek();
+    if (indexek.length === 0) return null;
+
+    // Lehetőleg ne ugyanazt adja kétszer egymás után
+    if (indexek.length > 1 && aktualisIndex !== null) {
+      const sokFele = indexek.filter(i => i !== aktualisIndex);
+      if (sokFele.length > 0) {
+        return sokFele[Math.floor(Math.random() * sokFele.length)];
+      }
+    }
+    return indexek[Math.floor(Math.random() * indexek.length)];
+  }
+
+  // ==================== STATISZTIKA ====================
+  function frissitStat() {
+    document.getElementById('stat-osszes').textContent = state.osszes;
+    document.getElementById('stat-helyes').textContent = state.helyes;
+    document.getElementById('stat-rossz').textContent = state.rossz;
+    const sz = state.osszes > 0
+      ? Math.round((state.helyes / state.osszes) * 100) + '%'
+      : '—';
+    document.getElementById('stat-szazalek').textContent = sz;
+  }
+
+  // ==================== RENDER ====================
+  function renderUres(uzenet) {
+    elCard.innerHTML = '<div class="card empty-state">' + uzenet + '</div>';
+  }
+
+  function renderKerdes() {
+    aktualisIndex = valasszKerdest();
+    valaszMegjelent = false;
+
+    if (aktualisIndex === null) {
+      const ok = state.csakRosszak
+        ? 'Nincs még rosszul megválaszolt kérdés ebben a szűrésben. 👏'
+        : 'Nincs ilyen tételhez tartozó kérdés.';
+      renderUres(ok);
+      return;
+    }
+
+    const k = KERDESEK[aktualisIndex];
+
+    if (k.tipus === 'feleletvalasztos') {
+      renderFeleletvalasztos(k);
+    } else if (k.tipus === 'nyitott') {
+      renderNyitott(k);
+    } else if (k.tipus === 'latin') {
+      renderLatin(k);
+    } else {
+      renderUres('Ismeretlen kérdéstípus: ' + k.tipus);
+    }
+  }
+
+  // ----- LATIN SZÓKINCS -----
+  function renderLatin(k) {
+    let html = '<div class="card">';
+    html += '<span class="tetel-tag">' + escapeHtml(k.tetel) + '</span>';
+    html += '<span class="tipus-tag" style="background:#fce7f3;color:#9d174d;">Latin szó</span>';
+    html += '<div class="latin-szo">' + escapeHtml(k.latin || '') + '</div>';
+    if (k.kiejtes) {
+      html += '<div class="latin-kiejtes">[' + escapeHtml(k.kiejtes) + ']</div>';
+    }
+    html += '<div class="nyitott-area" style="text-align:center;">';
+    html += '<p style="color:var(--text-muted);font-size:14px;margin-bottom:14px;">Mit jelent? Gondold át, aztán fedd fel.</p>';
+    html += '<button class="btn btn-primary" id="mutasd-latin">Mutasd a jelentést</button>';
+    html += '</div>';
+    html += '<div id="latin-blokk"></div>';
+    html += '</div>';
+    elCard.innerHTML = html;
+
+    document.getElementById('mutasd-latin').addEventListener('click', () => mutasdLatint(k));
+  }
+
+  function mutasdLatint(k) {
+    let html = '<div class="latin-jelentes">';
+    html += '<div class="valasz-box-label" style="margin-bottom:6px;">Jelentés</div>';
+    html += '<div class="latin-jelentes-szoveg">' + escapeHtml(k.jelentes || '') + '</div>';
+    html += '</div>';
+
+    if (k.pelda) {
+      html += '<div class="latin-pelda">';
+      html += '<div class="latin-pelda-label">Példa</div>';
+      html += escapeHtml(k.pelda);
+      html += '</div>';
+    }
+
+    if (k.magyarazat) {
+      html += '<div class="magyarazat hidden" id="magy">';
+      html += '<div class="magyarazat-label">Részletek</div>';
+      html += escapeHtml(k.magyarazat);
+      html += '</div>';
+      html += '<button class="btn btn-secondary" id="magy-toggle" style="margin-bottom:14px;">📖 Részletek mutatása</button>';
+    }
+
+    html += '<p style="color:var(--text-muted);font-size:14px;margin:14px 0 10px;">Tudtad?</p>';
+    html += '<div class="actions">';
+    html += '<button class="btn btn-success" id="tudtam">✓ Tudtam</button>';
+    html += '<button class="btn btn-error" id="nemtudtam">✗ Nem tudtam</button>';
+    html += '</div>';
+
+    document.getElementById('latin-blokk').innerHTML = html;
+    document.getElementById('mutasd-latin').disabled = true;
+    document.getElementById('mutasd-latin').style.opacity = '0.5';
+
+    if (k.magyarazat) {
+      document.getElementById('magy-toggle').addEventListener('click', () => {
+        const m = document.getElementById('magy');
+        const t = document.getElementById('magy-toggle');
+        m.classList.toggle('hidden');
+        t.textContent = m.classList.contains('hidden') ? '📖 Részletek mutatása' : '📕 Részletek elrejtése';
+      });
+    }
+
+    document.getElementById('tudtam').addEventListener('click', () => ertekelNyitott(true));
+    document.getElementById('nemtudtam').addEventListener('click', () => ertekelNyitott(false));
+  }
+
+  // ----- FELELETVÁLASZTÓS -----
+  function renderFeleletvalasztos(k) {
+    let html = '<div class="card">';
+    html += '<span class="tetel-tag">' + escapeHtml(k.tetel) + '</span>';
+    html += '<span class="tipus-tag">Feleletválasztós</span>';
+    html += '<div class="question">' + escapeHtml(k.kerdes) + '</div>';
+    html += '<div class="answers">';
+    k.valaszok.forEach((v, i) => {
+      html += '<button class="answer-btn" data-i="' + i + '">' + escapeHtml(v) + '</button>';
+    });
+    html += '</div>';
+    html += '<div id="utovis-blokk"></div>';
+    html += '<div class="actions"><button class="btn btn-primary hidden" id="kovetkezo">Következő kérdés →</button></div>';
+    html += '</div>';
+    elCard.innerHTML = html;
+
+    elCard.querySelectorAll('.answer-btn').forEach(btn => {
+      btn.addEventListener('click', () => valasztFeleletvalasztos(parseInt(btn.dataset.i, 10), k));
+    });
+    document.getElementById('kovetkezo').addEventListener('click', renderKerdes);
+  }
+
+  function valasztFeleletvalasztos(valasztott, k) {
+    if (valaszMegjelent) return;
+    valaszMegjelent = true;
+
+    const helyes = (valasztott === k.helyes);
+    state.osszes++;
+    if (helyes) {
+      state.helyes++;
+      // Ha eddig rossznak volt jelölve, vegyük ki
+      state.rosszKerdesIndexek = state.rosszKerdesIndexek.filter(i => i !== aktualisIndex);
+    } else {
+      state.rossz++;
+      if (!state.rosszKerdesIndexek.includes(aktualisIndex)) {
+        state.rosszKerdesIndexek.push(aktualisIndex);
+      }
+    }
+
+    elCard.querySelectorAll('.answer-btn').forEach((btn, i) => {
+      btn.disabled = true;
+      if (i === k.helyes) btn.classList.add('correct');
+      else if (i === valasztott) btn.classList.add('wrong');
+    });
+
+    let utovis = '';
+    if (k.magyarazat) {
+      utovis += '<div class="magyarazat hidden" id="magy">';
+      utovis += '<div class="magyarazat-label">Magyarázat</div>';
+      utovis += escapeHtml(k.magyarazat);
+      utovis += '</div>';
+      utovis += '<button class="btn btn-secondary" id="magy-toggle" style="margin-bottom:10px;">📖 Magyarázat mutatása</button>';
+    }
+    document.getElementById('utovis-blokk').innerHTML = utovis;
+
+    if (k.magyarazat) {
+      document.getElementById('magy-toggle').addEventListener('click', () => {
+        const m = document.getElementById('magy');
+        const t = document.getElementById('magy-toggle');
+        m.classList.toggle('hidden');
+        t.textContent = m.classList.contains('hidden') ? '📖 Magyarázat mutatása' : '📕 Magyarázat elrejtése';
+      });
+    }
+
+    document.getElementById('kovetkezo').classList.remove('hidden');
+    saveState();
+    frissitStat();
+  }
+
+  // ----- NYITOTT -----
+  function renderNyitott(k) {
+    let html = '<div class="card">';
+    html += '<span class="tetel-tag">' + escapeHtml(k.tetel) + '</span>';
+    html += '<span class="tipus-tag" style="background:#dbeafe;color:#1e40af;">Szóbeli</span>';
+    html += '<div class="question">' + escapeHtml(k.kerdes) + '</div>';
+    html += '<div class="nyitott-area">';
+    html += '<p style="color:var(--text-muted);font-size:14px;margin-bottom:14px;">Gondold végig / mondd el hangosan, aztán nézd meg a választ.</p>';
+    html += '<button class="btn btn-primary" id="mutasd">Mutasd a választ</button>';
+    html += '</div>';
+    html += '<div id="valasz-blokk"></div>';
+    html += '</div>';
+    elCard.innerHTML = html;
+
+    document.getElementById('mutasd').addEventListener('click', () => mutasdValaszt(k));
+  }
+
+  function mutasdValaszt(k) {
+    let html = '<div class="valasz-box">';
+    html += '<div class="valasz-box-label">Helyes válasz</div>';
+    html += escapeHtml(k.valasz);
+    html += '</div>';
+
+    if (k.magyarazat) {
+      html += '<div class="magyarazat hidden" id="magy">';
+      html += '<div class="magyarazat-label">Részletes magyarázat</div>';
+      html += escapeHtml(k.magyarazat);
+      html += '</div>';
+      html += '<button class="btn btn-secondary" id="magy-toggle" style="margin-bottom:14px;">📖 Részletes magyarázat</button>';
+    }
+
+    html += '<p style="color:var(--text-muted);font-size:14px;margin:14px 0 10px;">Te magad ítéld meg, tudtad-e:</p>';
+    html += '<div class="actions">';
+    html += '<button class="btn btn-success" id="tudtam">✓ Tudtam</button>';
+    html += '<button class="btn btn-error" id="nemtudtam">✗ Nem tudtam</button>';
+    html += '</div>';
+
+    document.getElementById('valasz-blokk').innerHTML = html;
+    document.getElementById('mutasd').disabled = true;
+    document.getElementById('mutasd').style.opacity = '0.5';
+
+    if (k.magyarazat) {
+      document.getElementById('magy-toggle').addEventListener('click', () => {
+        const m = document.getElementById('magy');
+        const t = document.getElementById('magy-toggle');
+        m.classList.toggle('hidden');
+        t.textContent = m.classList.contains('hidden') ? '📖 Részletes magyarázat' : '📕 Magyarázat elrejtése';
+      });
+    }
+
+    document.getElementById('tudtam').addEventListener('click', () => ertekelNyitott(true));
+    document.getElementById('nemtudtam').addEventListener('click', () => ertekelNyitott(false));
+  }
+
+  function ertekelNyitott(tudtam) {
+    if (valaszMegjelent) return;
+    valaszMegjelent = true;
+
+    state.osszes++;
+    if (tudtam) {
+      state.helyes++;
+      state.rosszKerdesIndexek = state.rosszKerdesIndexek.filter(i => i !== aktualisIndex);
+    } else {
+      state.rossz++;
+      if (!state.rosszKerdesIndexek.includes(aktualisIndex)) {
+        state.rosszKerdesIndexek.push(aktualisIndex);
+      }
+    }
+
+    saveState();
+    frissitStat();
+    renderKerdes();
+  }
+
+  // ==================== ESCAPE ====================
+  function escapeHtml(s) {
+    if (s === undefined || s === null) return '';
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  // ==================== EVENT LISTENEREK ====================
+  elTetelSzuro.addEventListener('change', () => {
+    state.valasztottTetel = elTetelSzuro.value;
+    saveState();
+    renderKerdes();
+  });
+
+  elCsakRosszak.addEventListener('click', () => {
+    state.csakRosszak = !state.csakRosszak;
+    elCsakRosszak.classList.toggle('active', state.csakRosszak);
+    saveState();
+    renderKerdes();
+  });
+
+  elReset.addEventListener('click', () => {
+    if (!confirm('Tényleg nullázzuk a statisztikát? (A kérdések megmaradnak.)')) return;
+    state.osszes = 0;
+    state.helyes = 0;
+    state.rossz = 0;
+    state.rosszKerdesIndexek = [];
+    saveState();
+    frissitStat();
+    renderKerdes();
+  });
+
+  // ==================== INDÍTÁS ====================
+  function init() {
+    if (typeof KERDESEK === 'undefined' || !Array.isArray(KERDESEK) || KERDESEK.length === 0) {
+      renderUres('Nincs egy kérdés sem. Nyisd meg a kerdesek.js fájlt és adj hozzá pár kérdést!');
+      return;
+    }
+    feltoltTetelSzuro();
+    elCsakRosszak.classList.toggle('active', state.csakRosszak);
+    frissitStat();
+    renderKerdes();
+  }
+
+  init();
+
+})();
+</script>
+
+</body>
+</html>
