@@ -3167,6 +3167,875 @@ const KERDESEK = [
     ],
     helyes: 1,
     magyarazat: "A pylorus (gyomorkimenet) szűkülete miatt a táplálék nem tud továbbjutni → felgyűlik a gyomorban → hányás, gyors súlyvesztés."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - IDEGRENDSZER ==================
+  // =============================================================
+
+  {
+    tetel: "Latin - Idegrendszer",
+    tipus: "latin",
+    latin: "Pons",
+    jelentes: "híd (agyhíd, az agytörzs része)",
+    kiejtes: "ponsz",
+    magyarazat: "Az agytörzs középső része. A nyúltvelő és a középagy között helyezkedik el."
+  },
+
+  {
+    tetel: "Latin - Idegrendszer",
+    tipus: "latin",
+    latin: "Cortex cerebri",
+    jelentes: "agykéreg",
+    kiejtes: "kortex cerebri",
+    magyarazat: "A nagyagy felszínén lévő szürkeállomány. Itt zajlanak a magasabb idegi funkciók (gondolkodás, emlékezet, beszéd)."
+  },
+
+  {
+    tetel: "Latin - Idegrendszer",
+    tipus: "latin",
+    latin: "Hemispherium cerebri",
+    jelentes: "agyfélteke",
+    kiejtes: "hemiszférium cerebri",
+    magyarazat: "A nagyagy két fele - bal és jobb. A corpus callosum köti össze őket."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - MEDENCEÖV ====================
+  // =============================================================
+
+  {
+    tetel: "Latin - Medenceöv csontjai",
+    tipus: "latin",
+    latin: "Os sacrum",
+    jelentes: "keresztcsont",
+    kiejtes: "ósz szákrum",
+    magyarazat: "5 összenőtt csigolyából áll, a gerinc alsó részét képezi."
+  },
+
+  {
+    tetel: "Latin - Medenceöv csontjai",
+    tipus: "latin",
+    latin: "Os coxae",
+    jelentes: "medencecsont",
+    kiejtes: "ósz koxe",
+    magyarazat: "3 csontból nőtt össze: ilium, ischium, pubis."
+  },
+
+  {
+    tetel: "Latin - Medenceöv csontjai",
+    tipus: "latin",
+    latin: "Os ilium",
+    jelentes: "csípőcsont",
+    kiejtes: "ósz ilium",
+    magyarazat: "A medencecsont legnagyobb, felső része - itt tapintható a 'csípőtaréj'."
+  },
+
+  {
+    tetel: "Latin - Medenceöv csontjai",
+    tipus: "latin",
+    latin: "Os ischii",
+    jelentes: "ülőcsont",
+    kiejtes: "ósz iszki",
+    magyarazat: "Üléskor erre a csontra nehezedik a testsúly (tuber ischiadicum = ülőgumó)."
+  },
+
+  {
+    tetel: "Latin - Medenceöv csontjai",
+    tipus: "latin",
+    latin: "Os pubis",
+    jelentes: "szeméremcsont",
+    kiejtes: "ósz pubisz",
+    magyarazat: "A medence elülső részén, középen a két csont a symphysis pubicával kapcsolódik."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - MÉH ===========================
+  // =============================================================
+
+  {
+    tetel: "Latin - Méh anatómia",
+    tipus: "latin",
+    latin: "Myometrium",
+    jelentes: "méh izomzata",
+    kiejtes: "miometrium",
+    magyarazat: "Ez húzódik össze szülés alatt. Hormonális szabályozás alatt áll."
+  },
+
+  {
+    tetel: "Latin - Méh anatómia",
+    tipus: "latin",
+    latin: "Perimetrium",
+    jelentes: "méh külső burka (savóshártya)",
+    kiejtes: "perimetrium"
+  },
+
+  {
+    tetel: "Latin - Méh anatómia",
+    tipus: "latin",
+    latin: "Endometrium",
+    jelentes: "méh nyálkahártya",
+    kiejtes: "endometrium",
+    magyarazat: "Ez 'menstruál' - havonta lehámlik és újraépül. Endometrium-rák a leggyakoribb női daganatok közé tartozik."
+  },
+
+  {
+    tetel: "Latin - Méh anatómia",
+    tipus: "latin",
+    latin: "Cavum uteri",
+    jelentes: "méhüreg",
+    kiejtes: "kávum uteri"
+  },
+
+  {
+    tetel: "Latin - Méh anatómia",
+    tipus: "latin",
+    latin: "Cervix uteri",
+    jelentes: "méhnyak",
+    kiejtes: "cervix uteri",
+    magyarazat: "A cervix-rák szűrése = méhnyakrákszűrés (Pap-teszt). HPV ellen ma már védőoltás."
+  },
+
+  {
+    tetel: "Latin - Méh anatómia",
+    tipus: "latin",
+    latin: "Fundus uteri",
+    jelentes: "méhfenék (felső, kupolaszerű része)",
+    kiejtes: "fundusz uteri"
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - VÉNÁK =========================
+  // =============================================================
+
+  {
+    tetel: "Latin - Vénák",
+    tipus: "latin",
+    latin: "Vena femoralis",
+    jelentes: "combvéna",
+    kiejtes: "véna femorálisz",
+    magyarazat: "Centrális véna - sürgős helyzetben katéterezhető (de fertőzésveszély miatt lehetőleg kerüljük)."
+  },
+
+  {
+    tetel: "Latin - Vénák",
+    tipus: "latin",
+    latin: "Vena cephalica",
+    jelentes: "fejvéna (a felkar külső oldalán)",
+    kiejtes: "véna cefálika",
+    magyarazat: "Perifériás véna. A felkar külső oldalán fut, jól szúrható."
+  },
+
+  {
+    tetel: "Latin - Vénák",
+    tipus: "latin",
+    latin: "Vena basilica",
+    jelentes: "felkar belső oldali véna",
+    kiejtes: "véna bazilika",
+    magyarazat: "Perifériás. A felkar belső oldalán."
+  },
+
+  {
+    tetel: "Latin - Vénák",
+    tipus: "latin",
+    latin: "Vena mediana antebrachii",
+    jelentes: "alkar középső vénája",
+    kiejtes: "véna mediána antebrákii",
+    magyarazat: "A leggyakoribb vérvételi hely - a könyök előtt jól láthatóan és tapinthatóan fut."
+  },
+
+  {
+    tetel: "Latin - Vénák",
+    tipus: "latin",
+    latin: "Vena subclavia",
+    jelentes: "kulcscsont alatti véna",
+    kiejtes: "véna szubklávia",
+    magyarazat: "Centrális véna. Itt vezetik be a centrális vénás katétert (CVK)."
+  },
+
+  {
+    tetel: "Latin - Vénák",
+    tipus: "latin",
+    latin: "Vena jugularis interna",
+    jelentes: "belső nyaki véna",
+    kiejtes: "véna juguláris interna",
+    magyarazat: "Centrális véna - a nyakon szúrják, gyakran intenzív osztályon."
+  },
+
+  {
+    tetel: "Latin - Vénák",
+    tipus: "latin",
+    latin: "Vena saphena magna",
+    jelentes: "nagy lábszárvéna",
+    kiejtes: "véna szafena magna",
+    magyarazat: "Perifériás. A leghosszabb felszíni véna a testben. Visszérbetegségnél gyakran érintett."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - MENSTRUÁCIÓ ==================
+  // =============================================================
+
+  {
+    tetel: "Latin - Menstruáció",
+    tipus: "latin",
+    latin: "Regeneratio",
+    jelentes: "gyógyulás (menstruáció 1. szakasza)",
+    kiejtes: "regeneráció"
+  },
+
+  {
+    tetel: "Latin - Menstruáció",
+    tipus: "latin",
+    latin: "Proliferatio",
+    jelentes: "kiépülés (menstruáció 2. szakasza)",
+    kiejtes: "proliferáció",
+    magyarazat: "Az endometrium ösztrogén hatására megvastagszik."
+  },
+
+  {
+    tetel: "Latin - Menstruáció",
+    tipus: "latin",
+    latin: "Secretio",
+    jelentes: "elválasztás (menstruáció 3. szakasza)",
+    kiejtes: "szekréció",
+    magyarazat: "Progeszteron hatására az endometrium felkészül a beágyazódásra."
+  },
+
+  {
+    tetel: "Latin - Menstruáció",
+    tipus: "latin",
+    latin: "Desquamatio",
+    jelentes: "menstruáció (4. szakasz, lehámlás)",
+    kiejtes: "deszkvamáció",
+    magyarazat: "Ha nincs megtermékenyítés, a hormonszint csökken, az endometrium lehámlik."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - LÁZTÍPUSOK ===================
+  // =============================================================
+
+  {
+    tetel: "Latin - Láztípusok",
+    tipus: "latin",
+    latin: "Febris continua",
+    jelentes: "állandó láz (38°C felett, ingadozás < 1°C)",
+    kiejtes: "febrisz kontinua"
+  },
+
+  {
+    tetel: "Latin - Láztípusok",
+    tipus: "latin",
+    latin: "Febris remittens",
+    jelentes: "ingadozó láz (ingadozás > 1°C, de nem éri el a láztalanságot)",
+    kiejtes: "febrisz remittensz"
+  },
+
+  {
+    tetel: "Latin - Láztípusok",
+    tipus: "latin",
+    latin: "Febris intermittens",
+    jelentes: "ugráló (intermittáló) láz - ingadozás > 1°C, testhő 37°C alá is csökken",
+    kiejtes: "febrisz intermittensz",
+    magyarazat: "Tipikus malária esetén."
+  },
+
+  {
+    tetel: "Latin - Láztípusok",
+    tipus: "latin",
+    latin: "Febris recurrens",
+    jelentes: "visszatérő láz (lázas és láztalan napok ismétlődése)",
+    kiejtes: "febrisz rekurrensz"
+  },
+
+  {
+    tetel: "Latin - Láztípusok",
+    tipus: "latin",
+    latin: "Febris undulans",
+    jelentes: "váltóláz (24 órán túli intervallumban váltakozó lázas-láztalan szakaszok)",
+    kiejtes: "febrisz undulansz",
+    magyarazat: "Brucellózisra jellemző."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - FERTŐZŐ BETEGSÉGEK ===========
+  // =============================================================
+
+  {
+    tetel: "Latin - Fertőző betegségek",
+    tipus: "latin",
+    latin: "Morbilli",
+    jelentes: "kanyaró",
+    kiejtes: "morbilli",
+    magyarazat: "MMR oltás véd ellene. Tipikus tünet: koplikkák a száj nyálkahártyáján, fülmögötti kiütés ami lefelé terjed."
+  },
+
+  {
+    tetel: "Latin - Fertőző betegségek",
+    tipus: "latin",
+    latin: "Pertussis",
+    jelentes: "szamárköhögés",
+    kiejtes: "pertussisz",
+    magyarazat: "Kötelező védőoltás (DTP-be). Csecsemőknél életveszélyes lehet."
+  },
+
+  {
+    tetel: "Latin - Fertőző betegségek",
+    tipus: "latin",
+    latin: "Rubeola",
+    jelentes: "rózsahimlő",
+    kiejtes: "rubeola",
+    magyarazat: "Terhesség első trimeszterében súlyos magzati károsodást okozhat (rubeola-szindróma)."
+  },
+
+  {
+    tetel: "Latin - Fertőző betegségek",
+    tipus: "latin",
+    latin: "Varicella",
+    jelentes: "bárányhimlő",
+    kiejtes: "varicella",
+    magyarazat: "Apró hólyagok testszerte. A vírus a gerincvelő érzőidegcsomókban marad - később övsömör (herpes zoster) formájában visszatérhet."
+  },
+
+  {
+    tetel: "Latin - Fertőző betegségek",
+    tipus: "latin",
+    latin: "Typhus abdominalis",
+    jelentes: "hastífusz",
+    kiejtes: "tifusz abdominálisz",
+    magyarazat: "Salmonella typhi okozza, élelmiszer-víz közvetítésével terjed."
+  },
+
+  {
+    tetel: "Latin - Fertőző betegségek",
+    tipus: "latin",
+    latin: "Tetanus",
+    jelentes: "merevgörcs",
+    kiejtes: "tetanusz",
+    magyarazat: "Talaj közvetítésével (sebbe kerülve), Clostridium tetani toxin. Védőoltás kötelező."
+  },
+
+  {
+    tetel: "Latin - Fertőző betegségek",
+    tipus: "latin",
+    latin: "Diphtheria",
+    jelentes: "torokgyík",
+    kiejtes: "diftéria",
+    magyarazat: "DTP védőoltás véd ellene."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - VIZELETÜRÍTÉS ================
+  // =============================================================
+
+  {
+    tetel: "Latin - Vizeletürítés",
+    tipus: "latin",
+    latin: "Diuresis",
+    jelentes: "vizeletkiválasztás (egészségesen napi 800-1500 ml)",
+    kiejtes: "diurézisz"
+  },
+
+  {
+    tetel: "Latin - Vizeletürítés",
+    tipus: "latin",
+    latin: "Polyuria",
+    jelentes: "fokozott vizeletürítés (24 óra alatt > 2000 ml)",
+    kiejtes: "poliuria",
+    magyarazat: "Diabetes mellitus, diabetes insipidus, diuretikumok hatása."
+  },
+
+  {
+    tetel: "Latin - Vizeletürítés",
+    tipus: "latin",
+    latin: "Oliguria",
+    jelentes: "csökkent vizeletürítés (24 óra alatt < 500 ml)",
+    kiejtes: "oliguria",
+    magyarazat: "Veseelégtelenség, dehidráció vagy keringési zavar jele."
+  },
+
+  {
+    tetel: "Latin - Vizeletürítés",
+    tipus: "latin",
+    latin: "Anuria",
+    jelentes: "vizeletkiválasztás szünetelése",
+    kiejtes: "anuria",
+    magyarazat: "Súlyos veseelégtelenség. Sürgős beavatkozást igényel (dialízis)."
+  },
+
+  {
+    tetel: "Latin - Vizeletürítés",
+    tipus: "latin",
+    latin: "Incontinentia urinae",
+    jelentes: "vizelet visszatartásának képtelensége",
+    kiejtes: "inkontinencia urináé"
+  },
+
+  {
+    tetel: "Latin - Vizeletürítés",
+    tipus: "latin",
+    latin: "Ischuria paradoxa",
+    jelentes: "fokozott belső nyomás miatti csepegő vizelés telt hólyaggal",
+    kiejtes: "iszkúria paradoxa",
+    magyarazat: "Túlfolyásos vizelés - a hólyag tele van, csak cseppenként ürül."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - ENDOKRIN BETEGSÉGEK ==========
+  // =============================================================
+
+  {
+    tetel: "Latin - Endokrin betegségek",
+    tipus: "latin",
+    latin: "Hyperthyreosis",
+    jelentes: "pajzsmirigy túlműködés",
+    kiejtes: "hipertireózis",
+    magyarazat: "Tünet: tachycardia, exophtalmus, fogyás, hőemelkedés. Pl. Basedow-Graves kór."
+  },
+
+  {
+    tetel: "Latin - Endokrin betegségek",
+    tipus: "latin",
+    latin: "Hypothyreosis",
+    jelentes: "pajzsmirigy alulműködés",
+    kiejtes: "hipotireózis",
+    magyarazat: "Tünet: bradycardia, hidegintolerancia, fogyás-érzéketlen hízás, fáradtság, depresszió."
+  },
+
+  {
+    tetel: "Latin - Endokrin betegségek",
+    tipus: "latin",
+    latin: "Exophtalmus",
+    jelentes: "szem előretüremkedése (hyperthyreosis tünete)",
+    kiejtes: "exoftalmusz",
+    magyarazat: "Klasszikus Basedow-Graves tünet."
+  },
+
+  {
+    tetel: "Latin - Endokrin betegségek",
+    tipus: "latin",
+    latin: "Cushing-szindróma",
+    jelentes: "kortizol-túltermelés (mellékvesekéreg betegsége)",
+    kiejtes: "kusing szindróma",
+    magyarazat: "Tipikus: holdvilágarc, törzsi elhízás, striák, hypertonia, magas vércukor."
+  },
+
+  {
+    tetel: "Latin - Endokrin betegségek",
+    tipus: "latin",
+    latin: "Acromegalia",
+    jelentes: "szomatotrop hormon (STH) túltermelés felnőttkorban",
+    kiejtes: "akromegália",
+    magyarazat: "A végtagok és arccsontok megnagyobbodása. Hipofízis adenoma okozza."
+  },
+
+  {
+    tetel: "Latin - Endokrin betegségek",
+    tipus: "latin",
+    latin: "Diabetes insipidus",
+    jelentes: "ADH-hiányos vízhajtó betegség (NEM cukorbetegség)",
+    kiejtes: "diabétesz inszipidusz",
+    magyarazat: "Polyuria, polydypsia, alacsony vizelet ozmolaritás. Nem tévesztendő össze a DM-mel."
+  },
+
+  {
+    tetel: "Latin - Endokrin betegségek",
+    tipus: "latin",
+    latin: "Phaeochromocytoma",
+    jelentes: "mellékvesevelő-daganat (adrenalin túltermelés)",
+    kiejtes: "feokromocitóma",
+    magyarazat: "Rohamokban jelentkező magas vérnyomás, izzadás, fejfájás, szívdobogás."
+  },
+
+  {
+    tetel: "Latin - Endokrin betegségek",
+    tipus: "latin",
+    latin: "Tetania",
+    jelentes: "izomgörcsökkel járó kalciumhiány tünete",
+    kiejtes: "tetánia",
+    magyarazat: "Mellékpajzsmirigy elégtelenség jellemző tünete (carpalspazmus = kéz görcs)."
+  },
+
+  {
+    tetel: "Latin - Endokrin betegségek",
+    tipus: "latin",
+    latin: "Rachitis",
+    jelentes: "angolkór (gyermekkori D-vitamin hiány)",
+    kiejtes: "rakitisz",
+    magyarazat: "Hajlott, deformált csontok. Felnőttkori megfelelője az osteomalatia."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - KÓRKÉPEK ======================
+  // =============================================================
+
+  {
+    tetel: "Latin - Kórképek",
+    tipus: "latin",
+    latin: "Ulcus ventriculi",
+    jelentes: "gyomorfekély",
+    kiejtes: "ulkusz ventrikuli",
+    magyarazat: "Helicobacter pylori, NSAID-ek, stressz okozhatja. Szövődménye lehet a perforáció."
+  },
+
+  {
+    tetel: "Latin - Kórképek",
+    tipus: "latin",
+    latin: "Cirrhosis hepatis",
+    jelentes: "májzsugor",
+    kiejtes: "cirrózisz hepátisz",
+    magyarazat: "Krónikus alkoholfogyasztás, hepatitis C, NAFLD okozza. Szövődmény: oesophagus varix."
+  },
+
+  {
+    tetel: "Latin - Kórképek",
+    tipus: "latin",
+    latin: "Glomerulonephritis",
+    jelentes: "vesegyulladás (a glomerulusok gyulladása)",
+    kiejtes: "glomerulonefritisz",
+    magyarazat: "Akut glomerulonephritis tipikusan streptococcus-fertőzés után 1-3 héttel jön."
+  },
+
+  {
+    tetel: "Latin - Kórképek",
+    tipus: "latin",
+    latin: "Emphysema pulmonum",
+    jelentes: "tüdőtágulás",
+    kiejtes: "emfizéma pulmonum",
+    magyarazat: "Az alveolusok károsodása - a légzőfelület csökken. Dohányzás a fő ok."
+  },
+
+  {
+    tetel: "Latin - Kórképek",
+    tipus: "latin",
+    latin: "Endocarditis",
+    jelentes: "szívbelhártya gyulladása",
+    kiejtes: "endokarditisz",
+    magyarazat: "Bakteriális (gyakran streptococcus) gyulladás a billentyűkön. Vitium szövődhet hozzá."
+  },
+
+  {
+    tetel: "Latin - Kórképek",
+    tipus: "latin",
+    latin: "Vitium",
+    jelentes: "szívbillentyű-hiba (veleszületett vagy szerzett)",
+    kiejtes: "vícium",
+    magyarazat: "Pl. mitralis insufficientia, aortastenosis. Endocarditis után gyakran kialakul."
+  },
+
+  {
+    tetel: "Latin - Kórképek",
+    tipus: "latin",
+    latin: "Embolia pulmonalis",
+    jelentes: "tüdőembólia",
+    kiejtes: "embolia pulmonálisz",
+    magyarazat: "Hirtelen kialakuló nehézlégzés, mellkasi fájdalom, vérköpés. Életveszélyes."
+  },
+
+  {
+    tetel: "Latin - Kórképek",
+    tipus: "latin",
+    latin: "Cor pulmonale",
+    jelentes: "tüdőeredetű szívbetegség (jobb kamra terhelése)",
+    kiejtes: "kor pulmonále",
+    magyarazat: "Krónikus tüdőbetegség → magas tüdőérnyomás → jobb szívfél elégtelenség."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - DM SZÖVŐDMÉNYEK ===============
+  // =============================================================
+
+  {
+    tetel: "Latin - DM szövődmények",
+    tipus: "latin",
+    latin: "Microangiopathia",
+    jelentes: "kis erek károsodása (DM szövődménye)",
+    kiejtes: "mikroangiopátia",
+    magyarazat: "Szem (retinopathia), vese (nephropathia), idegek (neuropathia) érintettek."
+  },
+
+  {
+    tetel: "Latin - DM szövődmények",
+    tipus: "latin",
+    latin: "Macroangiopathia",
+    jelentes: "nagy erek károsodása (DM szövődménye)",
+    kiejtes: "makroangiopátia",
+    magyarazat: "Infarktus, stroke, alsó végtagi érszűkület."
+  },
+
+  {
+    tetel: "Latin - DM szövődmények",
+    tipus: "latin",
+    latin: "Nephropathia",
+    jelentes: "vesebetegség (DM szövődménye)",
+    kiejtes: "nefropátia",
+    magyarazat: "Tünet: albuminuria, hypertonia. Idővel veseelégtelenséghez vezethet."
+  },
+
+  {
+    tetel: "Latin - DM szövődmények",
+    tipus: "latin",
+    latin: "Retinopathia",
+    jelentes: "szem hátsó pólusának (retina) károsodása",
+    kiejtes: "retinopátia",
+    magyarazat: "DM hosszú távú szövődménye. Vakságot okozhat."
+  },
+
+  {
+    tetel: "Latin - DM szövődmények",
+    tipus: "latin",
+    latin: "Neuropathia",
+    jelentes: "idegrendszer károsodása",
+    kiejtes: "neuropátia",
+    magyarazat: "DM esetén tipikus: 'zokniszerű' érzéskiesés, fájdalmatlan láb-sérülések."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - ILEUS TÍPUSOK =================
+  // =============================================================
+
+  {
+    tetel: "Latin - Ileus típusok",
+    tipus: "latin",
+    latin: "Paralyticus ileus",
+    jelentes: "renyhe (bénult) bélelzáródás",
+    kiejtes: "paralitikusz íleusz",
+    magyarazat: "A bélfal simaizomzatának tartós ernyedt állapota. Néma has."
+  },
+
+  {
+    tetel: "Latin - Ileus típusok",
+    tipus: "latin",
+    latin: "Strangulatios ileus",
+    jelentes: "lefűződéses bélelzáródás",
+    kiejtes: "sztrangulácios íleusz",
+    magyarazat: "A bél lefűződése, csavarodása, betüremkedése."
+  },
+
+  {
+    tetel: "Latin - Ileus típusok",
+    tipus: "latin",
+    latin: "Obstructios ileus",
+    jelentes: "elzáródásos bélelzáródás (mechanikus akadály)",
+    kiejtes: "obsztrukciós íleusz",
+    magyarazat: "Adhesio (műtét utáni heg), idegentest, bélsárpangás, daganat, epekő okozhatja."
+  },
+
+  {
+    tetel: "Latin - Ileus típusok",
+    tipus: "latin",
+    latin: "Spasticus ileus",
+    jelentes: "görcsös bélelzáródás",
+    kiejtes: "szpasztikus íleusz",
+    magyarazat: "A bél izomzatának tartós összehúzódása (pl. ólom- vagy nikotinmérgezés)."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - LÉGZÉSI ÁLLAPOTOK ============
+  // =============================================================
+
+  {
+    tetel: "Latin - Légzési állapotok",
+    tipus: "latin",
+    latin: "Dyspnoe",
+    jelentes: "nehézlégzés",
+    kiejtes: "diszpnoé",
+    pelda: "Ortopnoe = csak ülve tud lélegezni"
+  },
+
+  {
+    tetel: "Latin - Légzési állapotok",
+    tipus: "latin",
+    latin: "Tachypnoe",
+    jelentes: "szapora légzés (> 20/perc)",
+    kiejtes: "tahipnoé"
+  },
+
+  {
+    tetel: "Latin - Légzési állapotok",
+    tipus: "latin",
+    latin: "Bradypnoe",
+    jelentes: "lassú légzés (< 12/perc)",
+    kiejtes: "bradipnoé"
+  },
+
+  {
+    tetel: "Latin - Légzési állapotok",
+    tipus: "latin",
+    latin: "Apnoe",
+    jelentes: "légzésleállás",
+    kiejtes: "apnoé",
+    magyarazat: "Alvási apnoe: ismétlődő rövid légzéskimaradások alvás közben."
+  },
+
+  {
+    tetel: "Latin - Légzési állapotok",
+    tipus: "latin",
+    latin: "Kussmaul-légzés",
+    jelentes: "mély, szapora légzés (acidosisban)",
+    kiejtes: "kuszmaul légzés",
+    magyarazat: "Diabéteszes ketoacidosis tipikus tünete - a szervezet a CO2 leadásával kompenzál."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - VÉR ÉS KERINGÉS ==============
+  // =============================================================
+
+  {
+    tetel: "Latin - Vér és keringés",
+    tipus: "latin",
+    latin: "Anaemia",
+    jelentes: "vérszegénység",
+    kiejtes: "anémia",
+    pelda: "Vashiányos, vészes (B12-hiány), aplasztikus, haemolytikus"
+  },
+
+  {
+    tetel: "Latin - Vér és keringés",
+    tipus: "latin",
+    latin: "Leukocytosis",
+    jelentes: "fehérvérsejt-szám növekedése",
+    kiejtes: "leukocitózis",
+    magyarazat: "Bakteriális fertőzésre, gyulladásra, leukémiára utalhat."
+  },
+
+  {
+    tetel: "Latin - Vér és keringés",
+    tipus: "latin",
+    latin: "Trombophlebitis",
+    jelentes: "vénagyulladás véralvadékkal",
+    kiejtes: "trombofelbítisz",
+    magyarazat: "Felületes vagy mélyvénás. Mélyvénás → tüdőembólia veszély!"
+  },
+
+  {
+    tetel: "Latin - Vér és keringés",
+    tipus: "latin",
+    latin: "Tachycardia",
+    jelentes: "szapora pulzus (> 100/perc)",
+    kiejtes: "tahikardia"
+  },
+
+  {
+    tetel: "Latin - Vér és keringés",
+    tipus: "latin",
+    latin: "Bradycardia",
+    jelentes: "lassú pulzus (< 60/perc)",
+    kiejtes: "bradikardia",
+    magyarazat: "Sportolóknál fiziológiás. Egyébként szívvezetési zavarra, gyógyszerre utalhat."
+  },
+
+  {
+    tetel: "Latin - Vér és keringés",
+    tipus: "latin",
+    latin: "Hypertonia",
+    jelentes: "magas vérnyomás",
+    kiejtes: "hipertónia",
+    magyarazat: "≥ 140/90 Hgmm. A leggyakoribb krónikus betegség."
+  },
+
+  {
+    tetel: "Latin - Vér és keringés",
+    tipus: "latin",
+    latin: "Hypotonia",
+    jelentes: "alacsony vérnyomás",
+    kiejtes: "hipotónia",
+    magyarazat: "< 90/60 Hgmm. Lehet fiziológiás (sportolók) vagy kóros (sokk, vérzés)."
+  },
+
+  {
+    tetel: "Latin - Vér és keringés",
+    tipus: "latin",
+    latin: "Hypovolaemia",
+    jelentes: "alacsony keringő vértérfogat",
+    kiejtes: "hipovolémia",
+    magyarazat: "Vérzés, kiszáradás, jelentős folyadékvesztés okozhatja."
+  },
+
+  {
+    tetel: "Latin - Vér és keringés",
+    tipus: "latin",
+    latin: "Exsiccosis",
+    jelentes: "kiszáradás",
+    kiejtes: "exszikkózisz",
+    magyarazat: "Idős korban gyakori. Tünete: csökkent bőrturgor, szárazság, oliguria."
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - ANYAGCSERE ===================
+  // =============================================================
+
+  {
+    tetel: "Latin - Anyagcsere",
+    tipus: "latin",
+    latin: "Hyperglykaemia",
+    jelentes: "magas vércukor",
+    kiejtes: "hiperglikémia"
+  },
+
+  {
+    tetel: "Latin - Anyagcsere",
+    tipus: "latin",
+    latin: "Hypoglykaemia",
+    jelentes: "alacsony vércukor",
+    kiejtes: "hipoglikémia",
+    magyarazat: "Életveszélyes lehet! Mindig nézz vércukrot zavart betegnél."
+  },
+
+  {
+    tetel: "Latin - Anyagcsere",
+    tipus: "latin",
+    latin: "Acidosis",
+    jelentes: "savas vegyhatás (alacsony pH)",
+    kiejtes: "acidózis",
+    pelda: "Metabolikus, respiratoricus, ketoacidosis"
+  },
+
+  {
+    tetel: "Latin - Anyagcsere",
+    tipus: "latin",
+    latin: "Alkalosis",
+    jelentes: "lúgos vegyhatás (magas pH)",
+    kiejtes: "alkalózis"
+  },
+
+  // =============================================================
+  // ============ LATIN BŐVÍTÉS - SOKK ÉS ÁLLAPOT ==============
+  // =============================================================
+
+  {
+    tetel: "Latin - Sokk és állapotok",
+    tipus: "latin",
+    latin: "Anaphylaxia",
+    jelentes: "életveszélyes allergiás reakció",
+    kiejtes: "anafilaxia",
+    magyarazat: "Generalizált értágulat, légúti elzáródás, vérnyomásesés. Adrenalin sürgős!"
+  },
+
+  {
+    tetel: "Latin - Sokk és állapotok",
+    tipus: "latin",
+    latin: "Sepsis",
+    jelentes: "vérmérgezés (szisztémás fertőzés)",
+    kiejtes: "szepszis",
+    magyarazat: "Életveszélyes szisztémás gyulladásos válasz fertőzésre. Sürgős antibiotikum."
+  },
+
+  {
+    tetel: "Latin - Sokk és állapotok",
+    tipus: "latin",
+    latin: "Aortaaneurysma",
+    jelentes: "aortatágulat (érfaltágulás)",
+    kiejtes: "aorta aneurizma",
+    magyarazat: "Repedés esetén életveszélyes belső vérzés."
+  },
+
+  {
+    tetel: "Latin - Sokk és állapotok",
+    tipus: "latin",
+    latin: "Pericardialis tamponád",
+    jelentes: "szívburok-tamponád (folyadék a szívburokban szorítja a szívet)",
+    kiejtes: "perikardiális tamponád",
+    magyarazat: "Sürgős perikardiocentézist (folyadékleszívás) igényel."
   }
 
 ];
