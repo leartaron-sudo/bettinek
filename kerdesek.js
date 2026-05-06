@@ -876,6 +876,2297 @@ const KERDESEK = [
     jelentes: "orron át a gyomorba vezetett szonda",
     kiejtes: "nazogasztrikus",
     magyarazat: "Naso = orr, gastricus = gyomri. Táplálásra, gyomortartalom leszívásra használjuk."
+  },
+
+  // =============================================================
+  // ============ ELSŐSEGÉLY ÉS ÚJRAÉLESZTÉS =====================
+  // =============================================================
+
+  {
+    tetel: "Elsősegély és újraélesztés",
+    tipus: "nyitott",
+    kerdes: "Mik az elsősegélynyújtó feladatai kültakaró marómérgezés esetén?",
+    valasz: "Mentők értesítése, sze. biztonságos környezet kialakítása, szennyezett ruházat eltávolítása, szennyezett testfelület óvatos folyóvizes lemosása, sebkörnyék felitatása száraz gézlappal, steril fedőkötés a sérült testrészre, folyóvizes öblítés a szemhéjak nyitva tartásával, a sérült nyugalomba helyezése, felvilágosítása, megnyugtatása, a sérült folyamatos megfigyelése a mentők érkezéséig.",
+    magyarazat: "A maró anyag eltávolítása a legfontosabb! Bő folyóvizes öblítés. Soha ne használj semlegesítő szert, mert a reakcióhő tovább rongálja a szövetet."
+  },
+
+  {
+    tetel: "Elsősegély és újraélesztés",
+    tipus: "feleletvalasztos",
+    kerdes: "Újraélesztéskor a kompresszió - befúvás aránya:",
+    valaszok: ["15:1", "15:2", "30:2", "30:5"],
+    helyes: 2,
+    magyarazat: "Felnőttnél 30 mellkasi kompresszió : 2 lélegeztető befúvás. Csecsemőnél és gyermeknél hasonlóan, kétmentős változatban 15:2."
+  },
+
+  {
+    tetel: "Elsősegély és újraélesztés",
+    tipus: "feleletvalasztos",
+    kerdes: "Újraélesztéskor a légzés vizsgálatára hány másodperc áll rendelkezésünkre?",
+    valaszok: ["3 másodperc", "5 másodperc", "10 másodperc", "30 másodperc"],
+    helyes: 2,
+    magyarazat: "Maximum 10 másodperc - hallás-látás-érzés módszerrel. Ha ez után sincs normális légzés, kezdjük el a CPR-t."
+  },
+
+  {
+    tetel: "Elsősegély és újraélesztés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mellkasi kompressziók ideális frekvenciája:",
+    valaszok: ["60-80 / perc", "100-120 / perc", "150-180 / perc", "200 / perc"],
+    helyes: 1,
+    magyarazat: "Kb. 100-120 / perc - ez a 'Stayin' Alive' tempója."
+  },
+
+  {
+    tetel: "Elsősegély és újraélesztés",
+    tipus: "feleletvalasztos",
+    kerdes: "A szervezetben fellépő oxigénhiányt mely sejtek viselik el legkevésbé?",
+    valaszok: ["Bőr sejtjei", "Izomsejtek", "Agysejtek", "Csontsejtek"],
+    helyes: 2,
+    magyarazat: "Az agysejtek - 4-6 perc oxigénhiány után már visszafordíthatatlan károsodás keletkezik."
+  },
+
+  // =============================================================
+  // ============ LÉGÚTBIZTOSÍTÁS, GÉPI LÉLEGEZTETÉS =============
+  // =============================================================
+
+  {
+    tetel: "Légútbiztosítás és lélegeztetés",
+    tipus: "nyitott",
+    kerdes: "Mik a non-invazív gépi lélegeztetés előnyei és hátrányai?",
+    valasz: "Előnyei: fiziológiás funkció megtartása, orr- és gégefunkció megtartása, mechanikai szövődmények elkerülése. Hátrányai: aspiráció veszélye, a váladék eltávolítás nehéz, limitált pozitív nyomás.",
+    magyarazat: "Non-invazív lélegeztetésnél a beteg saját légzését támogatjuk maszkkal, intubáció nélkül. Akkor választjuk, ha a beteg együttműködő és nincs súlyos váladékprobléma."
+  },
+
+  {
+    tetel: "Légútbiztosítás és lélegeztetés",
+    tipus: "nyitott",
+    kerdes: "Mi a különbség az asszisztált és kontrollált lélegeztetés között?",
+    valasz: "Asszisztált: a beteg spontán légzésének támogatása, a spontán légzés mellé a beállított módon támogatja a légzést. Kontrollált: a betegnek nincs spontán légzése, a gép irányítja a légzést volumenében és frekvenciájában is.",
+    magyarazat: "Asszisztált → segítjük a beteg meglévő légzését. Kontrollált → teljesen átveszi a gép, mert a beteg nem tud lélegezni (pl. narcosis, kúrare hatása alatt)."
+  },
+
+  {
+    tetel: "Légútbiztosítás és lélegeztetés",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik légútbiztosítási módszer biztosít TELJES aspiráció-védelmet?",
+    valaszok: [
+      "Oropharyngealis tubus",
+      "Nasopharyngealis tubus",
+      "Laryngealis maszk",
+      "Endotrachealis tubus"
+    ],
+    helyes: 3,
+    magyarazat: "Csak az endotrachealis tubus zárja le teljesen a légcsövet (mandzsettával), így megakadályozza az aspirációt."
+  },
+
+  {
+    tetel: "Légútbiztosítás és lélegeztetés",
+    tipus: "nyitott",
+    kerdes: "Mit jelentenek a következő rövidítések: CVP, MAP, pCO2, SpO2, ETCO2?",
+    valasz: "CVP: centrális vénás nyomás. MAP: artériás középnyomás. pCO2: parciális széndioxid-nyomás. SpO2: perifériás oxigén szaturáció. ETCO2: kilégzésvégi széndioxid-nyomás.",
+    magyarazat: "Ezek a kritikus betegellátás alap monitorozási paraméterei."
+  },
+
+  {
+    tetel: "Légútbiztosítás és lélegeztetés",
+    tipus: "nyitott",
+    kerdes: "Mit jelent: NIBP, FiO2, PEEP, ICP, BE?",
+    valasz: "NIBP: vértelen artériás vérnyomás. FiO2: a belégzett gáz oxigén koncentrációja. PEEP: pozitív kilégzésvégi nyomás. ICP: koponyaűri nyomás. BE: bázisfelesleg.",
+    magyarazat: "PEEP a gépi lélegeztetésnél fontos: kilégzéskor pozitív nyomás marad, ami megakadályozza az alveolusok összeesését."
+  },
+
+  {
+    tetel: "Légútbiztosítás és lélegeztetés",
+    tipus: "feleletvalasztos",
+    kerdes: "A CO (szénmonoxid) hányszor jobban kötődik a hemoglobinhoz, mint az oxigén?",
+    valaszok: ["3-szor", "30-szor", "300-szor", "3000-szer"],
+    helyes: 2,
+    magyarazat: "300-szor erősebben kötődik. Ezért olyan veszélyes a CO mérgezés - a hemoglobin nem tudja az oxigént szállítani, miközben a beteg pír színű marad."
+  },
+
+  // =============================================================
+  // ============ PULZOXIMETRIA, LÉGZÉSI FOGALMAK ================
+  // =============================================================
+
+  {
+    tetel: "Légzéselemzés és vizsgálatok",
+    tipus: "nyitott",
+    kerdes: "Mi a pulzoximetriás vizsgálat lényege?",
+    valasz: "Alkalmazásának célja az oxigén-szaturáció mérése. Az oxihemoglobin és a redukált hemoglobin fényelnyelésének különbségén alapul. Rossz perifériás keringés esetén pontatlan eredményt mutat. Az eszköz megfelelő érzékelővel a fülcimpára is felhelyezhető. Az oxigénterápia hatékonyságának követésére is alkalmas.",
+    magyarazat: "Korlátai: rossz perifériás keringés, hideg végtag, körömlakk, súlyos anémia → pontatlan érték. CO mérgezésnél hamis magas értéket mutathat."
+  },
+
+  {
+    tetel: "Légzéselemzés és vizsgálatok",
+    tipus: "nyitott",
+    kerdes: "Mit jelent a vér oxigén-szaturációja?",
+    valasz: "A vér oxigén-szaturációja (telítettsége) azt fejezi ki, hogy a teljes hemoglobin mennyiség hány százaléka van oxihemoglobin (HgO2) formájában.",
+    magyarazat: "Normálérték: 95-100%. 90% alatt már hipoxiás, 88% alatt oxigénterápia szükséges."
+  },
+
+  {
+    tetel: "Légzéselemzés és vizsgálatok",
+    tipus: "nyitott",
+    kerdes: "Mi a diffúzió a légzéselmélet szerint?",
+    valasz: "Az oxigén és a szén-dioxid kicserélődése az alveoláris tér és a tüdőkapillárisok, illetve a nagyvérköri kapillárisok és a sejtek között.",
+    magyarazat: "A diffúzió mindig a magasabb koncentrációjú hely felől az alacsonyabb felé történik."
+  },
+
+  {
+    tetel: "Légzéselemzés és vizsgálatok",
+    tipus: "latin",
+    latin: "Anatómiai holttér",
+    jelentes: "az a levegő mennyiség, amely a légutak azon részében van, ahol nem történik gázcsere",
+    magyarazat: "Kb. 150 ml a felnőtt emberben. Ide tartozik a felső légutak, légcső, hörgők. Ezek vezetik a levegőt, de nem cserélnek gázt."
+  },
+
+  {
+    tetel: "Légzéselemzés és vizsgálatok",
+    tipus: "latin",
+    latin: "Vitálkapacitás",
+    jelentes: "a maximális belégzést követő maximális kilégzéssel kifújható gázkeverék mennyisége",
+    magyarazat: "Felnőtt férfinál kb. 4-5 liter. Csökken pl. tüdőfibrózisban, izomgyengeségben, mellkasdeformitásokban."
+  },
+
+  {
+    tetel: "Légzéselemzés és vizsgálatok",
+    tipus: "latin",
+    latin: "Atelectasia",
+    jelentes: "a tüdő elégtelen telődése",
+    kiejtes: "atelektázia",
+    magyarazat: "Lehet kompressziós (kívülről nyomják), obstrukciós (belül elzáródott a hörgő), vagy kontrakciós (heg miatt összezsugorodás)."
+  },
+
+  // =============================================================
+  // ============ PULMONÁLIS EMBÓLIA ===========================
+  // =============================================================
+
+  {
+    tetel: "Pulmonális embolia",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a pulmonális embóliára utaló tüneteket! (legalább 5)",
+    valasz: "Cianózis, nehézlégzés, vérköpés, köhögés, mellkasi fájdalom (légvételre, mozgásra fokozódik), tachycardia.",
+    magyarazat: "A klasszikus triász: nehézlégzés + mellkasi fájdalom + vérköpés. De gyakran csak egy-két tünet látszik. Hirtelen kialakulás jellemző."
+  },
+
+  {
+    tetel: "Pulmonális embolia",
+    tipus: "nyitott",
+    kerdes: "Pulmonális embólia gyanúja esetén milyen ápolói teendőket kell elvégezni? (6 db)",
+    valasz: "Szigorú ágynyugalom / félülő helyzet biztosítása, vitális paraméterek észlelése, 12 elvezetéses EKG készítése, oxigén adagolása, perifériás véna biztosítása, orvos értesítése, reanimációs eszközök előkészítése, beteg pszichés megnyugtatása.",
+    magyarazat: "A SZIGORÚ ágynyugalom kritikus - ha a beteg felkel és mozog, újabb embolus indulhat el a vénás trombusból."
+  },
+
+  {
+    tetel: "Pulmonális embolia",
+    tipus: "nyitott",
+    kerdes: "Milyen diagnosztikai lehetőségek vannak pulmonális embólia gyanújánál? (5)",
+    valasz: "Fizikális vizsgálat, 12 elvezetéses EKG, SpO2 mérés, laboratóriumi vizsgálat (D-dimer), CT angiográfia.",
+    magyarazat: "A D-dimer érzékeny, de nem specifikus marker. A CT angiográfia (CTPA) az aranystandard diagnózishoz."
+  },
+
+  {
+    tetel: "Pulmonális embolia",
+    tipus: "nyitott",
+    kerdes: "Pulmonális embolia esetén fogalmazz meg 5 aktuális ápolási diagnózist!",
+    valasz: "Mellkasi fájdalom a szöveti perfúzió zavara miatt. Halálfélelem a fájdalom és nehézlégzés miatt. Nyugtalanság és zavartság az elégtelen légzés (oxigén ellátás) miatt. Önellátás zavara az elesettség, gyengeség és ágyhoz kötöttség miatt. Félelem a terápiás és diagnosztikus beavatkozástól.",
+    magyarazat: "A halálfélelem nem 'gyengeség' - reális szubjektív érzés súlyos hipoxiánál. Mindig komolyan kell venni és pszichés támogatást nyújtani."
+  },
+
+  // =============================================================
+  // ============ SOKK FORMÁI ===================================
+  // =============================================================
+
+  {
+    tetel: "Sokk típusai",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a vasodilatatiós (értágulattal járó) sokk lehetséges okait!",
+    valasz: "Gerincvelői harántlézió, szepszis, anaphylaxia, hypovolaemia, exsiccosis (kiszáradás).",
+    magyarazat: "A vasodilatatió → értágulat → vérnyomás esés. Tipikusan meleg, piros bőr a kezdeti fázisban (különösen szepszisnél)."
+  },
+
+  {
+    tetel: "Sokk típusai",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a vasoconstrictiós (érösszehúzódással járó) sokk okait!",
+    valasz: "Nagy vénák és artériák elzáródása, kardiogén sokk, pulmonalis embolia, aortaaneurysma, pericardialis tamponád.",
+    magyarazat: "Ezekben a kompenzáló mechanizmus érösszehúzódás - hideg, sápadt bőr, gyengült periféria."
+  },
+
+  {
+    tetel: "Sokk típusai",
+    tipus: "feleletvalasztos",
+    kerdes: "Az anaphylaxiás sokk milyen formába tartozik?",
+    valaszok: [
+      "Vasoconstrictiós",
+      "Vasodilatatiós",
+      "Pszichogén",
+      "Egyik sem"
+    ],
+    helyes: 1,
+    magyarazat: "Anafilaxiánál masszív értágulat van + permeabilitás növekedés (extravazáció). Ezért vasodilatatiós."
+  },
+
+  // =============================================================
+  // ============ VÉNÁS, ARTÉRIÁS KANÜLÁLÁS ====================
+  // =============================================================
+
+  {
+    tetel: "Vénás kanülálás és infúzió",
+    tipus: "nyitott",
+    kerdes: "Mi a különbség a perifériás véna kanül és az artériás kanül kezelésében?",
+    valasz: "Perifériás véna kanül: a beavatkozáshoz NEM szükséges steril gumikesztyű, a végtagot strangulálni kell, kék színű csap, vér / vérkészítmény adható rajta. Artériás kanül: STERIL gumikesztyű kell, NEM kell strangulálni, Allen-teszt javasolt előtte, piros csap, gyógyszerbeadás TILOS, invazív vérnyomásmérésre alkalmas, vérvételre is használható.",
+    magyarazat: "Az Allen-teszt ellenőrzi, hogy a kéz keringése biztosított-e a másik kéz arteriáján is, ha az artéria ideiglenesen elzáródna."
+  },
+
+  {
+    tetel: "Vénás kanülálás és infúzió",
+    tipus: "nyitott",
+    kerdes: "Sorolj fel centrális és perifériás vénákat!",
+    valasz: "Centrális: vena femoralis, vena jugularis interna, vena subclavia. Perifériás: vena cephalica, vena mediana antebrachii, vena jugularis externa, vena saphena magna, vena basilica.",
+    magyarazat: "Centrális véna = közvetlenül szívhez vezető nagy véna. Itt nyomásmérés is lehetséges (CVP)."
+  },
+
+  {
+    tetel: "Vénás kanülálás és infúzió",
+    tipus: "nyitott",
+    kerdes: "Sorold fel az infúzió bejuttatásának módjait! (3)",
+    valasz: "Perifériás rövid kanülön keresztül, szárnyas tűn keresztül, midline (középutas) katéteren keresztül, centrális vénás katéteren keresztül, beültetett porton keresztül.",
+    magyarazat: "Tartós kezelésnél (pl. kemoterápia) port-a-cath-et használnak: a bőr alá ültetett kamra, ami egyszer beszúrható tűvel elérhető."
+  },
+
+  {
+    tetel: "Vénás kanülálás és infúzió",
+    tipus: "nyitott",
+    kerdes: "Számold ki: 2100 ml infúzió 14 óra alatt, 20 csepp/ml készlet. Hány csepp/perc?",
+    valasz: "2100 ml ÷ 14 óra = 150 ml/óra. 150 ml × 20 csepp/ml = 3000 csepp/óra. 3000 ÷ 60 perc = 50 csepp/perc.",
+    magyarazat: "Általános képlet: (térfogat ml × cseppszám/ml) ÷ (idő perc) = csepp/perc. 50 csepp/perc."
+  },
+
+  {
+    tetel: "Vénás kanülálás és infúzió",
+    tipus: "nyitott",
+    kerdes: "Mik a perifériás vénakanülálás szövődményei? (6)",
+    valasz: "Vénafal sérülése, artériába vezetett kanül, artéria sérülése a vénapunkció során, haematoma a sérült érből kiáramló vér miatt, a kanül megtörése / nem megfelelő pozicionálása, a kanül átjárhatóságának csökkenése vagy megszűnése, trombophlebitis.",
+    magyarazat: "A trombophlebitis a kanül helyén lévő véna gyulladása + alvadékos elzáródás → fájdalom, melegség, bőrpír."
+  },
+
+  // =============================================================
+  // ============ VÉNÁS / ARTÉRIÁS KERINGÉSI ELÉGTELENSÉG =======
+  // =============================================================
+
+  {
+    tetel: "Keringési elégtelenség",
+    tipus: "nyitott",
+    kerdes: "Hasonlítsd össze a vénás és artériás keringési elégtelenséget (bőrszín, hőmérséklet, pulzus, ödéma, bőrelváltozás).",
+    valasz: "Vénás: bőrszín normális vagy cianotikus, normál hőmérséklet, normál pulzus, gyakran kifejezett ödéma, bokák körül barnás elszíneződés. Artériás: sápadt bőr, hűvös tapintat, gyengült és könnyen elnyomható pulzus, nincs ödéma, vékony fényes bőr.",
+    magyarazat: "Vénás → 'megduzzad, sötétlik'. Artériás → 'kihal, sápadt'. Az 5 P jellemzi az artériás elzáródást: pain, pallor, pulselessness, paresthesia, paralysis."
+  },
+
+  {
+    tetel: "Keringési elégtelenség",
+    tipus: "nyitott",
+    kerdes: "Mi a különbség a felületes és mélyvénás trombophlebitis tüneteiben?",
+    valasz: "Felületes: sötétkék véna, bőrpír a véna felett és mellett, nyomásérzékenység, esetleg spontán fájdalom, kemény köteges véna, subferbilitás. Mélyvénás: feszes fénylő bőr, ödéma, körfogatkülönbség, mozgáskor érzékenység, mélyben fájdalmas köteg, mérsékelt láz, enyhe tachicardia, leukocitozis.",
+    magyarazat: "Mélyvénás trombózis életveszélyes lehet (tüdőembólia)! A láb körfogatkülönbség mérése egyszerű és informatív."
+  },
+
+  // =============================================================
+  // ============ VOLUMENPÓTLÁS, PARENTERALIS TÁPLÁLÁS ==========
+  // =============================================================
+
+  {
+    tetel: "Volumenpótlás és parenteralis táplálás",
+    tipus: "nyitott",
+    kerdes: "Mik a makromolekuláris (kolloidális) volumenpótszerek jellemzői? (4)",
+    valasz: "Molekulanagyságuk meghaladja az érpálya áteresztő képességét. Volumennövelő hatással rendelkeznek. A szöveti keringést javítják. Az ozmotikus aktivitásuk a részecskeszámtól függ. 'Plazmaexpanderek' (kolloid ozmotikus nyomásuknál fogva vizet vonnak el az interstitiumból, így az intravazális volumennövelő hatásuk nagyobb, mint a beadott mennyiség).",
+    magyarazat: "Példa: dextrán, HES (hydroxyetil-keményítő), zselatinkészítmények."
+  },
+
+  {
+    tetel: "Volumenpótlás és parenteralis táplálás",
+    tipus: "feleletvalasztos",
+    kerdes: "A Voluven és a Haes-steril melyik csoportba tartozik?",
+    valaszok: [
+      "Dextránkészítmények",
+      "Hydroxyetil-keményítő készítmények (HES)",
+      "Zselatinkészítmények",
+      "Krisztalloid oldat"
+    ],
+    helyes: 1,
+    magyarazat: "HES = hydroxyetil-keményítő. Példák: Isohes, Expahes, Haes-steril, Voluven, Elohast."
+  },
+
+  {
+    tetel: "Volumenpótlás és parenteralis táplálás",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a parenteralis táplálás előtti és utáni ellenőrzési szempontokat! (6)",
+    valasz: "Beteg általános állapota, vérnyomás, pulzus, hőmérséklet, vércukorszint, ürített folyadék mennyisége, kanül megfelelő működése, infúziós pumpa működése.",
+    magyarazat: "A vércukor monitorozása különösen fontos parenteralis tápláláskor, mert a glükóz koncentrált oldatban van."
+  },
+
+  {
+    tetel: "Volumenpótlás és parenteralis táplálás",
+    tipus: "nyitott",
+    kerdes: "Mik a parenteralis táplálás lehetséges szövődményei? (8)",
+    valasz: "Kanülelzáródás, légembólia, sav-bázis egyensúly zavara, véralvadási zavar, alultáplálás, túltáplálás, glükózháztartás zavara, paravazális szövetek közé kerülő tápoldat, nehézlégzés, megnövekedett vénás nyomás.",
+    magyarazat: "A légembólia akkor lép fel, ha a centrális kanül levegőt szív be (pl. nyitott szerelék, mély belégzéskor). Megelőzés: Trendelenburg helyzet behelyezéskor."
+  },
+
+  {
+    tetel: "Volumenpótlás és parenteralis táplálás",
+    tipus: "nyitott",
+    kerdes: "Mit jelent: isovolaemia, isoionia, isosmosis, isohydria?",
+    valasz: "Isovolaemia: a vízterek állandó térfogata. Isoionia: a vízterek állandó kémiai összetétele. Isosmosis: a vízterek állandó ozmotikus nyomása. Isohydria: a vízterek állandó hidrogénion-koncentrációja (pH).",
+    magyarazat: "Ez a 4 állandóság a homeosztázis alapja a folyadékháztartásban."
+  },
+
+  {
+    tetel: "Volumenpótlás és parenteralis táplálás",
+    tipus: "nyitott",
+    kerdes: "Milyen folyadék-elektrolitháztartás zavart okoz a láz és fokozott verejtékezés?",
+    valasz: "Hipertóniás dehidráció - a vízhiány jelentősebb, mint a sóhiány.",
+    magyarazat: "Lázas, izzadó betegnél hipertóniás (vízhiányos) dehidráció - tiszta vizet kell pótolni elsősorban, nem konyhasós oldatot."
+  },
+
+  // =============================================================
+  // ============ ENDOKRIN RENDSZER, HORMONOK ==================
+  // =============================================================
+
+  {
+    tetel: "Endokrin rendszer",
+    tipus: "nyitott",
+    kerdes: "Mely szerv termeli az alábbi hormonokat: adrenalin, inzulin, szomatotrop hormon, tiroxin, aldoszteron, parathormon?",
+    valasz: "Adrenalin: mellékvese-velőállomány. Inzulin: hasnyálmirigy. Szomatotrop hormon (STH): hipofízis elülső lebeny. Tiroxin: pajzsmirigy. Aldoszteron: mellékvese kéregállomány. Parathormon: mellékpajzsmirigy.",
+    magyarazat: "A hipofízis a 'karmester' - a többi mirigy munkáját irányítja a TSH, ACTH, FSH, LH stb. hormonok kibocsátásával."
+  },
+
+  {
+    tetel: "Endokrin rendszer",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik betegségnek tipikus tünete: magas vércukor, magas vérnyomás, striák, holdvilágarc, elhízás?",
+    valaszok: [
+      "Cushing-szindróma",
+      "Addison-kór",
+      "Diabetes insipidus",
+      "Acromegalia"
+    ],
+    helyes: 0,
+    magyarazat: "Cushing-szindróma = kortizol túltermelés. Tipikus: holdvilágarc, törzsi elhízás, vékony végtagok, striák, magas vércukor és vérnyomás."
+  },
+
+  {
+    tetel: "Endokrin rendszer",
+    tipus: "feleletvalasztos",
+    kerdes: "A diabetes insipidus oka:",
+    valaszok: [
+      "Inzulin hiánya",
+      "ADH (antidiuretikus hormon) hiánya",
+      "Tiroxin túltermelés",
+      "Kortizol hiánya"
+    ],
+    helyes: 1,
+    magyarazat: "Diabetes insipidus = ADH hiány → a vesék nem tartják vissza a vizet → hatalmas vizeletmennyiség (akár 20 liter/nap), súlyos szomjúság."
+  },
+
+  {
+    tetel: "Endokrin rendszer",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a diabetes insipidus klinikai tüneteit! (6)",
+    valasz: "Gyakori, éjszakai vizeletürítés, polyuria (4-20 l/nap), polydypsia (fokozott szomjúság), alacsony vizelet ozmolaritás (vizelet fajsúly < 1005), fogyás, fejfájás, gyermekkorban száraz vékony bőr, dehidráció.",
+    magyarazat: "Differenciáldiagnózis a cukros DM-mel: a DI vizeletében nincs cukor, fajsúlya nagyon alacsony, ozmolaritása alacsony."
+  },
+
+  {
+    tetel: "Endokrin rendszer",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a hyperthyreosis (pajzsmirigy túlműködés) tüneteit! (10)",
+    valasz: "Izgatottság, ingerlékenység, hangulati ingadozások, álmatlanság, tachycardia, extrasystole, exophtalmus (szem előretüremkedés), pajzsmirigy-megnagyobbodás, jó étvágy mellett fogyás, hypertonia, hőemelkedés / láz, hasmenés, T3 és T4-szint növekedése, meleg nyirkos kipirult bőr.",
+    magyarazat: "Tipikus 'pörgő' beteg: gyors anyagcsere, gyors szív, fogyás. Ellentéte a hypothyreosis: lassú, fázós, súlygyarapodás."
+  },
+
+  {
+    tetel: "Endokrin rendszer",
+    tipus: "nyitott",
+    kerdes: "Mik a tartós szteroidterápia mellékhatásai? (legalább 10)",
+    valasz: "Ulcerogen hatás, vércukorszint emelkedés, szérumkalcium-szint csökkenés, osteoporosis, izomgyengeség, szérumkálium csökkenés, szérumnátrium emelkedés, hypertonia, hirsutismus (szőrösödés), gynaecomastia és heresorvadás férfiaknál, holdvilágarc, cushingoid elhízás, bőrvékonyodás striák, glaukóma, sebgyógyulási és növekedési zavar, fokozott fertőzési hajlam, szteroidpszichózis, mellékvesekéreg működésének visszaszorítása.",
+    magyarazat: "Ezért szteroidot mindig fokozatosan csökkentve hagyják el (taper) - a hirtelen leállítás Addison-krízist okozhat."
+  },
+
+  // =============================================================
+  // ============ DIABETES MELLITUS ============================
+  // =============================================================
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "nyitott",
+    kerdes: "Mi jellemzi az I. típusú diabetes mellitust?",
+    valasz: "β-sejtek száma kevesebb, mint 10%. Ketosisra való hajlam kifejezett. Inzulinterápia feltétlenül szükséges. Autoantitestek mutathatók ki a vérből. Vérinzulin-szint alacsony vagy teljesen hiányzik. Az inzulin termelés csökkent vagy megszűnt. Tipikusan fiatalkorban kezdődik.",
+    magyarazat: "I-es típus = autoimmun pusztulás. A beteg élethossziglan inzulinfüggő."
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "nyitott",
+    kerdes: "Mi jellemzi a II. típusú diabetes mellitust?",
+    valasz: "Inzulinrezisztencia / relatív inzulinhiány. Kialakulása lassú. Normál testsúly vagy obesitas. Gyakoribb az előfordulása felnőttkorban. Inzulinterápia nem minden esetben szükséges (orális antidiabetikumok elegendőek lehetnek).",
+    magyarazat: "II-es típus = a sejtek nem érzékenyek az inzulinra. Életmód-változás (fogyás, mozgás) néha visszafordítja."
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "feleletvalasztos",
+    kerdes: "Hyperglikémiás kóma JELLEMZŐ tünete:",
+    valaszok: [
+      "Sápadt arcszín, hűvös nyirkos bőr",
+      "Piros/cianotikus arcszín, meleg száraz bőr, aceton szagú lehelet",
+      "Görcsök, hirtelen kialakulás",
+      "Telt pulzus"
+    ],
+    helyes: 1,
+    magyarazat: "Hiperglikémia: piros, cianotikus arc, meleg száraz bőr, Kussmaul-légzés, könnyen elnyomható pulzus, ACETON SZAGÚ lehelet, lassan fejlődik. Az aceton-szag a ketózis jele."
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "feleletvalasztos",
+    kerdes: "Hipoglikémiás kóma JELLEMZŐ tünete:",
+    valaszok: [
+      "Aceton szagú lehelet",
+      "Sápadt arcszín, hűvös nyirkos bőr, telt pulzus, görcsök, hirtelen kialakulás",
+      "Kussmaul-légzés",
+      "Magas vércukor érték"
+    ],
+    helyes: 1,
+    magyarazat: "Hipoglikémia: SÁPADT, HŰVÖS-NYIRKOS bőr, telt pulzus, hirtelen idegrendszeri tünetek (remegés, izzadás, görcs). Mindig nézz vércukrot zavart betegnél!"
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "nyitott",
+    kerdes: "Készíts összehasonlítást: hypoglikémia vs. hyperglikémia tünetei.",
+    valasz: "Hypo: alacsony vércukor, sápadt nyirkos bőr, éhségérzet és remegés van, telt pulzus, normál légzés, normál lehelet, görcsök felléphetnek, hirtelen kialakulás. Hyper: magas vércukor, kipirult száraz bőr, nincs éhségérzet, gyakori hányás és hasi fájdalom, könnyen elnyomható pulzus, Kussmaul-légzés, aceton szagú lehelet, lassan fejlődik, sok cukros és acetonos vizelet.",
+    magyarazat: "Vészhelyzetben: cukoradás (száj v. iv.) ártalmatlan a hypernek, de életmentő a hypónak. Ha kétséges, adj cukrot."
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "nyitott",
+    kerdes: "Mik okozzák a hypoglikémiát?",
+    valasz: "Inzulin túladagolás, tolerancia növekedése inzulin kezelés hatására, inzulin beadás után nem fogyaszt kellő mennyiségű szénhidrátot, fizikai munka hatására.",
+    magyarazat: "A 'beadtam az inzulint, de nem ettem meg' a tipikus klinikai történet."
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "nyitott",
+    kerdes: "Mi a bázisinzulin-igényt NÖVELŐ és CSÖKKENTŐ tényezők?",
+    valasz: "Növelő: hízás, inaktivitás, menstruációs ciklus, lázas betegségek, hidegfront, terhesség, stressz. Csökkentő: fogyás, mozgás, melegfront.",
+    magyarazat: "Ezért nyári hőhullámban gyakran kell csökkenteni az inzulinadagot, télen növelni."
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "nyitott",
+    kerdes: "Mik a diabeteses láb szindróma prevenciós lehetőségei? (5)",
+    valasz: "Megfelelő lábhigiéné, bőrápolás. Pamut zokni viselése. Kényelmes cipő viselése. Speciális cipő (felírható receptre). Gyógypedikűr igénybevétele. A legkisebb sérülés/elváltozás esetén azonnali orvoshoz fordulás.",
+    magyarazat: "A diabeteses neuropathia miatt a beteg nem érzi a fájdalmat, így észrevétlenül sebet kap, ami amputációhoz vezethet."
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "nyitott",
+    kerdes: "Sorolj fel 10 oktatási irányelvet diabetes mellitusban szenvedő beteg számára!",
+    valasz: "1) A diabetes önellátásának irányítása, 2) diéta, zsírok módosítása, 3) testedzés, 4) gyógyszer/inzulin beadás, 5) vércukor-ellenőrzés, 6) lábápolás, 7) betegségek kezelése, 8) hypoglikaemia felismerése és kezelése, 9) hyperglikaemia felismerése és kezelése, 10) fertőzések felismerése és kezelése, 11) szövődmények megelőzése és felismerése.",
+    magyarazat: "A betegoktatás kulcs - a diabetes 90%-ban önellátáson alapul. A jól oktatott beteg sokkal kevesebbszer kerül kórházba."
+  },
+
+  // =============================================================
+  // ============ HEMATOLÓGIA, VÉRCSOPORT ======================
+  // =============================================================
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "nyitott",
+    kerdes: "A Landsteiner-szabály alapján mi a vércsoport-antitest kombináció?",
+    valasz: "A vércsoport: A antigén, anti-B antitest. B vércsoport: B antigén, anti-A antitest. 0 vércsoport: nincs antigén, anti-A és anti-B antitest. AB vércsoport: A és B antigén, nincs antitest.",
+    magyarazat: "Az AB az 'univerzális RECIPIENS', a 0 az 'univerzális DONOR' (vörösvértest tekintetében)."
+  },
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "nyitott",
+    kerdes: "Sorolj fel 5 vörösvérsejt vércsoportrendszert!",
+    valasz: "AB0, Rh, Kell, Duffy, Kidd, Lewis.",
+    magyarazat: "A klinikailag legfontosabb az AB0 és Rh, de transzfúziónál akár ezek is fontossá válhatnak."
+  },
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "nyitott",
+    kerdes: "Mit jelent: CMV, HLA, Htk, Ig, EBV?",
+    valasz: "CMV: cytomegalovirus. HLA: humán leukocyta-antigén. Htk: hematokrit. Ig: immunglobulin. EBV: Epstein-Barr-vírus.",
+    magyarazat: "HLA - a szervátültetésnél kell egyezni a donor és recipiens között. Ig - vannak osztályai: IgA, IgG, IgM stb."
+  },
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "nyitott",
+    kerdes: "Mikor minősül vér vagy vérkészítmény ALKALMATLANNAK beadásra? (10)",
+    valasz: "Nem megfelelő szállítási vagy tárolási körülmények, sérült csomagolás, bontott készítmény, sérült vérzsák vagy csőszakaszok, lejárt készítmény, nem megfelelő vagy nem egyező címke- és jelentőlap-adatok, alvadékos készítmény, hemolízis gyanúja, biológiai próba során észlelt korai súlyos transzfúziós szövődmények, inkompatibilitásra utaló tünetek.",
+    magyarazat: "A biológiai próba: kis mennyiségű (kb. 25 ml) vér gyors infúziója, majd 5 perc megfigyelés - ha tünet jelentkezik, leállítás."
+  },
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "nyitott",
+    kerdes: "Mik az autotranszfúzió előnyei? (3)",
+    valasz: "Kisebb a transzfúzióval átvihető fertőzések kockázata. Csökken a transzfúziós szövődmények kockázata. Csökken a homológ vérfelhasználás. Kiküszöbölhető az alloimmunizáció.",
+    magyarazat: "Autotranszfúzió = a beteg saját vérét használjuk (előre levett vagy intraoperatív gyűjtött). Tervezett műtéteknél hasznos."
+  },
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "nyitott",
+    kerdes: "Mik az antikoaguláns terápia mellékhatásaira utaló tünetek? (8)",
+    valasz: "Fogínyvérzés, orrvérzés, véres köpet, véres vizelet, véres vagy fekete (Weber pozitív) széklet, kávézaccszerű hányás, elhúzódó vagy nagy mennyiségű menstruáció, sérülést követő elhúzódó vérzés, sclera bevérzése.",
+    magyarazat: "Mindezek a túlzott véralvadásgátlás jelei - INR kontrolljánál módosítani kell az adagot."
+  },
+
+  // =============================================================
+  // ============ ANÉMIA TÍPUSAI ===============================
+  // =============================================================
+
+  {
+    tetel: "Anémia típusai",
+    tipus: "nyitott",
+    kerdes: "Hogyan jellemezhető a vashiányos anémia és okai?",
+    valasz: "Microcytás anémia jellemzi, a vörösvértestek hemoglobin tartalmának csökkenése jellemzi. Okai: csökkent bevitel (csecsemő, vegetáriánus), vasigény növekedése (terhesség, szoptatás, növekedés), vasvesztése (vérzés, műtéti beavatkozás, gyakori vérvétel), felszívódási zavar (gyomor-bélműtétek, csökkent sósavtermelés).",
+    magyarazat: "A vashiány a leggyakoribb anémia. Tünet: fáradékonyság, sápadtság, kanálköröm, glossitis."
+  },
+
+  {
+    tetel: "Anémia típusai",
+    tipus: "nyitott",
+    kerdes: "Mi a vészes vérszegénység (Biermer) jellemzője és kezelése?",
+    valasz: "Terápiája B12-vitamin pótlásán alapul. Nagy magvú, sérülékeny, normálisnál nagyobb vörösvértestek képzése jellemzi (megaloblasztos anémia).",
+    magyarazat: "B12 hiány gyomorrezekció után, vegán étrend mellett, autoimmun gastritisben (intrinsic faktor hiánya). Idegrendszeri tüneteket is okoz."
+  },
+
+  {
+    tetel: "Anémia típusai",
+    tipus: "feleletvalasztos",
+    kerdes: "Aplasztikus anémia jellemzője:",
+    valaszok: [
+      "Microcytás vörösvérsejtek",
+      "Láz, gyakori fertőzések, vérzékenység; minden sejtféleség csökkent a perifériás vérképben",
+      "Macrocytás vörösvértestek, B12-hiány",
+      "Megrövidült vörösvértest élettartam"
+    ],
+    helyes: 1,
+    magyarazat: "Aplasztikus anémia = csontvelő-elégtelenség. NEMcsak a vörösvérsejt, hanem mindhárom sejtsor csökkent (pancitopenia). Súlyos, életveszélyes."
+  },
+
+  // =============================================================
+  // ============ HEPATITIS ====================================
+  // =============================================================
+
+  {
+    tetel: "Hepatitis",
+    tipus: "nyitott",
+    kerdes: "Jellemezd a Hepatitis A fertőzést (lappangási idő, terjedés, tünetek, megelőzés).",
+    valasz: "Lappangási idő: 2-6 hét (15-45 nap). Terjedés: széklet, illetve széklettel szennyezett kéz és élelmiszer útján (fekál-orális). Tünetek: láz, étvágytalanság, gyengeség, hányinger, hányás, hasi fájdalom (jobb felső), sötét vizelet, világos széklet, sárgaság. Megelőzés: alapvető higiénés szabályok betartása, veszélyeztetettek aktív védőoltása.",
+    magyarazat: "A Hepatitis A nem krónikussá, általában teljes gyógyulás. Rossz higiénés körülmények között járványokban fordul elő."
+  },
+
+  {
+    tetel: "Hepatitis",
+    tipus: "nyitott",
+    kerdes: "Mi a különbség Hepatitis A, B és C között?",
+    valasz: "Hepatitis A: lappangás 15-45 nap, fekál-orális terjedés, akut, jó prognózis. Hepatitis B: lappangás 30-180 nap, parenteralis (vér, testnedvek, szexuális), elhúzódó lefolyás, krónikussá válhat. Hepatitis C: relatíve gyakoribb a krónikussá válás, a poszttranszfúziós hepatitis fő oka.",
+    magyarazat: "B-re és C-re fokozott figyelem az egészségügyi dolgozóknál - tűsérülés veszélye."
+  },
+
+  // =============================================================
+  // ============ VIZELETÜRÍTÉS, VESÉK =========================
+  // =============================================================
+
+  {
+    tetel: "Vizeletürítés és vesék",
+    tipus: "nyitott",
+    kerdes: "Mi az alábbi fogalmak jelentése: diuresis, polyuria, anuria, retentio urinae, ischuria paradoxa, incontinentia urinae, oliguria?",
+    valasz: "Diuresis: vizeletkiválasztás (egészségesen napi 800-1500 ml). Polyuria: 24 óra alatt > 2000 ml vizelet. Anuria: vizeletkiválasztás szünetelése. Retentio urinae: a vese kiválasztja a vizeletet, ürítése azonban gátolt. Ischuria paradoxa: fokozott belső nyomás miatt kevés vizelet ürül vagy csepeg, de a hólyag telt marad. Incontinentia urinae: vizelet visszatartásának képtelensége. Oliguria: 24 óra alatt < 500 ml vizelet.",
+    magyarazat: "Anuria + oliguria = veseelégtelenség jele. Polyuria → DM, DI, diuretikumok."
+  },
+
+  {
+    tetel: "Vizeletürítés és vesék",
+    tipus: "nyitott",
+    kerdes: "Mit mutat ki a Benedikt-, Lugol-, Donne- és Rothera-próba?",
+    valasz: "Benedikt-próba: vizelet-cukor. Lugol-próba: vizelet-bilirubin. Donne-próba: vizelet-genny. Rothera-próba: vizelet-aceton.",
+    magyarazat: "Ma már a tesztcsíkok egyszerre mérik. De az eljárás nevét tudni kell."
+  },
+
+  {
+    tetel: "Vizeletürítés és vesék",
+    tipus: "nyitott",
+    kerdes: "Csoportosítsd az anuria okait (praerenalis, renalis, postrenalis).",
+    valasz: "Praerenalis: hypotonia, sokk, kardiogén sokk, vérvesztés. Renalis: glomerulonephritis, tubulusok károsodása, ischaemiás tubulus. Postrenalis: vesekő, hólyagdaganat, prostatahypertrophia.",
+    magyarazat: "Praerenalis = a vese előtt baj van (keringés). Renalis = a vesében. Postrenalis = a vese után (elfolyási akadály)."
+  },
+
+  {
+    tetel: "Vizeletürítés és vesék",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a renalis ödéma típusos megjelenési helyeit! (5)",
+    valasz: "Szem környéke, arc, kézhát, has, vádli, herezacskó.",
+    magyarazat: "A vesés ödéma jellemzően reggel az arcon legkifejezettebb (laza kötőszövet)."
+  },
+
+  {
+    tetel: "Vizeletürítés és vesék",
+    tipus: "nyitott",
+    kerdes: "Mik a suprapubicus katéterezés előnyei? (3)",
+    valasz: "Ritkábban okoz húgyúti fertőzést. A beteg normál módon is képes vizelni, elzárt katéter mellett. Kényelmesebb viselni fennjáráskor. A beteg könnyebben tudja kezelni.",
+    magyarazat: "Hosszú távú vizeleti levezetésnél a suprapubicus jobb, mint a transurethralis (kevesebb fertőzés)."
+  },
+
+  {
+    tetel: "Vizeletürítés és vesék",
+    tipus: "nyitott",
+    kerdes: "Mik az incontinentia formái és jellemzőik?",
+    valasz: "Terheléses (stressz): fizikai terhelés (köhögés, tüsszentés, emelés) hatására. Késztetéses: fizikai aktivitástól független, sürgető nem elnyomható vizelési inger. Reflex: neurológiai sérülés miatt automata hólyag - bizonyos térfogat elérésekor reflexesen kiürül. Túlfolyásos: vizeletáramlási akadály miatt (pl. prosztata) cseppekben távozik a vizelet a telt hólyagból. Kevert: stresszes + késztetéses kombináció.",
+    magyarazat: "A típus határozza meg a kezelést: stressz → medencefenék-torna, sebészet. Késztetéses → hólyagtréning, gyógyszer."
+  },
+
+  {
+    tetel: "Vizeletürítés és vesék",
+    tipus: "nyitott",
+    kerdes: "Mik az időskori élettani változások, amik incontinentiára hajlamosítanak? (4)",
+    valasz: "Romló keringés (szív- és érrendszeri változások), a vese koncentrálóképességének csökkenése, a húgyhólyag kapacitásának csökkenése, izomzat (különösen medenceizomzat) tónusának csökkenése, kismedence megváltozott anatómiája (atrofia, prosztatamegnagyobbodás, hyperplasia).",
+    magyarazat: "Az incontinentia nem 'normális' időskorral - kezelhető állapot."
+  },
+
+  // =============================================================
+  // ============ EMÉSZTÉS, ILEUS, BÉLBETEGSÉGEK ===============
+  // =============================================================
+
+  {
+    tetel: "Emésztőrendszer és ileus",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a vastagbél szakaszait latinul!",
+    valasz: "Cecum (vakbél), colon ascendens, colon transversum, colon descendens, colon sigmoideum, rectum.",
+    magyarazat: "Coecum = vakbél (alul jobbra). A colon a 'pál' formát alkotja. A rectum a végbél. Az appendix a coecum nyúlványa."
+  },
+
+  {
+    tetel: "Emésztőrendszer és ileus",
+    tipus: "nyitott",
+    kerdes: "Mik a székletürítést befolyásoló tényezők?",
+    valasz: "Életkor, táplálkozás, napirend, terhesség, folyadékfelvétel, testi aktivitás, egyéni szokások, esetleges fájdalom, stressz.",
+    magyarazat: "Mindezek befolyásolják a perisztaltikát, így a székletürítést."
+  },
+
+  {
+    tetel: "Emésztőrendszer és ileus",
+    tipus: "nyitott",
+    kerdes: "Párosítsd: strangulatios, obstructios, spasticus, paralyticus ileus okai.",
+    valasz: "Strangulatios: a bél lefűződése, csavarodása, betüremkedése. Obstructios: korábbi műtét okozta adhesio, megtöretés, idegentest, bélsárpangás, stenosis, epekő, daganatok. Spasticus: a bél izomzatának tartós összehúzódása (pl. ólom- vagy nikotinmérgezés). Paralyticus: a bélfal simaizomzatának tartós, ernyedt állapota (peritonitis, akut pancreatitis, reflexes úton epe-vesekő colica okozza).",
+    magyarazat: "Strangulatio = mechanikus külső lefűződés. Obstrukció = belső szűkület. Spasticus = görcs. Paralyticus = bénulás."
+  },
+
+  {
+    tetel: "Emésztőrendszer és ileus",
+    tipus: "feleletvalasztos",
+    kerdes: "A paralyticus ileus jellemzője:",
+    valaszok: [
+      "Csengő bélhangok",
+      "Néma has",
+      "Hasmenés (diarrhoea)",
+      "Szabad hasűri levegő"
+    ],
+    helyes: 1,
+    magyarazat: "Paralyticus = bénult bél. Néma has (nincs perisztaltika hang). A 'csengő' (élénk) bélhang inkább obstrukciós ileusra utal."
+  },
+
+  {
+    tetel: "Emésztőrendszer és ileus",
+    tipus: "nyitott",
+    kerdes: "Mit jelez a beteg székletének elváltozása az alábbi esetekben: epeút-elzáródás, gyomorvérzés, vastartalmú gyógyszer, colitis ulcerosa, végbéldaganat?",
+    valasz: "Epeút-elzáródás: acholiás (világos, vajsárga) széklet. Gyomorvérzés: melaena (fekete, kátrányszerű). Vastartalmú gyógyszer: sötétebb színű széklet. Colitis ulcerosa: nyákos, véres széklet. Végbéldaganat: véres, ceruza-vékony széklet.",
+    magyarazat: "A széklet színe és formája diagnosztikus. A 'ceruzaszéklet' = elszűkült végbél = alarm tünet."
+  },
+
+  // =============================================================
+  // ============ DAGANATOK ====================================
+  // =============================================================
+
+  {
+    tetel: "Daganatok",
+    tipus: "nyitott",
+    kerdes: "Mi a különbség a jó- és rosszindulatú daganatok között?",
+    valasz: "Jóindulatú: lassan növekednek, sejtjeik hasonlítanak a kiinduló szövet sejtjeihez, a környező szövetektől elhatárolódnak. Rosszindulatú: sejtjei atípusosak, a környező szöveteket roncsolják, áttétet (metasztázist) képeznek.",
+    magyarazat: "Jóindulatú = papilloma, adenoma, fibroma, lipoma. Rosszindulatú = adenocarcinoma, sarcoma, osteosarcoma, liposarcoma."
+  },
+
+  {
+    tetel: "Daganatok",
+    tipus: "nyitott",
+    kerdes: "Sorolj fel gasztroenterológiai praecancerosus állapotokat! (4)",
+    valasz: "Colitis ulcerosa. Polypusok (gyomor, colon). Helicobacter pylori infekció. Reflux talaján kialakuló Barrett-oesophagus. Hosszú ideje fennálló 'néma' epehólyag-kövesség és társuló epehólyag-gyulladás.",
+    magyarazat: "Praecancerosus = előrákos állapot. Ezek megfelelő kezelésével/követésével megelőzhető a daganat kialakulása."
+  },
+
+  // =============================================================
+  // ============ DIÉTA, TÁPLÁLKOZÁS ===========================
+  // =============================================================
+
+  {
+    tetel: "Diéta és táplálkozás",
+    tipus: "nyitott",
+    kerdes: "Mik a colitis ulcerosa étrendi javaslatai?",
+    valasz: "Folyékony étrend (akut stádiumban), kevés emészthetetlen anyag, energiadús, vitamindús étrend.",
+    magyarazat: "Aktív flerénél folyékony - a bél nyugalmát biztosítva. Remisszióban diverzifikálható."
+  },
+
+  {
+    tetel: "Diéta és táplálkozás",
+    tipus: "nyitott",
+    kerdes: "Mik a myocardialis infarctus utáni étrendi szabályok?",
+    valasz: "Alkohol, kávé, tea kerülendő. Zsír- és nátriumszegény étrend.",
+    magyarazat: "A só visszatartja a folyadékot → szívmegterhelés. A koffein és alkohol pedig ingerli a szívet (ritmuszavar)."
+  },
+
+  {
+    tetel: "Diéta és táplálkozás",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a diéták felosztását tápanyagtartalom szerint!",
+    valasz: "Normál alapétrend, energiagazdag, energiaszegény, fehérjegazdag, fehérjeszegény, zsírszegény, szénhidrátgazdag, cukorbetegek étrendje, elektrolitszabályozó étrend.",
+    magyarazat: "Minden diéta egyéni: a beteg betegsége, súlya, anyagcseréje alapján."
+  },
+
+  {
+    tetel: "Diéta és táplálkozás",
+    tipus: "nyitott",
+    kerdes: "Mik az enteralis szondatáplálás szövődményei?",
+    valasz: "Hasmenés a túl gyors adagolás, tápszer nagy ozmolaritása, magas zsírtartalma, túl hideg tápszer, vagy alacsony ozmolaritású tápszer miatt. Hányás, hasi fájdalom (pl. tápszer rossz íze, alacsony ozmolaritás miatt). Hasi görcsök. Bakteriális fertőzés helytelen előkészítés miatt. Nyelőcső felmaródás. Gyomorretenció túl nagy adagok beadása miatt. Obstipáció a laktózintolerancia miatt.",
+    magyarazat: "Lassú, fokozatos bevezetés, szobahőmérsékletű tápszer, infúziós pumpa - mindezek csökkentik a szövődmény-rizikót."
+  },
+
+  {
+    tetel: "Diéta és táplálkozás",
+    tipus: "nyitott",
+    kerdes: "Mi a malnutritio, marasmus, cachexia, fehérje-energia malnutritio definiciója?",
+    valasz: "Malnutritio: hiányos táplálkozás, egy vagy több lényeges tápanyag relatív vagy abszolút hiányának, esetleg iatrogén feleslegének következménye. Fehérje-energia malnutritio: krónikus inadekvát fehérje- és energiabevitel vagy megnövekedett igény → fehérje- és zsírraktárak lebontása. Iatrogén fehérje-energia malnutritio: kórházi kezelés által előidézett alultápláltság. Cachexia: gyulladásos folyamat következtében kialakuló kóros izomtömeg- és testsúlyvesztés. Marasmus: gyermekeknél idült kalória- és fehérjehiány.",
+    magyarazat: "Cachexia tipikusan rákbetegségben, krónikus szívelégtelenségben, COPD-ben."
+  },
+
+  {
+    tetel: "Diéta és táplálkozás",
+    tipus: "nyitott",
+    kerdes: "Mely tápanyagok felszívódása csökken a duodenum, jejunum, ileum hiányában?",
+    valasz: "Duodenum: vas, kalcium, D-vitamin, magnézium. Jejunum: monoszacharidok, aminosavak, vízben oldódó vitaminok, zsírok. Ileum: zsírban oldódó vitaminok, víz, B12-vitamin, só.",
+    magyarazat: "Ileumrezekció után életveszélyes B12-hiány alakulhat ki - életre szóló pótlás kell."
+  },
+
+  // =============================================================
+  // ============ SZONDÁK, DRÉN, SEB ===========================
+  // =============================================================
+
+  {
+    tetel: "Szondák, drének, sebek",
+    tipus: "nyitott",
+    kerdes: "Párosítsd a szondatípusokat: jejunostoma, nasoduodenalis, nasogastricus, PEG, gastrostoma, orogastricus.",
+    valasz: "Jejunostoma: sebészi úton, a has bőrén át a szondát a gyomorba és jejunumba vezetik. Nasoduodenalis: orron át a duodenumba. Nasogastricus: orron keresztül a gyomorba. PEG (percutan endoscopos gastrostoma): endoszkóppal helyezett sztómaeszköz. Gastrostoma: sebészi úton, a has bőrén át a szondát a gyomorba. Orogastricus: szájon át a gyomorba.",
+    magyarazat: "PEG = hosszú távú tápláláshoz a leggyakoribb. Gyors beavatkozás endoszkópban."
+  },
+
+  {
+    tetel: "Szondák, drének, sebek",
+    tipus: "nyitott",
+    kerdes: "Milyen jelek figyelmeztetnek a drénes beteg lehetséges szövődményeire? (5)",
+    valasz: "Drénrendszer megtöretése (nem áramlik a váladék). Drénrendszer eltömeszelődése. Drénrendszer eresztése a csatlakozási pontoknál. Váladékgyűjtő tartály túl gyors telődése (nagy mennyiségű, élénkvörös váladék = aktív vérzés!). Gyulladás jelei (bőrpír, duzzanat, fájdalom, fvs-emelkedés, láz, gennyképződés). Fájdalom jelentkezése a drénrendszer mozgatására.",
+    magyarazat: "Az élénkvörös váladék gyors telődése = sürgős értesítés és sebészi felülvizsgálat!"
+  },
+
+  {
+    tetel: "Szondák, drének, sebek",
+    tipus: "nyitott",
+    kerdes: "Párosítsd a sebtípusokat jellemzőikkel: nekrotikus, fertőzött, sarjadzó, hámosodó.",
+    valasz: "Nekrotikus seb: fekete színű száraz vagy enyhén nedves elhalt szövet. Fertőzött seb: sárgás gennyes, elhalt sejteket és fibrint tartalmaz. Sarjadzó seb: élénkpiros, enyhén szemcsézett, csillogó felszínű, áttetsző sebváladék. Hámosodó seb: rózsaszínű, sebszélek felől benövő, enyhén nedvedző.",
+    magyarazat: "A seb állapota határozza meg a kezelést. Nekrotikus → debridement. Fertőzött → antibakteriális. Sarjadzó/hámosodó → óvni, nem sterilizálni."
+  },
+
+  {
+    tetel: "Szondák, drének, sebek",
+    tipus: "nyitott",
+    kerdes: "Hol alakulhat ki decubitus háton fekvő és oldalt fekvő betegnél?",
+    valasz: "Háton fekvő betegnél: keresztcsonti tájék, lapocka, könyök, sarok, tarkó. Oldalt fekvő betegnél: fül, térd, csípőtaréj, boka.",
+    magyarazat: "A nyomáspontok mindegyike kockázatos. Forgatás, párnázás, párnák használata - alapfeladat."
+  },
+
+  {
+    tetel: "Szondák, drének, sebek",
+    tipus: "nyitott",
+    kerdes: "Mik a decubitus stádiumai?",
+    valasz: "I. stádium: tartós bőrpír a nyomásnak kitett helyeken, elvékonyodott sérülékeny fájdalmas bőr, tartósan meleg vizenyős terület. II. stádium: hám és irha is sérült, fájdalmas, de még jól kezelhető. III. stádium: szövetelhalás, felszíne lehet száraz vagy nedves és lepedékes, érzéketlen, fájdalmatlan terület. IV. stádium: csontszövetek láthatóvá válnak, mély sipolyok, osteomyelitis kialakulása.",
+    magyarazat: "A I. stádium még visszafordítható - ezért fontos a megelőzés és korai felismerés!"
+  },
+
+  {
+    tetel: "Szondák, drének, sebek",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a nyomási fekély (decubitus) hajlamosító tényezőit! (7)",
+    valasz: "Tartós immobilitás, túlsúly, alultápláltság, érszűkület, tartós öntudatlan állapot, cukorbetegség, ápolási hiba, eszméletlenség.",
+    magyarazat: "A Norton-skála ezek alapján méri fel a kockázatot. Magas pontszám → megelőzési protokoll."
+  },
+
+  {
+    tetel: "Szondák, drének, sebek",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a sebgyógyulást befolyásoló tényezőket! (8)",
+    valasz: "Kor, táplálkozás, testsúly / elhízás, seb kiterjedése, oxigénellátás, dohányzás, immunrendszer állapota, cukorbetegség, besugárzás, seb megterhelése.",
+    magyarazat: "A dohányzás akár 50%-kal is csökkentheti a sebgyógyulás sebességét."
+  },
+
+  // =============================================================
+  // ============ HULLADÉK, GYULLADÁS, LÁZ =====================
+  // =============================================================
+
+  {
+    tetel: "Hulladékkezelés, gyulladás, láz",
+    tipus: "nyitott",
+    kerdes: "Csoportosítsd a kórházi hulladékokat: települési, veszélyes, fertőző hulladék.",
+    valasz: "Települési: papírhulladék, ételmaradék. Veszélyes: veszélyes anyagokat tartalmazó vegyszerek, citosztatikus gyógyszerek, fogászati amalgám. Különleges kezelést igénylő (fertőző) veszélyes: váladékkal szennyezett kötszerek, vérrel szennyezett injekciós tűk, használt gyógyszeres ampullák.",
+    magyarazat: "Fontos: éles-szúrós veszélyes (tűk) MINDIG külön sárga konténerbe! Tűledobót sosem nyitjuk ki."
+  },
+
+  {
+    tetel: "Hulladékkezelés, gyulladás, láz",
+    tipus: "nyitott",
+    kerdes: "Mik a serosus gyulladás jellemzői?",
+    valasz: "A gyulladás helyén az erek fala áteresztővé válik. A képződő izzadmány híg, majdnem átlátszó, színtelen. Az izzadmány fehérjeszegény (alig különbözik a transsudatumtól). A nyálkahártyákat érintő formáját hurutnak nevezzük. Többnyire jóindulatú szöveti elváltozás, az izzadmány hamar felszívódik.",
+    magyarazat: "Serosus = víztiszta. Pl. nátha kezdetén víztiszta orrváladék."
+  },
+
+  {
+    tetel: "Hulladékkezelés, gyulladás, láz",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a láztípusokat magyarul és latinul!",
+    valasz: "Állandó láz - febris continua: tartósan 38°C felett, ingadozás < 1°C. Ingadozó láz - febris remittens: ingadozás > 1°C, de láztalanságot nem éri el. Ugráló (intermittáló) láz - febris intermittens: ingadozás > 1°C, testhő 37°C alá is csökken. Visszatérő láz - febris recurrens: napokig tartó lázas és láztalan állapotok ismétlődése. Váltóláz - febris undulans: szabályos 24 órán túli intervallumban váltakozó lázas és láztalan szakaszok.",
+    magyarazat: "A láztípus jellegzetes lehet bizonyos betegségekre (pl. malária = febris intermittens; brucellózis = undulans)."
+  },
+
+  {
+    tetel: "Hulladékkezelés, gyulladás, láz",
+    tipus: "nyitott",
+    kerdes: "Milyen ápolási teendők vannak lázas betegnél?",
+    valasz: "Beteg ágynyugalomba helyezése. Láz csillapítás haladéktalan megkezdése (fizikális, gyógyszeres, kombinált). Testhőmérséklet monitorozása. Folyadék- és elektrolitpótlás. Sikeres lázcsillapítás után fehérnemű és ágynemű cseréje, higiénés szükségletek biztosítása. Diéta (vitamin-, fehérje-, kalóriadús, könnyen emészthető). Szükség esetén oxigénterápia. Hőpangás megelőzése. Kardinális tünetek dokumentálása.",
+    magyarazat: "A láz fontos kompenzáló mechanizmus. Csak akkor csökkentjük, ha kifejezetten zavaró vagy veszélyesen magas (40°C felett)."
+  },
+
+  // =============================================================
+  // ============ IDEGRENDSZER LATIN, FOGALMAK =================
+  // =============================================================
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "latin",
+    latin: "Cerebrum",
+    jelentes: "nagyagy",
+    kiejtes: "cerebrum",
+    pelda: "Cortex cerebri = agykéreg",
+    magyarazat: "Két agyfélteke (hemispherium cerebri) - bal és jobb."
+  },
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "latin",
+    latin: "Cerebellum",
+    jelentes: "kisagy",
+    kiejtes: "cerebellum",
+    magyarazat: "A koordináció, egyensúly és finommozgások központja. Sérülésekor ataxia (összerendezetlen mozgás)."
+  },
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "latin",
+    latin: "Truncus cerebri",
+    jelentes: "agytörzs",
+    kiejtes: "trunkusz cerebri",
+    magyarazat: "Tartalmazza a középagyat, hidat, nyúltvelőt. A létfontosságú központok (légzés, keringés) itt vannak."
+  },
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "latin",
+    latin: "Medulla oblongata",
+    jelentes: "nyúltvelő",
+    kiejtes: "medulla oblongáta",
+    magyarazat: "Itt van a légzőközpont, vasomotoros központ, hányásközpont. Sérülése halálos."
+  },
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "latin",
+    latin: "Diencephalon",
+    jelentes: "köztiagy (talamusz, hipotalamusz tartozik ide)",
+    kiejtes: "dienkefalon",
+    magyarazat: "A talamusz: érző pályák relé-állomása. A hipotalamusz: autonóm idegrendszer és endokrin szabályozás központja."
+  },
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "latin",
+    latin: "Hypophysis",
+    jelentes: "agyalapi mirigy",
+    kiejtes: "hipofízis",
+    magyarazat: "A 'mester-mirigy' - a többi endokrin mirigyet irányítja. A diencephalonhoz tapad."
+  },
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "latin",
+    latin: "Arachnoidea",
+    jelentes: "pókhálóhártya (az agyhártyák középső rétege)",
+    kiejtes: "arahnoidea",
+    pelda: "Arachnoidealis vérzés (subarachnoidealis vérzés)",
+    magyarazat: "Három agyhártya: dura mater (kemény), arachnoidea (pókháló), pia mater (lágy)."
+  },
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "nyitott",
+    kerdes: "Mik a liquor cerebrospinalis (agy-gerincvelői folyadék) feladatai? (3)",
+    valasz: "Mechanikus védelmet nyújt a traumákkal szemben. Az intracranialis nyomásingadozások kiegyenlítése. Az idegszövet táplálása. A metabolitok eltávolítása.",
+    magyarazat: "A liquor az oldalkamrákban termelődik a vérből való filtrációval. Fehérjetartalma alacsony, cukortartalma alacsony."
+  },
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "nyitott",
+    kerdes: "Hasonlítsd össze a szimpatikus és paraszimpatikus idegrendszer hatásait (pupilla, hörgők, szívizom, koszorúserek, emésztőmirigyek).",
+    valasz: "Pupilla: szimp. tágít, parasymp. szűkít. Hörgők: szimp. tágít, parasymp. szűkít. Szívizom: szimp. fokozott aktivitás, parasymp. csökkent. Koszorúserek: szimp. értágulat, parasymp. nincs. Emésztőmirigyek: szimp. érösszehúzódás (csökkent szekréció), parasymp. fokozódó szekréció.",
+    magyarazat: "Szimpatikus = 'küzdj-vagy-menekülj'. Paraszimpatikus = 'pihenj-emészj'."
+  },
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "nyitott",
+    kerdes: "Sorolj fel 6 betegséget, amelyben görcsroham léphet fel!",
+    valasz: "Epilepszia, agydaganat, mérgezés, meningitis, encephalitis, hypoglikaemia.",
+    magyarazat: "Görcsrohamnál mindig nézzünk vércukrot - a hypoglikaemia gyorsan kezelhető!"
+  },
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "nyitott",
+    kerdes: "Adj 4 ápolási diagnózist cerebrovascularis katasztrófa (stroke) esetén!",
+    valasz: "Kapcsolattartás zavara dysarthria vagy afázia következtében. Baleset nagyfokú kockázata a látótér beszűkülése és érzőműködés zavara miatt. Önellátás hiánya a mozgásképesség csökkenése vagy zavartság miatt. Teljes incontinentia a húgyhólyag tónustalansága miatt. Testkép zavara a facialis paresis miatt.",
+    magyarazat: "A stroke ápolása komplex - mind fizikai, mind kommunikációs, mind pszichés szempontok."
+  },
+
+  // =============================================================
+  // ============ MOZGÁSSZERVEK =================================
+  // =============================================================
+
+  {
+    tetel: "Mozgásszervek",
+    tipus: "nyitott",
+    kerdes: "Nevezd meg a medenceövet alkotó csontokat magyarul és latinul!",
+    valasz: "Keresztcsont – os sacrum. Medencecsont – os coxae. Ülőcsont – os ischii. Szeméremcsont – os pubis. Csípőcsont – os ilium.",
+    magyarazat: "Az os coxae 3 csontból nőtt össze: ilium + ischium + pubis. Felnőttekben már nem látható a határ."
+  },
+
+  {
+    tetel: "Mozgásszervek",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik betegségről van szó: a perifériás kis ízületeket érintő krónikus, szimmetrikus gyulladás?",
+    valaszok: [
+      "Osteoporosis",
+      "Osteomalatia",
+      "Rheumatoid arthritis",
+      "Bechterew-kór"
+    ],
+    helyes: 2,
+    magyarazat: "RA: szimmetrikus, kis ízületeket érintő (kéz, láb), reggeli ízületi merevség, autoimmun betegség."
+  },
+
+  {
+    tetel: "Mozgásszervek",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi az osteoporosis lényege?",
+    valaszok: [
+      "A csont szervetlen anyagának csökkenése (ásványi anyag minőségi és mennyiségi probléma)",
+      "A csontszövet szerves és szervetlen arányának változása nélkül a csontok csontszövettartalmának csökkenése",
+      "Krónikus gyulladás a kis ízületekben",
+      "Gerinc ízületeinek krónikus gyulladása"
+    ],
+    helyes: 1,
+    magyarazat: "Osteoporosis: a csont mennyisége csökken, de az arány normális. Osteomalatia: minőségi probléma, főleg D-vitamin hiány miatt."
+  },
+
+  // =============================================================
+  // ============ NŐI NEMISZERVEK, TERHESSÉG ===================
+  // =============================================================
+
+  {
+    tetel: "Női nemiszervek és terhesség",
+    tipus: "nyitott",
+    kerdes: "Milyen sorrendben követik egymást a menstruáció szakaszai?",
+    valasz: "1. Gyógyulás – regeneratio. 2. Kiépülés – proliferatio. 3. Elválasztás – secretio. 4. Menstruáció – desquamatio.",
+    magyarazat: "A 28 napos ciklusban: kb. 1-5. nap menstruáció, 5-14. nap proliferatio (follikuláris), 14. nap ovuláció, 14-28. nap secretios (luteális)."
+  },
+
+  {
+    tetel: "Női nemiszervek és terhesség",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a méh részeit latinul!",
+    valasz: "Myometrium (méh izomzata), perimetrium (méh külső burka), endometrium (méh nyálkahártya), cavum uteri (méhüreg), cervix uteri (méh nyaka), fundus (méhfenék).",
+    magyarazat: "Az endometrium az, ami menstruál. A myometrium szülés alatti összehúzódásokat végzi."
+  },
+
+  {
+    tetel: "Női nemiszervek és terhesség",
+    tipus: "nyitott",
+    kerdes: "Mit jelent: replikáció, transzkripció, mutáció?",
+    valasz: "Replikáció: a DNS molekula megkettőződése. Transzkripció: a DNS molekula információjának RNS molekulára való átírása. Mutáció: a DNS-ben bekövetkező tartós információ-változás (génhiba).",
+    magyarazat: "A replikáció a sejtosztódás előtt zajlik. A transzkripció a fehérjeszintézis első lépése."
+  },
+
+  {
+    tetel: "Női nemiszervek és terhesség",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a mitózis és meiózis közötti fő különbség?",
+    valaszok: [
+      "A mitózis számtartó, a meiózis számfelező osztódás",
+      "A mitózis ivari, a meiózis testi sejtekre jellemző",
+      "A mitózis lassabb, a meiózis gyorsabb",
+      "Nincs különbség"
+    ],
+    helyes: 0,
+    magyarazat: "Mitózis: testi sejtekre, számtartó (46→46 kromoszóma). Meiózis: ivari sejtekre, számfelező (46→23)."
+  },
+
+  {
+    tetel: "Női nemiszervek és terhesség",
+    tipus: "nyitott",
+    kerdes: "Mit nem szabad / kerülni kell terhesség alatt?",
+    valasz: "Anya fertőző betegségei. Alkoholfogyasztás. Dohányzás. Kábítószer-fogyasztás. Bizonyos gyógyszerek fogyasztása. Környezeti hatások. Sugárzás vagy vegyi anyagok.",
+    magyarazat: "Az első trimeszter (organogenesis) a legkritikusabb. Még a vény nélkül kapható gyógyszereket is csak orvosi tanácsra szabad szedni."
+  },
+
+  {
+    tetel: "Női nemiszervek és terhesség",
+    tipus: "nyitott",
+    kerdes: "Mik az Apgar-érték megállapítás szempontjai? (5)",
+    valasz: "Légzés, szívműködés, reflextevékenység, izomtónus, bőrszín.",
+    magyarazat: "Az Apgar-érték 0-10 közötti szám. 1 percnél és 5 percnél értékeljük az újszülöttet."
+  },
+
+  // =============================================================
+  // ============ PEDIÁTRIA, FERTŐZŐ BETEGSÉGEK ================
+  // =============================================================
+
+  {
+    tetel: "Pediátria és fertőző betegségek",
+    tipus: "nyitott",
+    kerdes: "Mik a csecsemőkori görcsös állapot lehetséges okai?",
+    valasz: "Exsiccosis (kiszáradás), meningitis, magas láz, toxikózis, epilepszia.",
+    magyarazat: "A lázgörcs külön entitás csecsemő- és kisgyerekkorban: gyors lázemelkedés tonikus-klónusos rohamot okozhat. Általában jóindulatú."
+  },
+
+  {
+    tetel: "Pediátria és fertőző betegségek",
+    tipus: "nyitott",
+    kerdes: "Milyen betegségek ellen rendelkezünk hatásos aktív védőoltással?",
+    valasz: "Morbilli (kanyaró), tuberculosis, diphteria, hepatitis B, pertussis (szamárköhögés), rubeola, typhus abdominalis, tetanus.",
+    magyarazat: "A magyarországi védőoltási rend ezeket nagyrészt lefedi. MMR (Measles, Mumps, Rubella) - kombinált oltás."
+  },
+
+  {
+    tetel: "Pediátria és fertőző betegségek",
+    tipus: "nyitott",
+    kerdes: "Párosítsd: rubeola, hastífusz, tetanusz, encephalitis - hogyan terjednek?",
+    valasz: "Rubeola: diaplacentárisan (anyáról magzatra is). Hastífusz: élelmiszer és víz útján. Tetanusz: talaj közvetítésével (sebbe kerülve). Encephalitis: kullancs közvetítésével.",
+    magyarazat: "A rubeola terhesség első trimeszterében súlyos magzati károsodást okozhat (rubeola-szindróma). Ezért fontos a vakcináció a fogamzás előtt."
+  },
+
+  {
+    tetel: "Pediátria és fertőző betegségek",
+    tipus: "nyitott",
+    kerdes: "Mik a védőoltások ellenjavallatai?",
+    valasz: "Lázas állapot, neurológiai rendellenességek, terhesség (élő vakcináknál), túlérzékenység, HIV fertőzés.",
+    magyarazat: "Az élő, gyengített vakcinák (MMR, varicella) terhességben és súlyos immunhiányban kontraindikáltak."
+  },
+
+  {
+    tetel: "Pediátria és fertőző betegségek",
+    tipus: "nyitott",
+    kerdes: "Jellemezd: vörheny, kanyaró, rózsahimlő, bárányhimlő kiütések alapján.",
+    valasz: "Vörheny: mellkason és hason tűszúrásnyi élénkpiros kiütések, az arcon nincs kiütés. Kanyaró: fül mögött az arcon kezdődő, lefelé haladva az egész testre kiterjedő, gombostűfejnyi összefolyó sötétpiros foltok. Rózsahimlő: rózsaszínű, nem összefolyó lencsényi foltok. Bárányhimlő: apró hólyagocskák testszerte, zavaros tartalommal.",
+    magyarazat: "A bárányhimlő hólyagok minden fejlődési stádiumban együtt láthatók (foltos, hólyagos, pörkös)."
+  },
+
+  {
+    tetel: "Pediátria és fertőző betegségek",
+    tipus: "nyitott",
+    kerdes: "Mi az antroponozis és antropozoonozis?",
+    valasz: "Antroponozis: emberről emberre terjedő fertőző betegségek. Antropozoonozis: állatról emberre terjedő betegségek (zoonózis).",
+    magyarazat: "Tipikus zoonózisok: veszettség, tularémia, leptospirosis, salmonellosis. Antroponozis: morbilli, varicella."
+  },
+
+  // =============================================================
+  // ============ EKG, SZÍVBETEGSÉGEK ==========================
+  // =============================================================
+
+  {
+    tetel: "EKG és szívbetegségek",
+    tipus: "nyitott",
+    kerdes: "Mi az EKG működési elve és miről nyújt tájékoztatást?",
+    valasz: "Működési elve: a szívizomsejtek működése közben keletkező elektromos potenciálkülönbségek, a test felszínén elvezetett elektródákkal elvezethetők és EKG segítségével rögzíthetők. Tájékoztatást nyújt: a szív ingerképzéséről, ingerületvezetéséről, szívműködési rendellenességekről, a myocardium elváltozásairól, egyéb elváltozásokról (pl. gyógyszerhatás).",
+    magyarazat: "Az EKG nem 'beavatkozás' - csak észlel. Nem fáj, nem ártalmas. A leggyakrabban használt szívvizsgálat."
+  },
+
+  {
+    tetel: "EKG és szívbetegségek",
+    tipus: "nyitott",
+    kerdes: "Mik az Einthoven és Goldberger féle EKG elvezetések?",
+    valasz: "Einthoven (bipoláris végtagi): I, II, III. Goldberger (unipoláris végtagi): aVR, aVL, aVF.",
+    magyarazat: "Plus 6 mellkasi elvezetés (V1-V6). Összesen 12 elvezetéses EKG."
+  },
+
+  {
+    tetel: "EKG és szívbetegségek",
+    tipus: "nyitott",
+    kerdes: "Sorold fel az EKG készítés szempontjait!",
+    valasz: "Az elektródák nedvesek legyenek (jó vezetés). Az elektródák a megfelelő helyre kerüljenek. A készülék hatékonyan legyen földelve. A beteg megfelelően legyen felkészítve. Szükség esetén borotválás. A páciens-kábel és az elektromos csatlakozó ne keresztezze egymást.",
+    magyarazat: "Hibás EKG kép → félrediagnózis. Az alapok pontossága kritikus."
+  },
+
+  {
+    tetel: "EKG és szívbetegségek",
+    tipus: "nyitott",
+    kerdes: "Mik az angina pectoris tünetei (helye, jellege, kisugárzása, kiváltó tényezője, megszűnése)?",
+    valasz: "Helye: bal oldali vagy substernalis mellkasi fájdalom. Jellege: szorító, éles, szúró, égő, nyomó. Kisugárzása: bal vagy mindkét karba, állkapocsba, nyakba, hátba. Kiváltó tényező: nagyobb terhelésre jelentkezik. Megszűnése: nitroglicerinre, pihenésre elmúlik.",
+    magyarazat: "A 'tipikus' angina mind az 5 jellemzőt tartalmazza. Az atipikus is létezik (nőknél, diabéteszeseknél)."
+  },
+
+  {
+    tetel: "EKG és szívbetegségek",
+    tipus: "nyitott",
+    kerdes: "Mik a myocardialis infarctus rizikófaktorai?",
+    valasz: "Hypertonia, mozgáshiány, hyperlipidaemia, orális antikoncipiensek, hypercholesterinaemia, dohányzás, obesitas, nem (férfi), diabetes mellitus.",
+    magyarazat: "Két csoport: módosítható (dohányzás, súly, mozgás, koleszterin, vérnyomás, cukor) és nem módosítható (kor, nem, családi anamnézis)."
+  },
+
+  {
+    tetel: "EKG és szívbetegségek",
+    tipus: "nyitott",
+    kerdes: "Mik a bradycardia kiváltó okai?",
+    valasz: "Fizikai aktivitás (sportolóknál fiziológiás), mérgek, agynyomás-fokozódás, akut fájdalom, ingerületvezető rendszer betegségei, gyógyszerhatás, szívelégtelenség / szívgyulladás, gyógyszermellékhatás (pl. béta-blokkoló, digitalis).",
+    magyarazat: "Sportolónál a 50/min pulzus normális! De zavart, ájulós beteg + bradycardia = sürgős vizsgálat."
+  },
+
+  // =============================================================
+  // ============ GYÓGYSZERELÉS ================================
+  // =============================================================
+
+  {
+    tetel: "Gyógyszerelés",
+    tipus: "nyitott",
+    kerdes: "Mik a gyógyszerek tárolásának szabályai?",
+    valasz: "Legtöbbet 15-25°C között kell tárolni, zárható szekrényben. 2-5°C közötti jelzésnél hűtőben. Alfabetikus sorrendben elhelyezni. Egyes gyógyszerek egymástól jól elkülönítve. Tárolás az eredeti dobozban. Kétkeresztes gyógyszereket jól zárható szekrényben. Kábítószereket biztonsági zárral ellátott ládában, melynek kulcsát az erre megbízott orvos vagy nővér tartja magánál.",
+    magyarazat: "Kábítószer-szekrény kulcs leadása mindig dokumentált. A kétkeresztes (II. csoport) gyógyszerek dokumentálása is szigorú."
+  },
+
+  {
+    tetel: "Gyógyszerelés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mennyi ideig használható fel a gyógyszer, ha a csomagolásán csak gyártási ideje van feltüntetve?",
+    valaszok: ["1 évig", "3 évig", "5 évig", "10 évig"],
+    helyes: 2,
+    magyarazat: "5 évig - ha csak gyártási idő szerepel és nem külön lejárat."
+  },
+
+  {
+    tetel: "Gyógyszerelés",
+    tipus: "nyitott",
+    kerdes: "Mit jelentenek a következő latin kifejezések: dosis curativa, dosis tolerata, dosis toxica, dosis letalis?",
+    valasz: "Dosis curativa: a gyógyító hatást kifejtő legkisebb gyógyszermennyiség. Dosis tolerata: károsodást még nem okozó adag. Dosis toxica: mérgezést okozó adag. Dosis letalis: bizonyos mértéken túl halálhoz vezet.",
+    magyarazat: "A 'terápiás index' = LD50/ED50. Minél nagyobb, annál biztonságosabb a gyógyszer."
+  },
+
+  {
+    tetel: "Gyógyszerelés",
+    tipus: "nyitott",
+    kerdes: "Mi a teendő, ha gyógyszerelés során gyógyszercsere történt?",
+    valasz: "Azonnal jelenteni az orvosnak.",
+    magyarazat: "Nem szabad eltussolni - a beteg biztonsága a fő szempont. Az orvos eldönti, kell-e ellenanyag, megfigyelés, beavatkozás."
+  },
+
+  {
+    tetel: "Gyógyszerelés",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a digitálisz intoxikáció jellemző tüneteit! (8)",
+    valasz: "Hányinger, hányás, étvágytalanság, bradycardia, bigeminia (minden 2. ütés extrasystole), fejfájás, gyengeség, szédülés, görcsök, szemkáprázás, szikralátás (sárgászöld látás).",
+    magyarazat: "A digitálisz szűk terápiás indexű gyógyszer. Vérszint-kontroll szükséges. Toxikus hatásnál EKG-monitorozás kötelező."
+  },
+
+  // =============================================================
+  // ============ FÁJDALOM, MEGFIGYELÉS ========================
+  // =============================================================
+
+  {
+    tetel: "Fájdalom",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a fájdalom felmérésére vonatkozó megfigyelési szempontokat! (legalább 10)",
+    valasz: "Helye, kisugárzása, jellege, erőssége, kezdete, időtartama, előfordulási gyakorisága, oka, intenzitása, társtünetek, volt-e már korábban, befolyásolhatósága.",
+    magyarazat: "VAS skála (0-10) az erősséghez. PQRST: Provoking, Quality, Region/Radiation, Severity, Time."
+  },
+
+  {
+    tetel: "Fájdalom",
+    tipus: "nyitott",
+    kerdes: "Az akut fájdalom korai hatásai a szervezetre?",
+    valasz: "Szapora szívműködés, szapora légzés, vérnyomás-emelkedés, verejtékezés, pupillák kitágulása, perifériás vasoconstrictio (csökkent kapilláris újratelődés), hideg nyirkos bőr.",
+    magyarazat: "Ezek a 'fight-or-flight' aktiválás jelei a szimpatikus túlsúly miatt."
+  },
+
+  {
+    tetel: "Fájdalom",
+    tipus: "nyitott",
+    kerdes: "Mi a különbség az akut és krónikus fájdalom között?",
+    valasz: "Akut fájdalom: szervi betegség védekező mechanizmusa, oki terápia jól szünteti, oka nyilvánvaló, opioidok hatásosak, nincs súlyos következménye. Krónikus fájdalom: nincs hasznos funkciója, vannak következményei, oka nehezen meghatározható, opioidok alig hatásosak, gyakran terápia rezisztens.",
+    magyarazat: "Krónikus fájdalom = több, mint 3-6 hónapja fennálló. Komplex kezelést igényel: gyógyszer + terápia + pszichológia."
+  },
+
+  // =============================================================
+  // ============ ÁPOLÁSELMÉLET, BETEGJOGOK ====================
+  // =============================================================
+
+  {
+    tetel: "Ápoláselmélet és betegjogok",
+    tipus: "nyitott",
+    kerdes: "Fogalmazd meg az ápolás célját Hildegard Peplau, Virginia Henderson, Dorothea Orem és Callista Roy szerint!",
+    valasz: "Hildegard Peplau: a kliens/beteg és az ápoló közötti interperszonális kapcsolat kialakítása, mely hozzásegít a beteg problémájának alapos megismeréséhez és a megoldások megkereséséhez. Virginia Henderson: az egyén függetlenségének mielőbbi helyreállítása. Dorothea Orem: a beteg önellátási képességének növelése, segítése az önellátás elérésében. Callista Roy: a beteg segítése a megváltozott körülményekhez való alkalmazkodásban.",
+    magyarazat: "Henderson 14 alapszükségletet különít el. Orem 'önellátási elmélete' a leginkább az ápolásban használt modell."
+  },
+
+  {
+    tetel: "Ápoláselmélet és betegjogok",
+    tipus: "nyitott",
+    kerdes: "Mik a haldoklás Kübler-Ross féle szakaszai?",
+    valasz: "Elutasítás, düh, alkudozás, depresszió, belenyugvás.",
+    magyarazat: "Nem mindenki megy át mind az 5 szakaszon, és nem feltétlenül ebben a sorrendben. A beteg gyakran 'oszcillál'."
+  },
+
+  {
+    tetel: "Ápoláselmélet és betegjogok",
+    tipus: "nyitott",
+    kerdes: "Mik a haldokló beteg ellátásának fő célkitűzései? (3)",
+    valasz: "A beteg kényelemérzetének, jó közérzetének elősegítése. A fájdalom csökkentése, megszüntetése. Izolációs érzés oldása. A megfelelő érzelmi légkör biztosítása.",
+    magyarazat: "A palliatív ellátás célja a komfort, nem a gyógyítás. A 'jó halál' fogalma fontos szerepet játszik."
+  },
+
+  {
+    tetel: "Ápoláselmélet és betegjogok",
+    tipus: "nyitott",
+    kerdes: "Mik a haldokló beteg 3 legfőbb igénye?",
+    valasz: "Fájdalmának csillapítása. Önbecsülésének és méltóságának megőrzése. Szeretet és törődés.",
+    magyarazat: "A kapcsolattartás, a 'jelenlét' sokszor fontosabb, mint a beszéd."
+  },
+
+  {
+    tetel: "Ápoláselmélet és betegjogok",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a betegek egészségügyi törvényben rögzített jogait!",
+    valasz: "Egészségügyi ellátáshoz való jog. Emberi méltósághoz való jog. Kapcsolattartás joga. Gyógyintézet elhagyásának joga. Tájékoztatáshoz való jog. Önrendelkezéshez való jog. Ellátás visszautasításának joga. Egészségügyi dokumentáció megismerésének joga. Orvosi titoktartáshoz való jog.",
+    magyarazat: "1997. évi CLIV. törvény az egészségügyről - ezeket a jogokat szabályozza."
+  },
+
+  {
+    tetel: "Ápoláselmélet és betegjogok",
+    tipus: "nyitott",
+    kerdes: "Mi a tájékoztatáshoz való jog jelentése a beteg számára?",
+    valasz: "A beteg jogosult arra, hogy számára érthető módon részletes tájékoztatást kapjon: egészségi állapotáról, javasolt vizsgálatokról, beavatkozásokról, azok elvégzésének elmaradásának kockázatáról.",
+    magyarazat: "'Érthető módon' = a beteg műveltségi szintjéhez igazítva. Idegen szavak helyett magyar kifejezések."
+  },
+
+  {
+    tetel: "Ápoláselmélet és betegjogok",
+    tipus: "nyitott",
+    kerdes: "Mire terjed ki a felvilágosítási kötelezettség a kórházi ellátás során?",
+    valasz: "A beteg állapotára. A beteg prognózisára. A kezelési alternatívákra. A javasolt kezelés előnyeire, hátrányaira. A kockázatokra.",
+    magyarazat: "Az 'informed consent' (tájékozott beleegyezés) ezeknek az ismeretében jöhet létre."
+  },
+
+  // =============================================================
+  // ============ EGÉSZSÉGFEJLESZTÉS ============================
+  // =============================================================
+
+  {
+    tetel: "Egészségfejlesztés és prevenció",
+    tipus: "nyitott",
+    kerdes: "Mi a prevenció és milyen formái vannak?",
+    valasz: "Prevenció: minden olyan törekvés, amely az egészség fejlesztését, megőrzését, illetve egészségkárosodás esetén az egészség mielőbbi visszaállítását, illetve a károsodás további súlyosbodásának kivédését szolgálja. Formái: primer, secunder, tercier prevenció.",
+    magyarazat: "Primer: betegség kialakulása előtt (oltás, egészséges életmód). Secunder: korai szűrés (mammográfia). Tercier: már kialakult betegség progressziójának megelőzése (rehabilitáció)."
+  },
+
+  {
+    tetel: "Egészségfejlesztés és prevenció",
+    tipus: "nyitott",
+    kerdes: "Mik a betegellátáshoz köthető leggyakoribb nem kívánatos események?",
+    valasz: "A beteg elesése vagy leesése. Kórházban szerzett, rövid idő alatt kialakuló decubitus. Kórházi fertőzés (húgyúti, sebfertőzés stb.). Gyógyszer okozta nem várt mellékhatás. Gyógyszercsere.",
+    magyarazat: "Ezek megelőzhetők megfelelő protokollokkal és odafigyeléssel."
+  },
+
+  {
+    tetel: "Egészségfejlesztés és prevenció",
+    tipus: "nyitott",
+    kerdes: "Sorold fel az időskori élettani változásokat! (12)",
+    valasz: "Száraz, fakó, petyhüdt bőr. Csökkent hallás. Csökkent látás. Csökkent ízérzékelés. Étvágytalanság. Magas vérnyomás. Székrekedés. Csökkent nyálelválasztás. Csökkent emésztőenzim termelés. Éjszakai vizelési kényszer. Csökkent izomerő és mozgáskoordináció. Haj és szőrzet megritkulása. Festékfoltok megszaporodása. Fogak meglazulása.",
+    magyarazat: "Ezek 'normális' változások, NEM betegségek. De a határt megnehezíthetik a komorbiditások."
+  },
+
+  // =============================================================
+  // ============ NORTON SKÁLA, ÁPOLÁSI FOLYAMAT ===============
+  // =============================================================
+
+  {
+    tetel: "Ápolási folyamat, Norton-skála",
+    tipus: "nyitott",
+    kerdes: "Mik az ápolási folyamat lépései?",
+    valasz: "Felmérés. Ápolási diagnózis meghatározása. Tervezés. Végrehajtás. Értékelés.",
+    magyarazat: "Ez ciklikus folyamat - az értékelés után visszamegyünk a felméréshez."
+  },
+
+  {
+    tetel: "Ápolási folyamat, Norton-skála",
+    tipus: "nyitott",
+    kerdes: "Mit jelent: protokoll, kritérium, minőség?",
+    valasz: "Protokoll: meghatározott kezelés vagy beavatkozás elvégzéséhez szükséges események és tevékenységek listája. Kritérium: a teljesítés elvárt szintje vagy annak pontos leírása. Minőség: a termék vagy szolgáltatás azon tulajdonságainak és jellemzőinek összessége, amelyek alkalmassá teszik a kifejezett (elvárt) igények kielégítésére.",
+    magyarazat: "A modern egészségügy mind a háromra épül: protokollok adott helyzetekre, mérhető kritériumok, és mindezek minőségbiztosítva."
+  },
+
+  {
+    tetel: "Ápolási folyamat, Norton-skála",
+    tipus: "nyitott",
+    kerdes: "Mik a Norton-skála felmérési szempontjai?",
+    valasz: "A beteg bőrének állapota. A beteg mentális státusza. Inkontinencia. A beteg mobilitása. A beteg aktivitása. (A bővített Norton-skála további szempontokat is tartalmaz: kooperációs készség, életkor, kísérő betegségek, általános állapot.)",
+    magyarazat: "Norton-skála = decubitus kockázat felmérése. Alacsony pontszám = magas kockázat. 14 alatt komoly megelőző intézkedések."
+  },
+
+  // =============================================================
+  // ============ KOMMUNIKÁCIÓ, PSZICHIÁTRIA ===================
+  // =============================================================
+
+  {
+    tetel: "Kommunikáció és pszichiátria",
+    tipus: "nyitott",
+    kerdes: "Sorolj fel 6 nem verbális kommunikációs módot!",
+    valasz: "Mimika, tekintet, érintés, gesztus, testtartás (kinetikai jelek), proxemika (térközszabályozás), emblémák (kulturális szignálok, viselet), szaganyagok.",
+    magyarazat: "A nem verbális kommunikáció kb. 60-70%-át teszi ki a teljes közlésnek - különösen az érzelmi tartalom."
+  },
+
+  {
+    tetel: "Kommunikáció és pszichiátria",
+    tipus: "nyitott",
+    kerdes: "Mit jelent: inkongruencia, redundancia, attribúció, proxemika, metakommunikáció?",
+    valasz: "Inkongruencia: a non-verbális és verbális közlés tartalma nem egyezik, hiteltelen. Redundancia: új információt nem tartalmazó, felesleges elem, amelynek hiányában a megértés nehézkessé válna. Attribúció: stílusjegyek és más ismertetőjegyek alapján bizonyos jelenségek vagy dolgok meghatározása. Proxemika: térközszabályozás kommunikációs csatornája. Metakommunikáció: a verbális kommunikációt kísérő, általában nem tudatos közlés.",
+    magyarazat: "Inkongruens kommunikáció: 'jól vagyok' szavakat mosolyogva mond, miközben nyilvánvalóan szomorú. Az inkongruencia bizalmatlanságot szül."
+  },
+
+  {
+    tetel: "Kommunikáció és pszichiátria",
+    tipus: "nyitott",
+    kerdes: "Mi a helyes ápolói magatartás depressziós, szorongó és paranoiás betegnél?",
+    valasz: "Depressziós: elfogadó magatartás, objektivitás, együttérzés kerülése (NEM részvét), kedvesség, túlzott vidámság kerülése. Szorongó: ítéletalkotás kerülése, objektivitás, biztonságérzet erősítése. Paranoiás: következetesség, rendszeresség, bizalomkeltő magatartás.",
+    magyarazat: "Depressziós betegnél a túlzott vidámság elidegeníti. Paranoiásnál a következetlenség gyanakvást szít."
+  },
+
+  {
+    tetel: "Kommunikáció és pszichiátria",
+    tipus: "nyitott",
+    kerdes: "Csoportosítsd a pszichiátriai tüneteket pozitív és negatív tünetek szerint!",
+    valasz: "Pozitív tünet: hallucináció, téveszme, bizarr magatartás. Negatív tünet: érzelmi elsivárosodás, szociális kapcsolatok beszűkülése, örömtelenség (anhedónia).",
+    magyarazat: "Pozitív tünetek = 'pluszban' (ami nem kéne, hogy ott legyen). Negatív tünetek = 'mínuszban' (ami hiányzik). Schizofréniánál mindkettő jelen lehet."
+  },
+
+  {
+    tetel: "Kommunikáció és pszichiátria",
+    tipus: "nyitott",
+    kerdes: "Mik a depresszió jellemző tünetei?",
+    valasz: "Indítékszegénység, fokozott alvásigény, tudatbeszűkülés, fokozott betegségtudat, stupor (mozgásszegénység, válaszhiány).",
+    magyarazat: "A 'pszichomotoros gátoltság' a klasszikus tünet. Plus depresszióhoz tartozik a hangulati nyomottság, anhedónia, öngyilkossági gondolatok."
+  },
+
+  {
+    tetel: "Kommunikáció és pszichiátria",
+    tipus: "nyitott",
+    kerdes: "Mik az anorexia nervosa jellemzői?",
+    valasz: "Olyan klinikai szindróma, melyben a szenvedő egyén betegesen fél az elhízástól, elutasítja az evést. Klinikai megnyilvánulások: intenzív félelem az elhízástól, étel jutalom vagy stresszcsökkentés célú felhasználása, mértéktelen testgyakorlás, fáradtság, koncentrációs zavarok, depresszió, nőknél menstruációs zavarok (amenorrhoea).",
+    magyarazat: "Az anorexia életveszélyes betegség - a halálozási arány a legmagasabb a pszichiátriai kórképek között."
+  },
+
+  {
+    tetel: "Kommunikáció és pszichiátria",
+    tipus: "nyitott",
+    kerdes: "Párosítsd a személyiségzavarokat tüneteikkel: antiszociális, borderline, hisztrionikus, nárcisztikus.",
+    valasz: "Antiszociális: empátiára való képtelenség, agresszivitás. Borderline: szuicid fenyegetőzések, öncsonkítás. Hisztrionikus: eltúlzott érzelmek, teátrális viselkedés. Nárcisztikus: saját sikerről való fantáziálás, csodálat várása.",
+    magyarazat: "Ezek a 'B klaszter' személyiségzavarai a DSM-ben (drámai, érzelmes, kiszámíthatatlan)."
+  },
+
+  // =============================================================
+  // ============ ESZKÖZÖK, FEKVÉSI MÓDOK =======================
+  // =============================================================
+
+  {
+    tetel: "Fektetési módok és kötések",
+    tipus: "nyitott",
+    kerdes: "Csoportosítsd a fektetési módokat: Fowler, Trendelenburg, lapos hanyatt, hanyatt felhúzott alsó végtagokkal.",
+    valasz: "Fowler-helyzet: szívbetegség, dyspnoe (nehézlégzés). Trendelenburg-helyzet: kivérzett beteg (lábfej magasabban a fejnél). Lapos hanyatt fekvés: gerincsérülés, újraélesztés, epiduralis érzéstelenítés után. Hanyatt fekvés felhúzott alsó végtagokkal: hasi sérülés, hasi fájdalom (a hasizmokat tehermentesíti).",
+    magyarazat: "A Fowler-helyzet 45-60° emelt felsőtest. Trendelenburg = láb fent, fej lent (vértérfogat-növelés a központban)."
+  },
+
+  {
+    tetel: "Fektetési módok és kötések",
+    tipus: "nyitott",
+    kerdes: "Mi a gégediéta szabálya aphoniában szenvedő betegnél?",
+    valasz: "Kerülendő: túl hideg / túl meleg folyadék fogyasztása, túl fűszeres étel, szénsavas folyadék, alkohol (tömény, égetett szesz). Tilos: beszéd, dohányzás.",
+    magyarazat: "Gégeműtét után a teljes hangképzési pihentetés alapfontosságú a gyógyuláshoz."
+  },
+
+  // =============================================================
+  // ============ KIEGÉSZÍTŐ LATIN SZAVAK ======================
+  // =============================================================
+
+  {
+    tetel: "Latin - Légzőrendszer",
+    tipus: "latin",
+    latin: "Pharynx",
+    jelentes: "garat",
+    kiejtes: "farinksz",
+    pelda: "Pharyngitis = garatgyulladás",
+    magyarazat: "A garat az emésztő- és légzőrendszer közös kezdeti szakasza."
+  },
+
+  {
+    tetel: "Latin - Légzőrendszer",
+    tipus: "latin",
+    latin: "Cartilago thyroidea",
+    jelentes: "pajzsporc (Ádám-csutka)",
+    kiejtes: "kartilágo tiroideá",
+    magyarazat: "A gége legnagyobb porca. Férfiaknál előbbre türemkedik az 'Ádám-csutka' miatt."
+  },
+
+  {
+    tetel: "Latin - Légzőrendszer",
+    tipus: "latin",
+    latin: "Epiglottis",
+    jelentes: "gégefedő",
+    kiejtes: "epiglottisz",
+    magyarazat: "Nyeléskor lezárja a gégébemenetet, hogy ne kerüljön az étel a légutakba."
+  },
+
+  {
+    tetel: "Latin - Légzőrendszer",
+    tipus: "latin",
+    latin: "Bronchus principalis",
+    jelentes: "főhörgő",
+    kiejtes: "bronkus principálisz",
+    magyarazat: "A légcső kettéágazásánál - egy jobb és egy bal főhörgő. A jobb főhörgő rövidebb és függőlegesebb (idegen test gyakrabban kerül oda)."
+  },
+
+  {
+    tetel: "Latin - Légzőrendszer",
+    tipus: "latin",
+    latin: "Alveolus",
+    jelentes: "tüdőléghólyag",
+    kiejtes: "alveolusz",
+    magyarazat: "Itt történik a gázcsere a tüdőkapilláris és a levegő között. Több százmillió van belőlük."
+  },
+
+  {
+    tetel: "Latin - Emésztőrendszer",
+    tipus: "latin",
+    latin: "Cavum oris",
+    jelentes: "szájüreg",
+    kiejtes: "kávum órisz"
+  },
+
+  {
+    tetel: "Latin - Emésztőrendszer",
+    tipus: "latin",
+    latin: "Lingua",
+    jelentes: "nyelv",
+    kiejtes: "lingva"
+  },
+
+  {
+    tetel: "Latin - Emésztőrendszer",
+    tipus: "latin",
+    latin: "Glandulae salivares",
+    jelentes: "nyálmirigyek",
+    kiejtes: "glandulé salivárész"
+  },
+
+  {
+    tetel: "Latin - Emésztőrendszer",
+    tipus: "latin",
+    latin: "Dentes",
+    jelentes: "fogak",
+    kiejtes: "dentesz"
+  },
+
+  {
+    tetel: "Latin - Vizelet és emésztés",
+    tipus: "latin",
+    latin: "Sputum",
+    jelentes: "köpet",
+    kiejtes: "szputum"
+  },
+
+  {
+    tetel: "Latin - Vizelet és emésztés",
+    tipus: "latin",
+    latin: "Haematemesis",
+    jelentes: "vérhányás",
+    kiejtes: "hematemézisz"
+  },
+
+  {
+    tetel: "Latin - Vizelet és emésztés",
+    tipus: "latin",
+    latin: "Retentio urinae",
+    jelentes: "vizelet visszamaradás, megrekedés",
+    kiejtes: "retencio urináé"
+  },
+
+  {
+    tetel: "Latin - Vizelet és emésztés",
+    tipus: "latin",
+    latin: "Pyuria",
+    jelentes: "gennyvizelés",
+    kiejtes: "pyúria",
+    magyarazat: "Húgyúti fertőzés egyik jele - a vizeletben fehérvérsejtek és genny van."
+  },
+
+  {
+    tetel: "Latin - Vizelet és emésztés",
+    tipus: "latin",
+    latin: "Faecalis impactatio",
+    jelentes: "székletbeékelődés",
+    kiejtes: "fékálisz impaktácio"
+  },
+
+  {
+    tetel: "Latin - Vizelet és emésztés",
+    tipus: "latin",
+    latin: "Melaena",
+    jelentes: "kátrányszerű, fekete széklet (gyomorvérzés jele)",
+    kiejtes: "meléna",
+    magyarazat: "A vér gyomorsav hatására megfeketedik - emiatt 'fekete-szurokszerű' a széklet."
+  },
+
+  {
+    tetel: "Latin - Általános fogalmak",
+    tipus: "latin",
+    latin: "Aplasia",
+    jelentes: "a szerv teljes hiánya",
+    kiejtes: "aplázia"
+  },
+
+  {
+    tetel: "Latin - Általános fogalmak",
+    tipus: "latin",
+    latin: "Hypoplasia",
+    jelentes: "a szerv születéstől kezdődően kisebb, mint a normális",
+    kiejtes: "hipoplázia"
+  },
+
+  {
+    tetel: "Latin - Általános fogalmak",
+    tipus: "latin",
+    latin: "Hyperplasia",
+    jelentes: "a működő szerv túlburjánzása",
+    kiejtes: "hiperplázia",
+    pelda: "Prostata-hyperplasia (jóindulatú prosztata-megnagyobbodás)"
+  },
+
+  {
+    tetel: "Latin - Általános fogalmak",
+    tipus: "latin",
+    latin: "Regeneratio",
+    jelentes: "szövet újraképződés (a szervezet pótolja az elpusztult sejteket)",
+    kiejtes: "regenerácio"
+  },
+
+  {
+    tetel: "Latin - Általános fogalmak",
+    tipus: "latin",
+    latin: "Atrophia",
+    jelentes: "a szervezet vagy egyes szervek tömegcsökkenése",
+    kiejtes: "atrófia",
+    pelda: "Izomatrófia hosszas immobilizációnál"
+  },
+
+  {
+    tetel: "Latin - Általános fogalmak",
+    tipus: "latin",
+    latin: "Necrosis",
+    jelentes: "az élő szervezet egy körülírt részének elpusztulása",
+    kiejtes: "nekrózis"
+  },
+
+  {
+    tetel: "Latin - Általános fogalmak",
+    tipus: "latin",
+    latin: "Degeneratio",
+    jelentes: "a sejtek jellegzetes anyagcserezavara",
+    kiejtes: "degenerácio"
+  },
+
+  {
+    tetel: "Latin - Vastagbél",
+    tipus: "latin",
+    latin: "Cecum",
+    jelentes: "vakbél",
+    kiejtes: "cékum"
+  },
+
+  {
+    tetel: "Latin - Vastagbél",
+    tipus: "latin",
+    latin: "Colon ascendens",
+    jelentes: "felszálló vastagbél",
+    kiejtes: "kolon aszcendensz"
+  },
+
+  {
+    tetel: "Latin - Vastagbél",
+    tipus: "latin",
+    latin: "Colon transversum",
+    jelentes: "haránt vastagbél",
+    kiejtes: "kolon transverszum"
+  },
+
+  {
+    tetel: "Latin - Vastagbél",
+    tipus: "latin",
+    latin: "Colon descendens",
+    jelentes: "leszálló vastagbél",
+    kiejtes: "kolon deszcendensz"
+  },
+
+  {
+    tetel: "Latin - Vastagbél",
+    tipus: "latin",
+    latin: "Colon sigmoideum",
+    jelentes: "S-alakú vastagbél",
+    kiejtes: "kolon szigmoideum"
+  },
+
+  {
+    tetel: "Latin - Vastagbél",
+    tipus: "latin",
+    latin: "Rectum",
+    jelentes: "végbél",
+    kiejtes: "rektum"
+  },
+
+  {
+    tetel: "Latin - Vegyes",
+    tipus: "latin",
+    latin: "Fistula ani",
+    jelentes: "végbélsipoly",
+    kiejtes: "fisztula áni"
+  },
+
+  {
+    tetel: "Latin - Vegyes",
+    tipus: "latin",
+    latin: "Hernia umbilicalis",
+    jelentes: "köldöksérv",
+    kiejtes: "hernia umbilikálisz"
+  },
+
+  {
+    tetel: "Latin - Vegyes",
+    tipus: "latin",
+    latin: "Appendectomia",
+    jelentes: "féregnyúlvány eltávolítása",
+    kiejtes: "appendektómia"
+  },
+
+  {
+    tetel: "Latin - Vegyes",
+    tipus: "latin",
+    latin: "Diverticulum",
+    jelentes: "körülírt kiöblösödés, előboltosulás, kitüremkedés",
+    kiejtes: "divertikulum",
+    magyarazat: "Vastagbélben gyakori, idős korban - 'diverticulosis'."
+  },
+
+  {
+    tetel: "Latin - Vegyes",
+    tipus: "latin",
+    latin: "Nodus haemorrhoidalis",
+    jelentes: "aranyeres csomó",
+    kiejtes: "nódusz hemorroidálisz"
+  },
+
+  // =============================================================
+  // ============ TRANSZFÚZIÓS TÁLCA RÉSZLETES =================
+  // =============================================================
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a transzfúziós tálca minimális felszerelését! (vérminta vétel + vércsoport-meghatározás)",
+    valasz: "Fertőtleníthető műanyag tálcán: ágyvédelem, karleszorító, bőrfertőtlenítő oldat, 7-10 ml zárt rendszerű kémcső (natív, EDTA-s, nátrium-citrátos), kémcsőállvány, steril egyszer használatos vérvételi tű és harang, steril vágott géz (törlő), ragtapasz, 5×10 ml izotóniás nátrium-klorid, szemcseppentő vagy egyszer használatos pipetta, nem vízoldékony festékű toll, kártyás (bed-side) AB0- és RhD-vércsoport-meghatározó kártya, perifériás vénabiztosítás eszközei, transzfúziós szerelék, ledobótál, veszélyes hulladék tároló doboz, transzfúzió dokumentációi.",
+    magyarazat: "A nem vízoldékony festékű toll azért fontos, mert ha vér / fertőtlenítő ráfröccsen, ne mosódjon le a beteg azonosítása."
+  },
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "feleletvalasztos",
+    kerdes: "A transzfúziós tálcán milyen típusú kémcsövek szerepelnek?",
+    valaszok: [
+      "Csak natív (alvadásgátló nélküli)",
+      "Csak EDTA-s",
+      "Natív, EDTA-s, nátrium-citrátos",
+      "Heparinos és EDTA-s"
+    ],
+    helyes: 2,
+    magyarazat: "Mindhárom típusra szükség van: a natív a szérumvizsgálathoz, az EDTA-s a vércsoport-meghatározáshoz és vérképhez, a nátrium-citrátos az alvadási vizsgálatokhoz."
+  },
+
+  // =============================================================
+  // ============ MALNUTRITIO RÉSZLETES =========================
+  // =============================================================
+
+  {
+    tetel: "Diéta és táplálkozás",
+    tipus: "nyitott",
+    kerdes: "Mi a primer malnutritio?",
+    valasz: "Egy vagy több alapvető tápanyag nem kielégítő vagy túlzott bevitele miatt kialakult rossz tápláltsági állapot.",
+    magyarazat: "A primer = közvetlenül a táplálkozási hiba miatt. Szekunder malnutritio betegségből eredő (pl. felszívódási zavar)."
+  },
+
+  // =============================================================
+  // ============ INCONTINENTIA KEZELÉS RÉSZLETESEN =============
+  // =============================================================
+
+  {
+    tetel: "Vizeletürítés és vesék",
+    tipus: "nyitott",
+    kerdes: "Csoportosítsd a stressz incontinentia és a késztetéses incontinentia kezelési módszereit!",
+    valasz: "Csak STRESSZ incontinentia: hüvelysúly terápia / hüvelyi súlytréning, elektrostimuláció, intravaginalis-intraurethralis kontinencia-segédeszközök. Csak KÉSZTETÉSES incontinentia: hólyagtréning, hólyag biofeedback. MINDKETTŐRE alkalmas: folyadékbevitel módosítása, medencefenék-izom gyakorlatok (Kegel), sebészi kezelés, gyógyszeres kezelés, koffein tartalmú italok mellőzése.",
+    magyarazat: "A stressz inkontinencia mechanikai probléma → mechanikai megoldások. A késztetéses idegi probléma → tréninggel és gyógyszerrel kezelhető. A medencefenék-torna mindkettőnél hasznos."
+  },
+
+  {
+    tetel: "Vizeletürítés és vesék",
+    tipus: "feleletvalasztos",
+    kerdes: "A hüvelyi súlytréning melyik incontinentia formára való?",
+    valaszok: [
+      "Késztetéses incontinentia",
+      "Stressz incontinentia",
+      "Reflex incontinentia",
+      "Túlfolyásos incontinentia"
+    ],
+    helyes: 1,
+    magyarazat: "Hüvelyi súlytréning → medencefenék-izomzat erősítése → stressz incontinentia kezelése."
+  },
+
+  // =============================================================
+  // ============ LIQUOR CEREBROSPINALIS IGAZ/HAMIS =============
+  // =============================================================
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "nyitott",
+    kerdes: "Mi IGAZ és HAMIS a liquor cerebrospinalisra (agy-gerincvelői folyadékra)?",
+    valasz: "IGAZ: védi az agyvelőt és a gerincvelőt a külső mechanikai behatásoktól; fehérjetartalma igen alacsony; szerepe van a gerincvelő és agyvelő hőmérsékletének biztosításában; az oldalkamrákban termelődik a vérből való filtrációval. HAMIS: cukortartalma igen magas (NEM, alacsony!); biztosítja a kemény és lágy agyhártya közötti sikamlóságot (NEM, az arachnoidea és pia mater közötti subarachnoidealis tér).",
+    magyarazat: "A liquor cukortartalma alacsony - kb. 60%-a a vér cukorszintjének. Magas cukor a liquorban gyanakvást kelt diabéteszes hyperglikémiára vagy laboratóriumi hibára."
+  },
+
+  {
+    tetel: "Idegrendszer",
+    tipus: "feleletvalasztos",
+    kerdes: "A liquor cerebrospinalis hol termelődik?",
+    valaszok: [
+      "A vénákból szivárogva",
+      "Az oldalkamrákban a vérből való filtrációval",
+      "Az agyhártyák között spontán",
+      "A nyúltvelőben"
+    ],
+    helyes: 1,
+    magyarazat: "Az oldalkamrák plexus chorioideusa termeli filtrációval. Naponta kb. 500 ml termelődik és felszívódik."
+  },
+
+  // =============================================================
+  // ============ MOZGÁSSZERVI BETEGSÉGEK FELISMERÉSE ===========
+  // =============================================================
+
+  {
+    tetel: "Mozgásszervek",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik betegség: a csont szervetlen anyagának csökkenése, ásványi anyag minőségileg zavart és mennyiségileg hiányos?",
+    valaszok: [
+      "Osteoporosis",
+      "Osteomalatia",
+      "Rheumatoid arthritis",
+      "Bechterew-kór"
+    ],
+    helyes: 1,
+    magyarazat: "Osteomalatia = a csont 'meglágyulása', a mineralizáció zavara. Felnőttkori D-vitamin hiány tipikus oka. Gyermekkorban rachitis."
+  },
+
+  {
+    tetel: "Mozgásszervek",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik betegség: elsősorban a gerinc ízületeit, döntően a sacroiliacalis ízületeket érintő krónikus gyulladás?",
+    valaszok: [
+      "Rheumatoid arthritis",
+      "Osteoporosis",
+      "Bechterew-kór (spondylitis ankylopoetica)",
+      "Osteoarthritis"
+    ],
+    helyes: 2,
+    magyarazat: "Bechterew-kór = ankylozáló spondylitis. Tipikus: fiatal férfi, deréki fájdalom, reggeli merevség, később 'bambusz-gerinc' alakul ki."
+  },
+
+  {
+    tetel: "Mozgásszervek",
+    tipus: "nyitott",
+    kerdes: "Nevezd meg a leírások alapján: 1) Perifériás kis ízületek krónikus szimmetrikus gyulladása. 2) Csont szervetlen anyagának csökkenése, mineralizációs zavar. 3) Csontszövet szerves-szervetlen arányának változása nélkül a csonttartalom csökkenése. 4) Gerinc ízületeit, sacroiliacalis ízületeket érintő krónikus gyulladás.",
+    valasz: "1) Rheumatoid arthritis. 2) Osteomalatia. 3) Osteoporosis. 4) Bechterew-kór.",
+    magyarazat: "Differenciálás: osteomalatia = MINŐSÉGI probléma (D-vitamin hiány). Osteoporosis = MENNYISÉGI probléma (csontritkulás). RA = autoimmun gyulladás. Bechterew = gerinc autoimmun gyulladás."
+  },
+
+  // =============================================================
+  // ============ VÉRKÉSZÍTMÉNY ÁTVÉTEL ELLENŐRZÉS ==============
+  // =============================================================
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "nyitott",
+    kerdes: "Mik a vérkészítmény átvételének ellenőrzési lépései? (4)",
+    valasz: "1) Vérkészítmény fajtája, típusa (igénylő lap alapján). 2) Vérvételi sorszám egyezősége a vérkészítmény címkéjén, transzfúziós jelentőlapon, szegmensek címkéin. 3) Zsák és szegmensek záró hegesztéseinek épsége. 4) Vérkészítmény külső megjelenése.",
+    magyarazat: "Bármilyen eltérés esetén → NE TRANSZFUNDÁLD! Vissza a vérközpontba. A 'záró hegesztések' azért fontosak, mert ott szakadhat el a zsák és kiömölhet."
+  },
+
+  // =============================================================
+  // ============ KÓRKÉPEK-SZÖVŐDMÉNYEK PÁROSÍTÁS ===============
+  // =============================================================
+
+  {
+    tetel: "Betegségek és szövődményeik",
+    tipus: "nyitott",
+    kerdes: "Párosítsd a kórképeket a tipikus szövődményekkel: diabetes mellitus, ulcus ventriculi, infarctus myocardii, cirrhosis hepatis, glomerulonephritis acuta, alsó végtag trombózisa, emphysema pulmonum, endocarditis.",
+    valasz: "Diabetes mellitus → microangiopathia. Ulcus ventriculi (gyomorfekély) → perforáció. Infarctus myocardii → ritmuszavar. Cirrhosis hepatis (májzsugorodás) → oesophagus varix ruptura (nyelőcsővisszér-repedés). Glomerulonephritis acuta → agyödéma. Alsó végtag trombózisa → embolia pulmonalis (tüdőembólia). Emphysema pulmonum → cor pulmonale (tüdő miatti szívbetegség). Endocarditis → vitium (billentyűhiba).",
+    magyarazat: "Ezek a 'klasszikus' szövődmények - vizsgakérdés tipikusan. Tanulja meg úgy, mint párosítást."
+  },
+
+  {
+    tetel: "Betegségek és szövődményeik",
+    tipus: "feleletvalasztos",
+    kerdes: "Az ulcus ventriculi (gyomorfekély) leggyakoribb akut szövődménye:",
+    valaszok: [
+      "Vitium",
+      "Perforáció",
+      "Cor pulmonale",
+      "Microangiopathia"
+    ],
+    helyes: 1,
+    magyarazat: "Perforáció = a fekély átfúrja a gyomorfalat → hasűri tartalom kiömlése → peritonitis. Sürgős sebészeti beavatkozást igényel."
+  },
+
+  {
+    tetel: "Betegségek és szövődményeik",
+    tipus: "feleletvalasztos",
+    kerdes: "Az alsó végtag trombózisának legveszélyesebb szövődménye:",
+    valaszok: [
+      "Cor pulmonale",
+      "Embolia pulmonalis (tüdőembólia)",
+      "Vitium",
+      "Microangiopathia"
+    ],
+    helyes: 1,
+    magyarazat: "A trombus lerakódhat, és a tüdőbe kerülve embolia pulmonalist okoz - életveszélyes!"
+  },
+
+  {
+    tetel: "Betegségek és szövődményeik",
+    tipus: "feleletvalasztos",
+    kerdes: "Az emphysema pulmonum (tüdőtágulás) tipikus következménye:",
+    valaszok: [
+      "Vitium",
+      "Cor pulmonale",
+      "Microangiopathia",
+      "Perforáció"
+    ],
+    helyes: 1,
+    magyarazat: "A krónikus tüdőbetegség → magas tüdőérnyomás → a jobb szívfél túlterhelése → cor pulmonale (jobb szívfél elégtelenség)."
+  },
+
+  // =============================================================
+  // ============ SEBKÖTSZEREK TÍPUSAI ==========================
+  // =============================================================
+
+  {
+    tetel: "Szondák, drének, sebek",
+    tipus: "nyitott",
+    kerdes: "Párosítsd a sebtípusokat a megfelelő kötszerrel: nekrotikus, fertőződött, sarjadzó, hámosodó seb.",
+    valasz: "NEKROTIKUS seb → Alginát tartalmú hidrogél: az üreges sebekbe is behatol, nekrotikus szöveteket feloldja, megkönnyíti eltávolításukat, utat nyit a hámosodásnak. FERTŐZŐDÖTT seb → Ezüsttartalmú aktív szenes kötszer: sebváladékozást kontrollálja, kellemetlen szagokat megköti, baktériumokat elpusztítja. 4-7 napig a sebben maradhat, fedőkötést sűrűbben cseréljük. SARJADZÓ seb → Speciális 4 rétegű hidropolimer kötszer: réteges kiképzéssel kezeli a sebváladékot, optimális környezet kialakítása révén gyorsítja a sebgyógyulást, gáz- és páraáteresztő, baktérium- és vízzáró. HÁMOSODÓ seb → Polyuretán filmkötszer: gázáteresztő, baktérium- és vízzáró, nedvességet visszatartva nem engedi kiszáradni a sebet, meggátolja az újrafertőződést.",
+    magyarazat: "A logika: a sebnek olyan kötszer kell, ami SEGÍT abban, amire éppen szüksége van. Nekrotikus → fel kell oldani az elhalt szövetet. Fertőzött → baktériumellenes. Sarjadzó → optimális nedvesség. Hámosodó → védeni a kiszáradástól és újrafertőzéstől."
+  },
+
+  {
+    tetel: "Szondák, drének, sebek",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik kötszer alkalmas FERTŐZŐDÖTT seb kezelésére?",
+    valaszok: [
+      "Alginát tartalmú hidrogél",
+      "Ezüsttartalmú aktív szenes kötszer",
+      "Polyuretán filmkötszer",
+      "4 rétegű hidropolimer kötszer"
+    ],
+    helyes: 1,
+    magyarazat: "Az ezüst antibakteriális, az aktív szén megköti a kellemetlen szagot, és a sebváladékot is kontrollálja."
+  },
+
+  {
+    tetel: "Szondák, drének, sebek",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik kötszer oldja fel a nekrotikus szöveteket?",
+    valaszok: [
+      "Polyuretán filmkötszer",
+      "Hidropolimer",
+      "Alginát tartalmú hidrogél",
+      "Aktív szenes kötszer"
+    ],
+    helyes: 2,
+    magyarazat: "Az alginát hidrogél a nedvességet visszatartja a seben → autolitikus debridement (a saját enzimek bontják fel az elhalt szövetet)."
+  },
+
+  // =============================================================
+  // ============ EGÉSZSÉGI ÁLLAPOTOT MEGHATÁROZÓ TÉNYEZŐK ======
+  // =============================================================
+
+  {
+    tetel: "Egészségfejlesztés és prevenció",
+    tipus: "nyitott",
+    kerdes: "Mik az egészségi állapotot meghatározó fő tényezőcsoportok?",
+    valasz: "1) Adottságok: genetikai tényezők, nem, életkor. 2) Szociális/gazdasági tényezők: szegénység, munkanélküliség, szociális kirekesztettség. 3) Környezet: levegő minősége, lakáshelyzet, vízminőség, szociális környezet, gazdasági környezet. 4) Életmód: dohányzás, alkoholfogyasztás, táplálkozás, fizikai aktivitás, drogok, szexuális magatartás, stressz. 5) Szolgáltatásokhoz való hozzáférés: oktatás, egészségügyi ellátás, szociális szolgáltatások, közlekedés, szabadidő.",
+    magyarazat: "A WHO szerint az életmód a befolyásolható tényezők között a legnagyobb súlyú - ezért a prevenció elsősorban itt avatkozik be."
+  },
+
+  {
+    tetel: "Egészségfejlesztés és prevenció",
+    tipus: "feleletvalasztos",
+    kerdes: "A genetikai tényezők, nem és életkor melyik csoportba tartoznak?",
+    valaszok: [
+      "Életmód",
+      "Adottságok",
+      "Környezet",
+      "Szociális tényezők"
+    ],
+    helyes: 1,
+    magyarazat: "Adottságok = nem módosítható biológiai jellemzők. Életmód viszont módosítható - ezért az egészségfejlesztés ott avatkozik be."
+  },
+
+  // =============================================================
+  // ============ AKADÁLYMENTESÍTÉS =============================
+  // =============================================================
+
+  {
+    tetel: "Egészségfejlesztés és prevenció",
+    tipus: "nyitott",
+    kerdes: "Mik az akadálymentesítésre vonatkozó általános követelmények? (3)",
+    valasz: "Megközelíthetőség / hozzáférhetőség. Elérhetőség. Kezelhetőség. Felismerhetőség. Biztonság.",
+    magyarazat: "Az akadálymentesítés nem csak a kerekesszékesekre vonatkozik - mozgáskorlátozottak, vakok, gyengén látók, hallássérültek mind külön szempontot kell figyelembe venni."
+  },
+
+  // =============================================================
+  // ============ DOROTHEA OREM ÁPOLÁSI MODELL ==================
+  // =============================================================
+
+  {
+    tetel: "Ápoláselmélet és betegjogok",
+    tipus: "nyitott",
+    kerdes: "Mik Dorothea Orem ápolási modelljének jellemzői?",
+    valasz: "Ápolásra akkor van szükség, amikor valakinek a terápiás önellátási igényei a gondozási képesség hiánya miatt nem kerülnek kielégítésre. Az ápolási rendszerek között megkülönböztet teljesen kompenzáló, részlegesen kompenzáló és támogató-oktató rendszert. Amennyiben az önellátási igény meghaladja az egyén képességeit és lehetőségeit, önellátási deficit lép fel.",
+    magyarazat: "Orem 'önellátási elmélete' a leggyakrabban használt ápolási modell. Henderson 14 szükségletet különít el (NEM Orem!). Roy a négy szükségleti csoporttal dolgozik."
+  },
+
+  {
+    tetel: "Ápoláselmélet és betegjogok",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik nem tartozik Orem 3 ápolási rendszerébe?",
+    valaszok: [
+      "Teljesen kompenzáló rendszer",
+      "Részlegesen kompenzáló rendszer",
+      "Támogató-oktató rendszer",
+      "Adaptációs rendszer"
+    ],
+    helyes: 3,
+    magyarazat: "Orem 3 rendszere: teljesen kompenzáló (eszméletlen beteg), részlegesen kompenzáló (poszt-op beteg), támogató-oktató (krónikus beteg, oktatás)."
+  },
+
+  {
+    tetel: "Ápoláselmélet és betegjogok",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik ápolási modell központjában áll az interperszonális kapcsolat?",
+    valaszok: [
+      "Dorothea Orem",
+      "Hildegard Peplau",
+      "Virginia Henderson",
+      "Callista Roy"
+    ],
+    helyes: 1,
+    magyarazat: "Peplau modellje az interperszonális ápolás. A 14 szükséglet → Henderson. Adaptáció → Roy. Önellátás → Orem."
+  },
+
+  // =============================================================
+  // ============ MOZGÁSSZERVI REHABILITÁCIÓ ESZKÖZEI ===========
+  // =============================================================
+
+  {
+    tetel: "Mozgásszervek",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a mozgásszervi rehabilitációban használt járást segítő segédeszközöket! (4-6)",
+    valasz: "Járóbot. Három- vagy négylábú támbot. Könyökmankó. Hónaljmankó. Járókeret. Rollátor.",
+    magyarazat: "A választás a beteg állapotától függ: enyhe segítséghez bot, súlyosabb támogatáshoz mankó vagy járókeret. A rollátor (kerekes járókeret) idős, de viszonylag stabil betegnek ideális."
+  },
+
+  // =============================================================
+  // ============ DIABETES MELLITUS FINOM RÉSZLETEK =============
+  // =============================================================
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "feleletvalasztos",
+    kerdes: "A glikált hemoglobin (HbA1c) milyen időtávra ad információt?",
+    valaszok: [
+      "Aktuális (pillanatnyi) vércukorszint",
+      "Előző napi átlag",
+      "Hosszú távú (kb. 2-3 hónapos) átlagos vércukorszint",
+      "Csak étkezés utáni érték"
+    ],
+    helyes: 2,
+    magyarazat: "A HbA1c 2-3 hónapra visszamenőleg jelzi az átlag vércukorszintet (a vörösvérsejt élettartama miatt). HOSSZÚ távú jelző, nem rövid!"
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "feleletvalasztos",
+    kerdes: "Az orális glükóztolerancia-teszt (OGTT) eredményét mennyi idő után kell értékelni?",
+    valaszok: [
+      "30 perc",
+      "1 óra",
+      "2 óra",
+      "3 óra"
+    ],
+    helyes: 2,
+    magyarazat: "Az OGTT-nél a beteg 75 g glükózt iszik, és 2 óra múlva nézik a vércukrot. Diabetes ha ≥ 11,1 mmol/l."
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "nyitott",
+    kerdes: "Mit kell tudni a diabeteses microangiopathiáról és nephropathiáról?",
+    valasz: "Microangiopathia: a kis erek (artériák, hajszálerek) károsodása. Elsősorban a SZEM, a VESE és az IDEGEK ereit érinti (NEM az agyat és szívet - azok a macroangiopathia területe). Nephropathia jellemző tünete: albuminuria (fehérje a vizeletben) és hypertonia. A diabetes a szem hajszálereinek károsodását, következményesen látásromlást okoz (retinopathia).",
+    magyarazat: "A diabetes szövődményei: szem (retinopathia), vese (nephropathia), idegrendszer (neuropathia), nagy erek (macroangiopathia → infarktus, stroke), láb (diabetes láb)."
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi IGAZ az 1-es típusú cukorbetegségről?",
+    valaszok: [
+      "Kezelésében elegendőek az orális antidiabetikumok",
+      "Kialakulása lassú, főleg felnőttkorban",
+      "Normál testsúly vagy obesitas jellemző",
+      "Inzulinterápia feltétlenül szükséges, autoantitestek mutathatók ki"
+    ],
+    helyes: 3,
+    magyarazat: "Az 1-es típusú DM autoimmun betegség, gyors kialakulás, élethossziglan inzulin szükséges. Az orális antidiabetikum a 2-es típusra való."
+  },
+
+  {
+    tetel: "Diabetes mellitus",
+    tipus: "feleletvalasztos",
+    kerdes: "A hypoglykaemiás állapot mivel téveszthető össze?",
+    valaszok: [
+      "Koffein hatás",
+      "Alkoholos vagy kábítószeres befolyásoltság",
+      "Allergiás reakció",
+      "Asztma roham"
+    ],
+    helyes: 1,
+    magyarazat: "Hypoglikémiás beteg zavart, dadog, eszméletlenséghez közelít → könnyen ittasnak vagy droghatás alattinak tűnhet. Mindig nézz vércukrot!"
+  },
+
+  // =============================================================
+  // ============ VOLUMENPÓTLÓK MÁRKÁK ==========================
+  // =============================================================
+
+  {
+    tetel: "Volumenpótlás és parenteralis táplálás",
+    tipus: "nyitott",
+    kerdes: "Csoportosítsd a volumenpótló infúziós készítményeket: Gelifundol, Isohes, Dextrán 40, Expahes, Gelofusine, Dextrán 70, Heamaccel, Haes-steril, Voluven, Elohast.",
+    valasz: "Dextránkészítmények: Dextrán 40, Dextrán 70. Hydroxyetil-keményítő (HES) készítmények: Isohes, Expahes, Haes-steril, Voluven, Elohast. Zselatinkészítmények: Gelifundol, Gelofusine, Heamaccel (Poligeline).",
+    magyarazat: "A névből gyakran felismerhető: 'Hes' a HES-eknél, 'Gel' a zselatinoknál, 'Dextrán' a dextránoknál. Ez segíthet."
+  },
+
+  {
+    tetel: "Volumenpótlás és parenteralis táplálás",
+    tipus: "feleletvalasztos",
+    kerdes: "A Heamaccel (Poligeline) melyik volumenpótló csoportba tartozik?",
+    valaszok: [
+      "Dextránkészítmény",
+      "HES (hydroxyetil-keményítő)",
+      "Zselatinkészítmény",
+      "Krisztalloid"
+    ],
+    helyes: 2,
+    magyarazat: "Heamaccel = polimerizált zselatin alapú készítmény."
+  },
+
+  // =============================================================
+  // ============ VÉRALVADÁS, HAEMOPHILIA =======================
+  // =============================================================
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "nyitott",
+    kerdes: "Párosítsd: véralvadás fontos faktora, X-kromoszómához kötött öröklődés, extrinsic és intrinsic út, véralvadás celluláris eleme, B-típusú haemophilia.",
+    valasz: "Véralvadás fontos faktora → kálcium. X-kromoszómához kötötten öröklődik → haemophilia. Extrinsic és intrinsic útja ismeretes → véralvadási folyamat. Véralvadás celluláris eleme → thrombocyta. B-típusú haemophilia → IX-es faktor hiánya.",
+    magyarazat: "A haemophilia A: VIII-as faktor hiány. Haemophilia B: IX-es faktor hiány (Christmas-disease). Mindkettő X-kromoszómához kötött → szinte mindig férfiak betegszenek meg."
+  },
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "feleletvalasztos",
+    kerdes: "A B-típusú haemophilia melyik faktor hiányát jelenti?",
+    valaszok: [
+      "VIII-as (8-as) faktor",
+      "IX-es (9-es) faktor",
+      "XI-es (11-es) faktor",
+      "Fibrinogén"
+    ],
+    helyes: 1,
+    magyarazat: "Haemophilia A → VIII-as faktor (gyakoribb). Haemophilia B → IX-es faktor (Christmas-disease)."
+  },
+
+  {
+    tetel: "Hematológia és transzfúzió",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik a véralvadás celluláris (sejtes) eleme?",
+    valaszok: [
+      "Vörösvérsejt",
+      "Limfocita",
+      "Thrombocyta (vérlemezke)",
+      "Eozinofil"
+    ],
+    helyes: 2,
+    magyarazat: "A thrombocyta = vérlemezke. Először az érfal sérülése után aggregál (összetapad), majd elindítja az alvadási kaszkádot."
+  },
+
+  // =============================================================
+  // ============ ANATÓMIAI KÉPLETEK A HAS RÉSZÉN ===============
+  // =============================================================
+
+  {
+    tetel: "Emésztőrendszer és ileus",
+    tipus: "nyitott",
+    kerdes: "Párosítsd az anatómiai képleteket elhelyezkedési helyükkel: Bauhin-billentyű, Kerckring-redők, Brunner-mirigyek, Lieberkühn-mirigyek, Kupffer-sejtek.",
+    valasz: "Bauhin-billentyű → ileocaecalis szájadék (vékonybél-vastagbél átmenet). Kerckring-redők → vékonybelek nyálkahártya redői. Brunner-mirigyek → duodenum (patkóbél) fala. Lieberkühn-mirigyek → vékonybelek nyálkahártyájának kötőszövetes redői. Kupffer-sejtek → májsinus (a máj falófalósejtjei).",
+    magyarazat: "Klasszikus tételbe való kérdés. A Bauhin-billentyű meggátolja a vastagbéltartalom visszaáramlását a vékonybélbe."
+  },
+
+  {
+    tetel: "Emésztőrendszer és ileus",
+    tipus: "feleletvalasztos",
+    kerdes: "A Bauhin-billentyű hol található?",
+    valaszok: [
+      "Gyomor-nyombél átmenet",
+      "Ileocaecalis szájadék (vékonybél-vastagbél átmenet)",
+      "Nyombél-éhbél átmenet",
+      "Sigma-rectum határ"
+    ],
+    helyes: 1,
+    magyarazat: "Bauhin = ileocaecalis billentyű. Megakadályozza, hogy a vastagbél bélsártartalma visszaáramoljon a vékonybélbe."
+  },
+
+  {
+    tetel: "Emésztőrendszer és ileus",
+    tipus: "feleletvalasztos",
+    kerdes: "Hol találhatók a Kupffer-sejtek?",
+    valaszok: [
+      "Gyomor falában",
+      "Vékonybél nyálkahártyában",
+      "Májsinusokban",
+      "Hasnyálmirigyben"
+    ],
+    helyes: 2,
+    magyarazat: "Kupffer-sejtek = a máj makrofágjai (falósejtjei). Eltávolítják a véráramból a kórokozókat és sejttörmelékeket."
+  },
+
+  // =============================================================
+  // ============ VIZELET INCONTINENS ÁLLAPOTFELMÉRÉS ===========
+  // =============================================================
+
+  {
+    tetel: "Vizeletürítés és vesék",
+    tipus: "nyitott",
+    kerdes: "Mik a vizelet incontinens betegek állapotfelmérésének főbb lépései?",
+    valasz: "Az előfordulás gyakoriságának megállapítása. A vizeletszivárgás mértékének megállapítása (kis mennyiségű gyakori vizeletcsepegés vagy előre nem meghatározható, nagy mennyiségű vizelet ürítése). A kiváltó események (tüsszentés, köhögés, bizonyos mozgások stb.) beazonosítása. A gát bőrére vonatkozó állapotfelmérés. Az ürített vizelet megfigyelése.",
+    magyarazat: "A gát bőrének felmérése azért fontos, mert a tartós vizelettel áztatott bőr decubitusra hajlamos."
+  },
+
+  // =============================================================
+  // ============ FEKÉLYBETEGSÉG SZÖVŐDMÉNYEI ==================
+  // =============================================================
+
+  {
+    tetel: "Emésztőrendszer és ileus",
+    tipus: "nyitott",
+    kerdes: "Mik a fekélybetegség lehetséges szövődményei és figyelmeztető tüneteik?",
+    valasz: "Vérzés → haematemesis (vérhányás), melaena (fekete kátrányszerű széklet). Perforáció → fájdalom jellegének hirtelen megváltozása, éles 'késszúrásszerű' fájdalom, rekesz alatt látható szabad levegő a röntgen-felvételen. Penetráció → fájdalom jellegének megváltozása, éles késszúrásszerű fájdalom (de NINCS szabad levegő). Pylorostenosis → hányás, gyors fogyás (a gyomorkimenet beszűkülése miatt nem tud továbbhaladni a táplálék).",
+    magyarazat: "Perforáció = teljes átfúrás → szabad has, sürgős műtét! Penetráció = a fekély beleér egy szomszédos szervbe, de még körülzárt. A 'kőkemény has' és deszkahas a peritonitis jele."
+  },
+
+  {
+    tetel: "Emésztőrendszer és ileus",
+    tipus: "feleletvalasztos",
+    kerdes: "A fekély perforációjára JELLEMZŐ röntgenkép:",
+    valaszok: [
+      "Tüdőhasadék",
+      "Rekesz alatt szabad levegő",
+      "Szívnagyobbodás",
+      "Bélgáz a felső hasban"
+    ],
+    helyes: 1,
+    magyarazat: "Ha a fekély átfúr, a gyomor levegője a hasüregbe áramlik → felmegy a rekeszizom alá → ott látható félhold-szerűen a rtg-en. Klasszikus 'pneumoperitoneum' jel."
+  },
+
+  {
+    tetel: "Emésztőrendszer és ileus",
+    tipus: "feleletvalasztos",
+    kerdes: "A pylorostenosis tipikus tünete:",
+    valaszok: [
+      "Hasmenés és láz",
+      "Hányás és gyors fogyás",
+      "Sárgaság és viszketés",
+      "Nyelési nehézség"
+    ],
+    helyes: 1,
+    magyarazat: "A pylorus (gyomorkimenet) szűkülete miatt a táplálék nem tud továbbjutni → felgyűlik a gyomorban → hányás, gyors súlyvesztés."
   }
 
 ];
