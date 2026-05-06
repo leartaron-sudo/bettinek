@@ -4036,6 +4036,941 @@ const KERDESEK = [
     jelentes: "szívburok-tamponád (folyadék a szívburokban szorítja a szívet)",
     kiejtes: "perikardiális tamponád",
     magyarazat: "Sürgős perikardiocentézist (folyadékleszívás) igényel."
+  },
+
+  // =============================================================
+  // ============ INTERAKTÍV VIZSGAFELADATSOR 2023 ==============
+  // =============================================================
+
+  // ----- 1-20: EGY HELYES VÁLASZ -----
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Jelölje meg a felkar hajlító izmát!",
+    valaszok: ["Musculus biceps", "Musculus deltoideus", "Musculus triceps", "Musculus quadriceps"],
+    helyes: 0,
+    magyarazat: "A biceps brachii a felkar elülső oldalán a könyök hajlítását végzi. A triceps az ellentét: a könyök nyújtója."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Jelölje meg a jobb szívfél atrio-ventricularis billentyűjét!",
+    valaszok: ["Valva semilunaris", "Foramen ovale", "Valva mitralis", "Valva tricuspidalis"],
+    helyes: 3,
+    magyarazat: "Jobb pitvar és kamra között a HÁROMHEGYŰ (valva tricuspidalis) billentyű. Bal oldalon: kéthegyű (mitralis)."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Jelölje meg a csontszövetet létrehozó csontképző sejtet!",
+    valaszok: ["Osteoblast", "Ossein", "Osteoclast", "Periosteum"],
+    helyes: 0,
+    magyarazat: "Osteoblast = csontépítő sejt. Osteoclast = csontbontó. Periosteum = csonthártya. Ossein = csont szerves alapanyaga."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Jelölje meg a vegetatív idegrendszer szimpatikus hatását!",
+    valaszok: ["Bélperisztaltika fokozódása", "Hörgők szűkülése", "Pupilla tágulása", "Coronáriák szűkülése"],
+    helyes: 2,
+    magyarazat: "Szimpatikus = 'fight or flight'. Pupilla TÁGUL, hörgők TÁGULNAK, koszorúserek TÁGULNAK, perisztaltika CSÖKKEN."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mely 3 anatómiai képlet lép ki/be a májkapun (porta hepatis)?",
+    valasz: "Arteria hepatica (májartéria - bemegy), ductus hepaticus (epeút - kijön), vena portae (kapuvéna - bemegy).",
+    magyarazat: "A májkapu a máj alsó felszínén van. Az érrendszer ez alatt szerveződik. A ductus choledochus már a májkapu UTÁN, a hasnyálmirigybe szállva képződik."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Felnőtt beteg esetén MELYIK laborérték utal életveszélyre?",
+    valaszok: ["Artériás pH: 7,4", "Serum kalium: 6,8 mmol/l", "Serum natrium: 139 mmol/l", "Serum vércukor: 8,7 mmol/l"],
+    helyes: 1,
+    magyarazat: "Hyperkalaemia! Normál K+: 3,5-5,0 mmol/l. 6,8 már életveszélyes (szívmegállás kockázata). Sürgős kezelés: kalcium-glukonát + glukóz-inzulin."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Pulzusdeficitről beszélünk, ha…",
+    valaszok: [
+      "A periférián mért pulzusszám MAGASABB, mint a szívfrekvencia",
+      "A periférián mért pulzusszám ALACSONYABB, mint a szívfrekvencia",
+      "A periférián mért pulzus szapora és könnyen elnyomható",
+      "A systolés vérnyomás alacsonyabb, mint a periférián mért pulzusszám"
+    ],
+    helyes: 1,
+    magyarazat: "Egyes szívütések olyan gyengék, hogy nem érik el a perifériát → ott kevesebb pulzust tapintunk, mint amennyit hallunk a szíven. Tipikus pl. pitvarfibrilláció esetén."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Milyen kórképre gondol, ha a beteg köpete bőséges, rózsaszínű és habos?",
+    valaszok: ["Pneumonia", "Oedema pulmonum (tüdővizenyő)", "Tumor pulmonum", "Tuberculosis"],
+    helyes: 1,
+    magyarazat: "A 'rózsaszínű, habos köpet' a tüdőoedema klasszikus jele. Bal szívfél elégtelenség miatt a tüdőkapillárisokból folyadék kerül az alveolusokba."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Jelölje meg a kontrasztanyaggal végzett röntgenvizsgálatot!",
+    valaszok: ["Mellkas átvilágítás", "Mellkasi CT angiographia", "Natív koponya CT", "Csontszcintigráfia"],
+    helyes: 1,
+    magyarazat: "Az 'angiographia' szóból következik: érfestés kontrasztanyaggal. A 'natív' épp azt jelenti: kontrasztanyag NÉLKÜL."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Az alábbi gyermekkori fertőző betegségek közül MELYIK NEM vírusfertőzés?",
+    valaszok: ["Varicella", "Mumps", "Rubeola", "Scarlatina"],
+    helyes: 3,
+    magyarazat: "Scarlatina (vörheny) = streptococcus baktérium okozza. A többi (bárányhimlő, mumpsz, rózsahimlő) vírusos."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Hogyan mérjük ki a megfelelő méretű nasopharyngealis tubust (NPA)?",
+    valaszok: [
+      "Orrcimpa és ádámcsutka közti távolság",
+      "Orrcimpa és sternum közti távolság",
+      "Szájzug és fülcimpa közti távolság",
+      "Orrcimpa és tragus közti távolság"
+    ],
+    helyes: 3,
+    magyarazat: "Orrcimpa - tragus (a fül porcos kis dudora) távolság. Az NPA orron át, gégebemenetig vezet."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "A gyógyszer elszopogatva, helyi hatás céljából - mi a beadási mód neve?",
+    valaszok: ["Perlingualis", "Sublingualis", "Buccalis", "Intrathecalis"],
+    helyes: 2,
+    magyarazat: "Buccalis = arc-szájüregi nyálkahártyán át. Sublingualis = nyelv ALATT (felszívódásra). Perlingualis = nyelv felszínén át."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Hogyan nevezzük a gyógyszerhatást MEGSZÜNTETŐ folyamatokat?",
+    valaszok: ["Gyógyszer dependencia", "Gyógyszer kumuláció", "Gyógyszer elimináció", "Gyógyszer interakció"],
+    helyes: 2,
+    magyarazat: "Elimináció = kiürülés (metabolizmus + kiválasztás). Kumuláció = felhalmozódás. Compliance = beteg együttműködés. Interakció = gyógyszerek közötti hatás."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi NEM tartozik a fiziológiás szükségletek csoportjába?",
+    valaszok: [
+      "Pihenés és alvás",
+      "Hely- és helyzetváltoztatás",
+      "Légzés, gázcsere",
+      "Beteg biztonsága"
+    ],
+    helyes: 3,
+    magyarazat: "A biztonság már a magasabb rendű szükségletek közé tartozik (Maslow piramis: 2. szint). Fiziológiás = légzés, étel, ital, alvás, ürítés, mozgás."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Az erőbehatást követően a területet fájdalom, duzzanat, deformitás és RUGALMASAN RÖGZÜLT ízület jellemzi - mi ez?",
+    valaszok: ["Combustio (égés)", "Distorsio (rándulás)", "Contusio (zúzódás)", "Luxatio (ficam)"],
+    helyes: 3,
+    magyarazat: "Luxatio = ficam: az ízületi felszínek tartósan elcsúszott helyzetbe rögzültek. A 'rugalmasan rögzült' = nem mozgatható, nem szabadul vissza spontán."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Hogyan ellenőrzöd a nasogastricus szonda pozícióját ileus miatt levezetett szonda után?",
+    valaszok: [
+      "Ileus esetén tilos minden módszer",
+      "30 ml desztillált víz lassú befecskendezésével és hallgatózással",
+      "Csak ultrahangos vizsgálattal",
+      "30 ml levegő gyors befecskendezésével és közben hallgatózással"
+    ],
+    helyes: 3,
+    magyarazat: "Levegő befecskendezés + fonendoszkóppal hallgatás a gyomor felett. Ha 'bugyborékolást' hallunk → szonda jó helyen. Soha ne folyadékot fecskendezz, amíg nem biztos a pozíció!"
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Ki jogosult az otthoni szakápolás elrendelésére?",
+    valaszok: [
+      "Otthonápolási szolgálat vezetője",
+      "Beteg háziorvosa",
+      "Beteget kezelő kórházi szakorvos",
+      "Beteg szakrendelői szakorvosa"
+    ],
+    helyes: 1,
+    magyarazat: "Magyarországon a HÁZIORVOS rendelheti el az otthoni szakápolást. Más szakorvos javasolhat, de a háziorvosé az utolsó szó."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik fogalom: a megbetegedettek közül milyen arányban halnak meg?",
+    valaszok: ["Prevalencia", "Incidencia", "Letalitás", "Mortalitás"],
+    helyes: 2,
+    magyarazat: "Letalitás = a betegségbe halottak aránya a megbetegedettek közül (= 'milyen veszélyes a betegség'). Mortalitás = halálozási arány a TELJES populációban. Prevalencia = összes eset egy időpontban. Incidencia = új esetek száma."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a beteg TÁPLÁLTSÁGI állapotának felmérésére alkalmazott pontrendszer?",
+    valaszok: ["EWS pontrendszer", "Braden pontrendszer", "GCS pontrendszer", "MUST pontrendszer"],
+    helyes: 3,
+    magyarazat: "MUST = Malnutrition Universal Screening Tool (tápláltsági állapot). Braden = decubitus rizikó. GCS = tudati állapot. EWS = Early Warning Score (vitális állapot). Morse-Fall = elesésrizikó."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "Az alábbiak közül melyik INVAZÍV betegmonitorozási forma?",
+    valaszok: ["Artériás vérnyomásmérés (kanülön át)", "Pulzoximetria", "Köpenyhőmérséklet mérés", "EKG monitorozás"],
+    helyes: 0,
+    magyarazat: "Az artériás kanülön keresztüli folyamatos vérnyomás-mérés invazív (a kanül átszúrja a bőrt és érfalat). A többi: bőrön keresztül, nem invazív."
+  },
+
+  // ----- 21-40: HÁROM HELYES VÁLASZ (NYITOTT FORMÁBAN) -----
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Melyek az AGYKOPONYA csontjai? (3 db)",
+    valasz: "Os temporale (halántékcsont), os sphenoidale (ékcsont), os parietale (falcsont). [Plus a többi: os frontale = homlokcsont, os occipitale = nyakszirtcsont, os ethmoidale = rostacsont].",
+    magyarazat: "Az agykoponya 8 csontból áll. Az os lacrimale, os zygomaticum az ARCKOPONYÁHOZ tartozik."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Melyek a gyengén lúgos vegyhatású emésztőnedvek? (3 db)",
+    valasz: "Bélnedv, pancreasnedv, epe.",
+    magyarazat: "Gyomornedv = SAVAS (HCl). Nyál = közel semleges. Az alsó GI traktus a savas gyomortartalmat semlegesíti és lúgosítja."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mely anatómiai képletek találhatók a mediastinumban (gátorüregben)? (3 db)",
+    valasz: "Ductus thoracicus (mellkasi nyirokvezeték), nervus vagus (10. agyideg), thymus (csecsemőmirigy).",
+    magyarazat: "Mediastinum = a két tüdő közötti tér. Itt van a szív, nagy erek, légcső, nyelőcső, thymus, nyirokvezetékek. A larynx és epiglottis a nyakon, a ductus pancreaticus a hasüregben van."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mely képletek találhatók a középfülben? (3 db)",
+    valasz: "Fülkürt (Eustach-kürt), hallócsontocskák (kalapács, üllő, kengyel), dobüreg.",
+    magyarazat: "A csiga és a tömlőcske a BELSŐ fülben van. A kengyel a 3 hallócsont egyike, de a 'hallócsontocskák' már kollektíven utal rájuk."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Melyek az agyvelőt és gerincvelőt körbevevő kötőszöveti burkok? (3 db)",
+    valasz: "Dura mater (kemény agyhártya), arachnoidea (pókhálóhártya), pia mater (lágy agyhártya).",
+    magyarazat: "Sorrend kívülről befelé: dura - arachnoidea - pia. A liquor a subarachnoidealis térben van (arachnoidea és pia között)."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mik az állandó katéteres beteg mikrobiológiai vizeletmintavételi szabályai? (3 db)",
+    valasz: "Aszeptikus technikával zártrendszerű mintavétel. A mintavétel előtt 30-60 percre lezárjuk a rendszert (hólyagtelítődés). Zártrendszer hiányában a katétercső fertőtlenítése után megszúrva steril fecskendővel + vékony tűvel.",
+    magyarazat: "TILOS: széthúzni a katétert és a zsákot, vagy a zsákból mintát venni - ott a baktériumok elszaporodtak."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mik a hypothyreosis (pajzsmirigy alulműködés) jellegzetes tünetei? (3 db)",
+    valasz: "Generalizált myxoedema (tészta-szerű ödéma). Hideggel szembeni fokozott érzékenység (hidegintolerancia). Obstipatio (székrekedés).",
+    magyarazat: "Hyper- ellentéte: hyperthyreosisnál tachycardia, melegintolerancia, hasmenés, fogyás. Hypothyreosis-ban: bradycardia, hidegintolerancia, székrekedés, hízás."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mely akut hasi kórképekben van a fájdalomnak jellegzetes punctum maximuma? (3 db)",
+    valasz: "Appendicitis (vakbélgyulladás - jobb alsó has). Cholecystitis (epehólyag-gyulladás - jobb felső has). Pancreatitis (hasnyálmirigy-gyulladás - has közepe, hátba sugárzó).",
+    magyarazat: "Punctum maximum = a fájdalom legintenzívebb pontja. Peritonitisnél diffúz, az egész has fájdalmas (NEM punctum maximum)."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mik a diabetes mellitusra utaló jellegzetes tünetek? (3 db)",
+    valasz: "Polydypsia (fokozott szomjúság), polyuria (sok vizelet), acetonos lehelet (ketosis miatt).",
+    magyarazat: "A klasszikus 'P-háromszög': polyuria, polydypsia, polyphagia (fokozott éhség). Acetonos lehelet különösen ketoacidosisban."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mely tünetek esetén gondolj NEUROINFEKCIÓRA? (3 db)",
+    valasz: "Fejfájás és láz. Tarkókötöttség (meningismus). Fényérzékenység, fénykerülés (photophobia).",
+    magyarazat: "A meningitis klasszikus tünetegyüttese. Sürgős vizsgálatot (lumbal punctio) igényel."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Melyek a MINOR analgeticumok? (3 db)",
+    valasz: "Metamizol-natrium (Algopyrin), Diclofenac (Voltaren), Paracetamol.",
+    magyarazat: "Minor = enyhe-közepes fájdalomra. MAJOR analgeticumok az opiátok: Tramadol, Fentanyl. Narcan = naloxon, opiát-antagonista."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mit kell mérlegelni az IV kanül megválasztásakor? (3 db)",
+    valasz: "A beteg érrendszerének, vénáinak állapota. A terápiában alkalmazandó gyógyszerek pH-ja és ozmolaritása. A terápia, kezelés várható hossza.",
+    magyarazat: "Magas ozmolaritás vagy szélsőséges pH → centrális véna kell. Hosszú terápia → port-a-cath vagy PICC."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mik az infúziós oldatok speciális terápiás bejuttatási módjai? (3 db)",
+    valasz: "Intraarteriális (artériás) bejuttatás. Subcutan (bőr alá) bejuttatás. Intraossealis (csontvelőbe) bejuttatás.",
+    magyarazat: "Az intraossealis sürgősségi mód, ha vénát nem találunk (gyermek, sokk). A subcutan hipodermolízis lassú folyadékpótlásra alkalmas (idős beteg)."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Hogyan előzzük meg a HYPOSTATICUS PNEUMÓNIÁT? (3 db)",
+    valasz: "Megfelelő folyadékbevitel biztosítása. Légzési fizioterápia, váladékfelköhögtetés ösztönzése. Fél-Fowler pozícionálás (a tüdő ventillációjának javítása).",
+    magyarazat: "A laposan fekvésnél a tüdő hátsó bázisain pang a váladék → fertőzés. Mozgás, mély légzés, megfelelő pozíció kulcsfontosságú."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mik az enterostomás beteg IRRIGÁLÁSÁNAK szabályai? (3 db)",
+    valasz: "Az alkalmazás célja a székletürítés akaratlagos szabályozása. Kétnyílású colostoma esetén NEM javasolt. Nagyobb stoma körüli sérv esetén NEM javasolt.",
+    magyarazat: "Az irrigáció = a colostomába öblítő folyadékot juttatunk → kiüríti a vastagbelet → a beteg nem szorul folyamatos zsákviselésre."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Bővített Norton skála 23 pont esetén milyen ápolási szabályok? (3 db)",
+    valasz: "Profilaktikus kötszerek alkalmazása. Magas specifikációjú habmatrac használata. Kültakaró felmérése és ápolása naponta egyszer.",
+    magyarazat: "23 pont = enyhe-mérsékelt rizikó. Súlyosabb rizikónál (alacsonyabb pontszám) dinamikus / légvesztéses matrac és napi 2× ápolás kell."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mik az enterális szondatáplálás lehetséges szövődményei? (3 db)",
+    valasz: "Hasmenés a túl gyors adagolás miatt. Gyomorretenció a túl nagy adagok beadása miatt. Hányás a tápszer nagy ozmolaritása miatt.",
+    magyarazat: "Lassú, fokozatos bevezetés, kis adagok, alacsony ozmolaritás - mindezek csökkentik a szövődménykockázatot."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mik a non-invazív gépi lélegeztetés fontosabb jellemzői? (3 db)",
+    valasz: "Csak a beteg megtartott spontán légzése esetén alkalmazható. A lélegeztetés speciális maszkkal történik. Bőséges légúti váladék esetén használata nem hatékony.",
+    magyarazat: "A non-invazív LÉLEKZIK a beteg, csak a gép TÁMOGATJA. Eszméletlen vagy altatott betegnél nem alkalmazható (intubáció kell)."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mik a fogyatékkal élők társadalmi részvételét gátló akadályok? (3 db)",
+    valasz: "Oktatási szegregáció. Munkaerőpiaci szegregáció. Az akadálymentesítés elmaradása.",
+    magyarazat: "Strukturális/intézményi akadályok. A kórházi ágyak vagy gyógyszerköltség nem ezek közé tartozik."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "nyitott",
+    kerdes: "Mik a betegjogi képviselő feladatai? (3 db)",
+    valasz: "A beteg írásbeli meghatalmazása alapján vizsgálatot kezdeményez. Tájékoztatja az intézmény dolgozóit a betegjogokról. Segíti a beteget panaszainak írásos megfogalmazásában.",
+    magyarazat: "FONTOS: a betegjogi képviselő NEM az egészségügyi intézmény alkalmazottja - az állam nevezi ki, függetlenül kell hogy működjön. Bírósági eljárás indítása nem feladata - azt a beteg maga teszi."
+  },
+
+  // ----- 41-60: IGAZ/HAMIS KÉRDÉSEK -----
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? A külső levegő nyomásának szerepe van az ízületek összetartásában.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 0,
+    magyarazat: "IGAZ. Az ízületi tok zárt rendszer, a légköri nyomás tartja össze a felszíneket (a vákuum elvén). Ezért 'pukkan' az ujj, ha hirtelen széthúzzuk."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? A vesék külső tokja a kettős falú Bowman-tok.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 1,
+    magyarazat: "HAMIS. A Bowman-tok a glomerulust veszi körül (a nephronon belül). A vese külső tokja a CAPSULA RENALIS (zsírkapsula + rostos burkolat)."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Testünk 60-70%-a víz, amelyből 20% az intracelluláris folyadék.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 1,
+    magyarazat: "HAMIS. A testtömeg 60%-a víz, ennek KB. 40%-a INTRACELLULÁRIS, kb. 20%-a EXTRACELLULÁRIS (5% plazma + 15% interstitium)."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Az allergia a szervezet védekező mechanizmusa.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 0,
+    magyarazat: "IGAZ. Az allergia immunválasz, csak túlzottan reagál ártalmatlan ingerekre. Az immunmechanizmus alapja a védekezés."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Az oesophagus (nyelőcső) beidegzése akarattól függ.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 1,
+    magyarazat: "HAMIS. Csak a felső 1/3 (harántcsíkolt izom) függ az akarattól, az alsó 2/3 simaizom = autonóm idegrendszer szabályozza. A perisztaltika nem akaratlagos."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? A pulzoximéter a pulzust ÉS a légzésszámot is számolja.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 1,
+    magyarazat: "HAMIS. A pulzoximéter csak SpO2-t és pulzust mér. A légzésszámot mellkas-szenzor vagy hasi mozgás megfigyeléssel mérjük."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Mastectomia műtéten átesett betegnél az érintett oldalon TILOS vérnyomást mérni és vért venni.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 0,
+    magyarazat: "IGAZ. A nyirokcsomó-eltávolítás miatt ott nyirokpangás van, lymphoedema fokozódhat, fertőzésveszély nagyobb. Mindig a másik karon szúrjunk és mérjünk."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? A légzésfunkció FEV1 értéke a maximális belégzési volument tükrözi.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 1,
+    magyarazat: "HAMIS. FEV1 = Forced Expiratory Volume 1 second = az 1. mp alatt KILÉLEGZETT levegő mennyisége. Asztmában és COPD-ben csökken."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Ha mikrobiológiai mintát nem lehet 2 órán belül a laborba eljuttatni, transzport közeges mintavevőt kell használni.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 0,
+    magyarazat: "IGAZ. A 2 órás határon túl a baktériumok aránya megváltozhat. Transzport közeg → tartósítja az eredeti flóra arányait."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Peritoneális dialízisnél a hashártya látja el a hemodialízisnél alkalmazott filter funkciót.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 0,
+    magyarazat: "IGAZ. A peritoneum (hashártya) természetes féligáteresztő membránként működik. A hasüregbe juttatott dializáló folyadékon át a méreganyagok átkerülnek a vérből a folyadékba."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? A transdermalis fájdalomcsillapító tapaszok biológiai hasznosulása exsiccosisban, súlyos hypotoniában jelentősen megemelkedhet.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 0,
+    magyarazat: "IGAZ. Kiszáradt vagy alacsony vérnyomású betegnél a bőr keringése csökken → változott felszívódás. Az adagolást módosítani kell."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? COPD inhalációs kortikoszteroid alkalmazása súlyos szteroid mellékhatást okoz.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 1,
+    magyarazat: "HAMIS. Inhalációs szteroid → helyi hatás, kevés szisztémás felszívódás. A súlyos mellékhatások csak hosszan tartó SZÁJI szteroidnál tipikusak."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Szorongásos zavarban szenvedő betegekkel az ápolónak minél többet kell beszélgetnie.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 0,
+    magyarazat: "IGAZ. A szorongó beteg számára az ápoló jelenléte és kommunikációja megnyugtató. Kerülni kell az izolációt."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Öblítő drainen keresztül TILOS antibiotikumot bejuttatni.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 1,
+    magyarazat: "HAMIS. Az öblítő drainen át lehet helyileg antibiotikumot juttatni - éppen ez a célja sok esetben (pl. mellüregi öblítés)."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Hasi műtéten átesett betegnek tilos LMWH-t hasba adni, mert hematóma esetén nem ítélhető meg, hogy az műtéti vagy injekciós eredetű.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 1,
+    magyarazat: "HAMIS. LMWH-t (alacsony molekulasúlyú heparin) gyakran hasba adunk, csak a műtéti hegtől távol. A hematóma elkülönítése nem ütközik akadályba."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Midline kanülök esetén a transzparens kanülrögzítő kötszert 7 naponta kell cserélni.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 0,
+    magyarazat: "IGAZ. Midline kanül = középhosszú perifériás kanül, hetente cseréljük a transzparens kötést (vagy ha sérült, vérzik, ázik)."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? A szoptató anyát tájékoztatni kell, hogy szoptatáskor törekedjen az emlők teljes kiürítésére, mert ennek hiányában mastitis alakulhat ki.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 0,
+    magyarazat: "IGAZ. Tejpangás → bakteriális szaporodás → mastitis. Ezért fontos a teljes ürítés (akár szoptatás, akár fejés)."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Újonnan felfedezett betegség esetén a betegoktatást először mindig EGYÉNI oktatás keretében javasolt elvégezni.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 0,
+    magyarazat: "IGAZ. Az első információadás személyre szabott legyen - tudja meg mit kell, mire képes. Csak utána mehet csoportos oktatásba."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? Lumbal punctio után a beteget legalább 2 órát laposan, hátán fektetjük a liquor-csorgás elkerülése céljából.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 0,
+    magyarazat: "IGAZ. Lumbal punctio után a fej fájhat (poszt-lumbal punctios fejfájás). 2 órás lapos fektetés csökkenti ezt a kockázatot a liquor-szivárgás minimalizálásával."
+  },
+
+  {
+    tetel: "Vizsgafeladatsor 2023",
+    tipus: "feleletvalasztos",
+    kerdes: "IGAZ vagy HAMIS? A tájékoztatáshoz való jog szerint a kiskorú gyermeket nem szükséges tájékoztatni, csak a szüleit.",
+    valaszok: ["Igaz", "Hamis"],
+    helyes: 1,
+    magyarazat: "HAMIS. A kiskorút is életkorának megfelelően kell tájékoztatni. A jog szerint a kiskorú is rendelkezik tájékoztatáshoz való joggal."
+  },
+
+  // =============================================================
+  // ============ VIZSGAFELADATSOR LATIN BŐVÍTÉS ================
+  // =============================================================
+
+  {
+    tetel: "Latin - Anatómia (vizsga)",
+    tipus: "latin",
+    latin: "Musculus biceps",
+    jelentes: "kétfejű izom (felkar hajlítója)",
+    kiejtes: "muszkulusz biceps",
+    magyarazat: "A felkaron a könyök hajlítása. A 'biceps brachii' a legismertebb, de van biceps femoris is (combon)."
+  },
+
+  {
+    tetel: "Latin - Anatómia (vizsga)",
+    tipus: "latin",
+    latin: "Musculus triceps",
+    jelentes: "háromfejű izom (felkar nyújtója)",
+    kiejtes: "muszkulusz triceps",
+    magyarazat: "A biceps ellentéte: a könyök nyújtását végzi."
+  },
+
+  {
+    tetel: "Latin - Anatómia (vizsga)",
+    tipus: "latin",
+    latin: "Musculus deltoideus",
+    jelentes: "deltaizom (a vállon, kar emelője)",
+    kiejtes: "muszkulusz deltoideus",
+    magyarazat: "Háromszög-alakú izom a vállon. Általában ide adják az intramuscularis injekciót."
+  },
+
+  {
+    tetel: "Latin - Anatómia (vizsga)",
+    tipus: "latin",
+    latin: "Osteoblast",
+    jelentes: "csontépítő sejt",
+    kiejtes: "oszteoblaszt",
+    magyarazat: "Aktív csontépítés: új csont képzése, mineralizáció."
+  },
+
+  {
+    tetel: "Latin - Anatómia (vizsga)",
+    tipus: "latin",
+    latin: "Osteoclast",
+    jelentes: "csontbontó sejt",
+    kiejtes: "oszteoklaszt",
+    magyarazat: "A csontbontás folyamatos, a csontépítéssel egyensúlyban. Egyensúly felborulása → osteoporosis."
+  },
+
+  {
+    tetel: "Latin - Anatómia (vizsga)",
+    tipus: "latin",
+    latin: "Periosteum",
+    jelentes: "csonthártya",
+    kiejtes: "perioszteum",
+    magyarazat: "A csont külső burka. Itt fut sok ér és ideg. Ezért fáj annyira a csonttörés."
+  },
+
+  {
+    tetel: "Latin - Anatómia (vizsga)",
+    tipus: "latin",
+    latin: "Vena portae",
+    jelentes: "kapuvéna (a hasi szervek vérét a májba viszi)",
+    kiejtes: "véna porté",
+    magyarazat: "A bél, gyomor, lép, hasnyálmirigy vére itt áramlik a májba. Cirrhosisban a kapuvéna nyomása megnő → varicosus erek (oesophagus varix)."
+  },
+
+  {
+    tetel: "Latin - Anatómia (vizsga)",
+    tipus: "latin",
+    latin: "Arteria hepatica",
+    jelentes: "májartéria (a máj oxigéndús vérellátása)",
+    kiejtes: "artéria hepátika",
+    magyarazat: "A hepatica + porta = a máj kettős vérellátása."
+  },
+
+  {
+    tetel: "Latin - Anatómia (vizsga)",
+    tipus: "latin",
+    latin: "Ductus choledochus",
+    jelentes: "közös epeút",
+    kiejtes: "duktus koledokus",
+    magyarazat: "Itt egyesülnek a máj és epehólyag vezetékei. Innen jut az epe a duodenumba (Vater-papillán át)."
+  },
+
+  {
+    tetel: "Latin - Anatómia (vizsga)",
+    tipus: "latin",
+    latin: "Mediastinum",
+    jelentes: "gátorüreg (a két tüdő közötti tér)",
+    kiejtes: "mediasztinum",
+    magyarazat: "Tartalmazza: szív, nagy erek, légcső, nyelőcső, thymus, nyirokvezeték."
+  },
+
+  // ----- TRAUMATOLÓGIAI LATINOK -----
+
+  {
+    tetel: "Latin - Trauma",
+    tipus: "latin",
+    latin: "Combustio",
+    jelentes: "égés (égési sérülés)",
+    kiejtes: "kombusztió"
+  },
+
+  {
+    tetel: "Latin - Trauma",
+    tipus: "latin",
+    latin: "Distorsio",
+    jelentes: "rándulás (ízület)",
+    kiejtes: "disztorzió",
+    magyarazat: "Az ízületi szalagok megnyúlnak, részben elszakadnak. Az ízületi felszínek visszacsúsznak."
+  },
+
+  {
+    tetel: "Latin - Trauma",
+    tipus: "latin",
+    latin: "Contusio",
+    jelentes: "zúzódás",
+    kiejtes: "kontúzió",
+    magyarazat: "Tompa erőbehatás → sebzetlen bőr alatt szövetkárosodás (fájdalom, duzzanat, kék folt)."
+  },
+
+  {
+    tetel: "Latin - Trauma",
+    tipus: "latin",
+    latin: "Luxatio",
+    jelentes: "ficam (ízület tartós kicsúszása)",
+    kiejtes: "luxáció",
+    magyarazat: "Az ízületi felszínek elcsúsznak és NEM csúsznak vissza. 'Rugalmasan rögzült' helyzet."
+  },
+
+  {
+    tetel: "Latin - Trauma",
+    tipus: "latin",
+    latin: "Ruptura",
+    jelentes: "szakadás",
+    kiejtes: "ruptura",
+    pelda: "Achilles-ín ruptura, izomruptura"
+  },
+
+  // ----- EPIDEMIOLÓGIAI FOGALMAK -----
+
+  {
+    tetel: "Latin - Epidemiológia",
+    tipus: "latin",
+    latin: "Prevalencia",
+    jelentes: "egy adott időpontban a betegek aránya a populációban",
+    kiejtes: "prevalencia"
+  },
+
+  {
+    tetel: "Latin - Epidemiológia",
+    tipus: "latin",
+    latin: "Incidencia",
+    jelentes: "új esetek száma egy időszak alatt",
+    kiejtes: "incidencia"
+  },
+
+  {
+    tetel: "Latin - Epidemiológia",
+    tipus: "latin",
+    latin: "Letalitás",
+    jelentes: "a betegségbe halottak aránya a megbetegedettekhez képest",
+    kiejtes: "letalitás"
+  },
+
+  {
+    tetel: "Latin - Epidemiológia",
+    tipus: "latin",
+    latin: "Mortalitás",
+    jelentes: "halálozási arány a TELJES populációban",
+    kiejtes: "mortalitás"
+  },
+
+  {
+    tetel: "Latin - Epidemiológia",
+    tipus: "latin",
+    latin: "Morbiditás",
+    jelentes: "megbetegedési arány",
+    kiejtes: "morbiditás"
+  },
+
+  // ----- PUNCTUM MAXIMUM KÓRKÉPEK -----
+
+  {
+    tetel: "Latin - Akut hasi kórképek",
+    tipus: "latin",
+    latin: "Appendicitis",
+    jelentes: "vakbélgyulladás",
+    kiejtes: "appendicitisz",
+    magyarazat: "Punctum maximum: McBurney-pont (jobb csípőtaréj és köldök közötti szakasz külső harmada)."
+  },
+
+  {
+    tetel: "Latin - Akut hasi kórképek",
+    tipus: "latin",
+    latin: "Cholecystitis",
+    jelentes: "epehólyag gyulladás",
+    kiejtes: "kolecisztitisz",
+    magyarazat: "Punctum maximum: jobb felső has, bordaív alatt. Murphy-jel pozitív."
+  },
+
+  {
+    tetel: "Latin - Akut hasi kórképek",
+    tipus: "latin",
+    latin: "Pancreatitis",
+    jelentes: "hasnyálmirigy-gyulladás",
+    kiejtes: "pankreatitisz",
+    magyarazat: "Has közepe, hátba sugárzó. Súlyos esetben életveszélyes (akut hasnyálmirigy nekrózis)."
+  },
+
+  {
+    tetel: "Latin - Akut hasi kórképek",
+    tipus: "latin",
+    latin: "Peritonitis",
+    jelentes: "hashártyagyulladás",
+    kiejtes: "peritonitisz",
+    magyarazat: "Diffúz fájdalom, deszkahas, peritoneális izgalom jelei. Sürgős sebészeti beavatkozás."
+  },
+
+  {
+    tetel: "Latin - Akut hasi kórképek",
+    tipus: "latin",
+    latin: "Adnexitis",
+    jelentes: "petefészek-gyulladás (vagy a méh függelékeinek gyulladása)",
+    kiejtes: "adnexitisz"
+  },
+
+  // ----- DIABETES LATIN BŐVÍTÉS -----
+
+  {
+    tetel: "Latin - DM tünetei",
+    tipus: "latin",
+    latin: "Polydypsia",
+    jelentes: "fokozott szomjúság",
+    kiejtes: "polidipszia",
+    magyarazat: "Diabetes mellitus, diabetes insipidus, súlyos kiszáradás tipikus tünete."
+  },
+
+  {
+    tetel: "Latin - DM tünetei",
+    tipus: "latin",
+    latin: "Polyphagia",
+    jelentes: "fokozott éhségérzet",
+    kiejtes: "polifágia",
+    magyarazat: "DM klasszikus 'P-háromszöge': polyuria, polydypsia, polyphagia."
+  },
+
+  {
+    tetel: "Latin - DM tünetei",
+    tipus: "latin",
+    latin: "Polyglobulia",
+    jelentes: "vörösvérsejtszám-növekedés",
+    kiejtes: "poliglobulia",
+    magyarazat: "Krónikus oxigénhiányban (pl. magashegyi tartózkodás, COPD) kompenzációként alakul ki."
+  },
+
+  // ----- ANATÓMIA - KÖZÉPFÜL, AGYHÁRTYÁK -----
+
+  {
+    tetel: "Latin - Hallás",
+    tipus: "latin",
+    latin: "Tuba auditiva",
+    jelentes: "fülkürt (Eustach-kürt) - a középfül és garat összeköttetése",
+    kiejtes: "tuba auditíva"
+  },
+
+  {
+    tetel: "Latin - Hallás",
+    tipus: "latin",
+    latin: "Cavum tympani",
+    jelentes: "dobüreg (a középfül központi tere)",
+    kiejtes: "kávum timpáni"
+  },
+
+  {
+    tetel: "Latin - Idegrendszer",
+    tipus: "latin",
+    latin: "Dura mater",
+    jelentes: "kemény agyhártya (a legkülső réteg)",
+    kiejtes: "dúra máter",
+    magyarazat: "Az agyhártyák legkülső, legvastagabb rétege. A koponyacsonthoz tapad."
+  },
+
+  {
+    tetel: "Latin - Idegrendszer",
+    tipus: "latin",
+    latin: "Pia mater",
+    jelentes: "lágy agyhártya (a legbelső réteg)",
+    kiejtes: "pia máter",
+    magyarazat: "Közvetlenül az agyfelszínhez tapad, követi annak barázdáit."
+  },
+
+  // ----- TRAUMA-IZOMSZAKADÁS-MASTITIS -----
+
+  {
+    tetel: "Latin - Mell és nyirok",
+    tipus: "latin",
+    latin: "Mastectomia",
+    jelentes: "emlő eltávolító műtét",
+    kiejtes: "masztektómia",
+    magyarazat: "Emlőrák miatt. A nyirokcsomó-eltávolítás miatt az érintett oldalon nem szúrunk és nem mérünk vérnyomást (lymphoedema veszély)."
+  },
+
+  {
+    tetel: "Latin - Mell és nyirok",
+    tipus: "latin",
+    latin: "Mastitis",
+    jelentes: "emlőgyulladás",
+    kiejtes: "masztitisz",
+    magyarazat: "Szoptató anyáknál tipikus. Tejpangás → bakteriális (gyakran Staphylococcus) gyulladás."
+  },
+
+  // ----- LÉGZÉSI - TÜDŐ KÓRKÉPEK -----
+
+  {
+    tetel: "Latin - Tüdő kórképek",
+    tipus: "latin",
+    latin: "Pneumonia",
+    jelentes: "tüdőgyulladás",
+    kiejtes: "pneumónia"
+  },
+
+  {
+    tetel: "Latin - Tüdő kórképek",
+    tipus: "latin",
+    latin: "Oedema pulmonum",
+    jelentes: "tüdővizenyő",
+    kiejtes: "ödéma pulmonum",
+    magyarazat: "Bal szívfél elégtelenség miatt a tüdőkapillárisokból folyadék kerül az alveolusokba. Tipikus: rózsaszínű habos köpet."
+  },
+
+  // ----- VEDŐOLTÁSI BETEGSÉGEK -----
+
+  {
+    tetel: "Latin - Fertőző betegségek",
+    tipus: "latin",
+    latin: "Mumps (Parotitis epidemica)",
+    jelentes: "mumpsz (járványos fültőmirigy-gyulladás)",
+    kiejtes: "mumpsz",
+    magyarazat: "MMR oltás véd ellene. Felnőtt férfiakban a heréket is megtámadhatja (orchitis), ami sterilitást okozhat."
+  },
+
+  {
+    tetel: "Latin - Fertőző betegségek",
+    tipus: "latin",
+    latin: "Scarlatina",
+    jelentes: "vörheny (Streptococcus baktérium okozta)",
+    kiejtes: "szkarlatína",
+    magyarazat: "FONTOS: a scarlatina BAKTERIÁLIS, nem vírusos! Kiütések, hosszúkás 'eperszerű' nyelv."
+  },
+
+  // ----- EGYÉB FONTOS LATIN KIFEJEZÉSEK -----
+
+  {
+    tetel: "Latin - Vegyes",
+    tipus: "latin",
+    latin: "Punctum maximum",
+    jelentes: "a fájdalom legintenzívebb pontja",
+    kiejtes: "punktum maximum",
+    magyarazat: "Akut hasi kórképeknél diagnosztikus értékű, hol érzi a beteg a legerősebb fájdalmat."
+  },
+
+  {
+    tetel: "Latin - Vegyes",
+    tipus: "latin",
+    latin: "Hyperkalaemia",
+    jelentes: "magas vér-káliumszint (≥ 5,5 mmol/l)",
+    kiejtes: "hiperkalémia",
+    magyarazat: "Életveszélyes lehet (szívmegállás kockázata). Kezelés: kalcium-glukonát, glukóz-inzulin."
+  },
+
+  {
+    tetel: "Latin - Vegyes",
+    tipus: "latin",
+    latin: "Capsula renalis",
+    jelentes: "vesetok (a vese külső burka)",
+    kiejtes: "kapszula renálisz",
+    magyarazat: "NEM összetévesztendő a Bowman-tokkal! A capsula renalis a vesét körülveszi, a Bowman-tok a glomerulust."
   }
 
 ];
