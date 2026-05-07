@@ -465,6 +465,13 @@
     <select id="tetel-szuro">
       <option value="__all__">Mind</option>
     </select>
+    <label>Típus:</label>
+    <select id="tipus-szuro">
+      <option value="__all__">Mind</option>
+      <option value="feleletvalasztos">Csak kvíz (feleletválasztós)</option>
+      <option value="nyitott">Csak szóbeli (nyitott)</option>
+      <option value="latin">Csak latin szókártyák</option>
+    </select>
     <button class="btn btn-toggle" id="csak-rosszak">Csak a rosszakat</button>
     <button class="btn btn-secondary" id="reset">Nullázás</button>
   </div>
@@ -491,8 +498,11 @@
     rossz: 0,
     rosszKerdesIndexek: [], // amelyiket eddig elrontott
     csakRosszak: false,
-    valasztottTetel: '__all__'
+    valasztottTetel: '__all__',
+    valasztottTipus: '__all__'
   };
+  // Régi state-ből hiányzó mezők kiegészítése (kompatibilitás)
+  if (typeof state.valasztottTipus === 'undefined') state.valasztottTipus = '__all__';
 
   let aktualisIndex = null;
   let valaszMegjelent = false;
@@ -513,6 +523,7 @@
 
   // ==================== UI ELEMEK ====================
   const elTetelSzuro = document.getElementById('tetel-szuro');
+  const elTipusSzuro = document.getElementById('tipus-szuro');
   const elCsakRosszak = document.getElementById('csak-rosszak');
   const elReset = document.getElementById('reset');
   const elCard = document.getElementById('card-container');
@@ -531,12 +542,29 @@
     elTetelSzuro.value = state.valasztottTetel;
   }
 
+  // ==================== TÍPUS SZŰRŐ FELTÖLTÉS ====================
+  function feltoltTipusSzuro() {
+    const dbFv  = KERDESEK.filter(k => k.tipus === 'feleletvalasztos').length;
+    const dbNy  = KERDESEK.filter(k => k.tipus === 'nyitott').length;
+    const dbLat = KERDESEK.filter(k => k.tipus === 'latin').length;
+    elTipusSzuro.innerHTML = ''
+      + '<option value="__all__">Mind (' + KERDESEK.length + ')</option>'
+      + '<option value="feleletvalasztos">Csak kvíz / feleletválasztós (' + dbFv + ')</option>'
+      + '<option value="nyitott">Csak szóbeli / nyitott (' + dbNy + ')</option>'
+      + '<option value="latin">Csak latin szókártyák (' + dbLat + ')</option>';
+    elTipusSzuro.value = state.valasztottTipus;
+  }
+
   // ==================== KÉRDÉS KIVÁLASZTÁS ====================
   function elerhetoIndexek() {
     let indexek = KERDESEK.map((_, i) => i);
 
     if (state.valasztottTetel !== '__all__') {
       indexek = indexek.filter(i => KERDESEK[i].tetel === state.valasztottTetel);
+    }
+
+    if (state.valasztottTipus !== '__all__') {
+      indexek = indexek.filter(i => KERDESEK[i].tipus === state.valasztottTipus);
     }
 
     if (state.csakRosszak && state.rosszKerdesIndexek.length > 0) {
@@ -826,6 +854,12 @@
     renderKerdes();
   });
 
+  elTipusSzuro.addEventListener('change', () => {
+    state.valasztottTipus = elTipusSzuro.value;
+    saveState();
+    renderKerdes();
+  });
+
   elCsakRosszak.addEventListener('click', () => {
     state.csakRosszak = !state.csakRosszak;
     elCsakRosszak.classList.toggle('active', state.csakRosszak);
@@ -851,6 +885,7 @@
       return;
     }
     feltoltTetelSzuro();
+    feltoltTipusSzuro();
     elCsakRosszak.classList.toggle('active', state.csakRosszak);
     frissitStat();
     renderKerdes();
