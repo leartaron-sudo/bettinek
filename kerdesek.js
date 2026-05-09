@@ -6506,6 +6506,620 @@ const KERDESEK = [
     jelentes: "perifériás cianózis (csak a végtagokon, nyelv normál)",
     kiejtes: "cianózis periferika",
     magyarazat: "Helyi keringési zavar: érszűkület, sokk, hideg behatás, MVT."
+  },
+
+  // =============================================================
+  // ============ 15. TÉTEL - BETEGÁTADÁS ÉS I.M. INJEKCIÓ ======
+  // =============================================================
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "nyitott",
+    kerdes: "Mi a betegátadás formája és tartalmi elemei?",
+    valasz: "FORMÁK: szóbeli (műszakváltáskor az ágy mellett) és írásbeli (ápolási dekurzus, lázlap). TARTALMI ELEMEK: 1) Azonosítás (név, kor, kórterem, diagnózis). 2) Aktuális állapot (utolsó mért vitális paraméterek, tudat, fájdalom). 3) Elvégzett feladatok (gyógyszerek, infúziók, sebkezelés, mintavétel). 4) Események (előző műszak változásai - lázmenet, rosszullét, diéta tolerálása). 5) Tervezett feladatok (közelgő vizsgálatok, előkészületek - pl. éhgyomor).",
+    magyarazat: "Az 'ágy mellett' szóbeli átadás a leghatékonyabb: a kolléga látja a beteget, kérdezhet, ellenőrizhet."
+  },
+
+  // ----- I.M. INJEKCIÓ -----
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "feleletvalasztos",
+    kerdes: "Miért gyorsabb az i.m. injekció felszívódása, mint az s.c.?",
+    valaszok: [
+      "Mert az i.m. tű hosszabb",
+      "Az izomszövet jobb VÉRELLÁTÁSA miatt",
+      "Mert a beteg fájdalma serkenti",
+      "Mert mélyebbre kerül a gyógyszer"
+    ],
+    helyes: 1,
+    magyarazat: "Az izomban gazdag a kapilláris hálózat → gyors felszívódás. A bőr alatti zsír sokkal kevesebb erezetű → lassabb felszívódás (de ez egyes gyógyszereknél előny - pl. lassú-elnyúló inzulin)."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "nyitott",
+    kerdes: "Mik az i.m. injekció beadási helyei?",
+    valasz: "1) M. gluteus maximus (farizom) - LEGGYAKORIBB hely. Kvadráns-módszerrel: a farpofát 4 részre osztjuk, KÜLSŐ-FELSŐ negyedbe szúrunk. 2) M. quadriceps femoris (combizom) - felnőtteknél a comb középső harmadának KÜLSŐ oldala. 3) M. deltoideus (felkarizom) - csak KIS mennyiségű (max. 1-2 ml) gyógyszer esetén.",
+    magyarazat: "A 4 részre osztásnál: a külső-felső negyed messze van az ülőidegtől → biztonságos. Csecsemőknél a m. vastus lateralis (combizom külső) az ajánlott."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "feleletvalasztos",
+    kerdes: "A glutealis (farizom) i.m. injekciónál melyik QUADRÁNSBA szúrunk?",
+    valaszok: [
+      "Belső-alsó",
+      "Belső-felső",
+      "Külső-alsó",
+      "Külső-felső"
+    ],
+    helyes: 3,
+    magyarazat: "KÜLSŐ-FELSŐ negyed = messze az ülőidegtől és a nagy erektől. A farpofát képzeletbeli vízszintes és függőleges vonal osztja 4-re; a kívül-felül lévő része biztonságos."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "feleletvalasztos",
+    kerdes: "Maximum mennyi gyógyszer adható a m. deltoideusba (felkarizom) i.m.?",
+    valaszok: [
+      "0,5 ml",
+      "1-2 ml",
+      "5 ml",
+      "10 ml"
+    ],
+    helyes: 1,
+    magyarazat: "Max. 1-2 ml a deltoideusba (kis izom, könnyen fájdalmas). Nagyobb térfogatra a glutealis vagy quadriceps."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "nyitott",
+    kerdes: "Mik az i.m. injekció eszközei?",
+    valasz: "Tálca, gyógyszer (ampulla), megfelelő méretű tű (HOSSZABB és VASTAGABB, mint az s.c. tű - hogy izomig érjen), fecskendő, bőrfertőtlenítő, vattabuci, gumikesztyű, tűledobó tartály.",
+    magyarazat: "Tipikus i.m. tű: 21G-23G vastag, 25-40 mm hosszú. Túlsúlyos betegnél hosszabb tű kell, hogy a tű valóban az izomba érjen, ne a zsírszövetbe."
+  },
+
+  // ----- 5-ÖS SZABÁLY -----
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "nyitott",
+    kerdes: "Mi az '5-ös szabály' (5R) a gyógyszeradás előtt?",
+    valasz: "1) Megfelelő BETEGNEK. 2) Megfelelő GYÓGYSZERT. 3) Megfelelő IDŐBEN. 4) Megfelelő MÓDON (pl. i.m., s.c., per os). 5) Megfelelő DÓZISBAN.",
+    magyarazat: "Angolul 5R: Right Patient, Right Drug, Right Time, Right Route, Right Dose. Modern verziók 7R-t vagy 9R-t használnak (pl. + dokumentáció, hatás, dokumentált allergia)."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "feleletvalasztos",
+    kerdes: "Az 5-ös szabály MELYIK pontját ellenőrizzük az injekció beadása előtt?",
+    valaszok: [
+      "Csak a beteg nevét",
+      "Csak a gyógyszer nevét",
+      "Mind az 5 pontot: beteg, gyógyszer, idő, mód, dózis",
+      "Csak a dózist és időt"
+    ],
+    helyes: 2,
+    magyarazat: "MIND AZ 5-ÖT, minden alkalommal! 5 másodpercnyi rutinellenőrzés → életet menthet. A leggyakoribb hibák: rossz beteg (pl. ágyszomszéd), rossz dózis (egység vs. ml)."
+  },
+
+  // ----- I.M. KIVITELEZÉS -----
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "nyitott",
+    kerdes: "Mondd el az i.m. injekció beadásának menetét lépésről lépésre!",
+    valasz: "1) 5-ös szabály ellenőrzése (beteg, gyógyszer, idő, mód, dózis). 2) Higiénés kézmosás, gyógyszer felszívása + LÉGTELENÍTÉS. 3) Beteg pozicionálása: feküdjön hason vagy oldalt, lábát lazítsa el (behajlított térd segíti az izomlazítást). 4) Bőrfertőtlenítés, megszáradás. 5) Bőr kifeszítése, határozott mozdulattal 90°-os szögben (merőlegesen) szúrás. 6) ASPIRÁCIÓ (KÖTELEZŐ!): a dugattyút kissé visszahúzzuk. Ha vér jön → eret értünk → tűt kihúzni, ÚJ helyre, ÚJ eszközzel szúrni. 7) Ha nincs vér: lassan benyomjuk a gyógyszert. 8) Tű gyorsan kihúzva, száraz vattával nyomjuk (NEM dörzsöljük erősen). 9) Dokumentálás.",
+    magyarazat: "A 90°-os szúrás kulcs - különben csak a bőr alá juttatjuk (s.c.), nem az izomba. Az aspiráció ELLENŐRZÉS: ne adjunk i.v. olyan gyógyszert, amit nem szabad."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "feleletvalasztos",
+    kerdes: "Hány fokos szögben szúrunk be i.m. injekciónál?",
+    valaszok: ["15°", "45°", "60°", "90° (merőlegesen)"],
+    helyes: 3,
+    magyarazat: "I.m. = 90°. S.c. = 45° (vagy 90°, ha bőrredőt csíptünk). I.d. (intracután) = 10-15°. Más szög esetén nem érjük el az izmot."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "feleletvalasztos",
+    kerdes: "Az ASPIRÁCIÓ (visszaszívás) MIÉRT kötelező i.m. injekciónál?",
+    valaszok: [
+      "Higiéniai okok",
+      "Hogy ellenőrizzük: nem értünk-e VÉRERET (mert akkor véletlenül i.v. adnánk)",
+      "Hogy a gyógyszer ne folyjon vissza",
+      "Csak hagyomány, nem indokolt"
+    ],
+    helyes: 1,
+    magyarazat: "Ha a tű érbe ment és aspirációkor vér jön → kihúzni, új tűvel új helyre. Az i.m.-re szánt gyógyszerek i.v.-ban veszélyesek lehetnek (pl. olajos szuszpenzió → embólia)."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a teendő, ha aspirációnál VÉR jön a fecskendőbe?",
+    valaszok: [
+      "Folytatjuk az injekciót",
+      "Tűt kihúzni, ÚJ helyre, ÚJ eszközzel szúrni",
+      "Beadjuk a gyógyszert lassan",
+      "Visszahúzzuk a tűt egy kicsit, és úgy nyomjuk be"
+    ],
+    helyes: 1,
+    magyarazat: "Vér = ér. Új tű, új helyre. NE használd újra az eszközt - sterilitás miatt és vérrel kontamináltan nem szabad."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "feleletvalasztos",
+    kerdes: "Hogyan helyezzük el a beteget i.m. injekció (fenékbe) beadása előtt?",
+    valaszok: [
+      "Állva",
+      "Háton fekve, lábai egyenesen",
+      "Hason fekve vagy oldalt, lábait lazítva (behajlított térd segíti az izomlazítást)",
+      "Ülve"
+    ],
+    helyes: 2,
+    magyarazat: "Hason vagy oldalfekvés + behajlított térd → ellazult farizom → kevésbé fájdalmas és könnyebb beadás. Feszült izom = fájdalom és duzzanat."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "feleletvalasztos",
+    kerdes: "I.m. injekció után a szúrás helyét:",
+    valaszok: [
+      "Erősen dörzsöljük, hogy oszoljon a gyógyszer",
+      "Hidegen jegeljük",
+      "Száraz vattával nyomjuk, nem dörzsöljük erősen",
+      "Nyitva hagyjuk levegőzni"
+    ],
+    helyes: 2,
+    magyarazat: "Csak NYOMÁS, nem dörzsölés. Az erős dörzsölés szövetkárosodást, fájdalmat, túl gyors felszívódást okozhat."
+  },
+
+  // ----- SZÖVŐDMÉNYEK -----
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "nyitott",
+    kerdes: "Mik az i.m. injekció lehetséges szövődményei?",
+    valasz: "HELYI: fájdalom, vérömleny (haematoma), tályog (abscessus - sterilitás hiányából), izomkeményedés. ÁLTALÁNOS: allergiás reakció (anafilaxia), gyógyszer-túladagolás. SPECIFIKUS: ÜLŐIDEG (n. ischiadicus) sérülése helytelenül megválasztott szúrási pont esetén!",
+    magyarazat: "Az ülőideg-sérülés lehet életen át tartó következménnyel - ezért a kvadráns-módszer szigorú betartása. A tályog gennyes, kemény, fájdalmas duzzanat - sebészi feltárást igényelhet."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik az i.m. injekció LEGSÚLYOSABB SPECIFIKUS szövődménye, ha rosszul választjuk meg a szúrási pontot a fenéken?",
+    valaszok: [
+      "Bőrpír",
+      "Helyi fájdalom",
+      "Ülőideg (n. ischiadicus) sérülése",
+      "Allergiás reakció"
+    ],
+    helyes: 2,
+    magyarazat: "Az ülőideg a fenék középső-belső részén fut. Helytelen szúrásnál sérülés → tartós fájdalom, érzéskiesés, akár bénulás. Ezért MINDIG külső-felső negyed!"
+  },
+
+  // ----- FÁJDALOMCSILLAPÍTÁS ÁPOLÁSI TERV -----
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "nyitott",
+    kerdes: "Heveny fájdalom esetén (i.m. fájdalomcsillapítás) mi az ápolási diagnózis, cél és terv?",
+    valasz: "Tünet: heveny fájdalom. Ápolási dg.: heveny fájdalom a műtéti seb / betegség miatt. Ápolási cél: a fájdalom csökkenése (vizuális analóg skálán mért javulás). Ápolási tevékenység: 1) Fájdalom felmérése (helye, jellege, erőssége VAS skálán). 2) Injekció beadása az orvosi utasítás szerint. 3) Hatás ellenőrzése 30-60 perc múlva. 4) Beteg megfigyelése esetleges mellékhatások (pl. szédülés, allergiás reakció) miatt.",
+    magyarazat: "A VAS (Vizuális Analóg Skála) 0-10-ig: 0=nincs fájdalom, 10=elképzelhetetlen. Fájdalomcsillapítás után megfelelő hatás: legalább 2-3 ponttal csökkent érték."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "feleletvalasztos",
+    kerdes: "Hány PERC múlva ellenőrizzük az i.m. fájdalomcsillapító HATÁSÁT?",
+    valaszok: [
+      "5-10 perc",
+      "30-60 perc",
+      "2-4 óra",
+      "Másnap"
+    ],
+    helyes: 1,
+    magyarazat: "I.m. injekció után a hatás 15-30 perc alatt áll be teljesen, így 30-60 perc múlva érdemes nézni a hatást és dokumentálni."
+  },
+
+  {
+    tetel: "15. tétel - Betegátadás és i.m. injekció",
+    tipus: "nyitott",
+    kerdes: "Mondd el a 15. tétel teljes vázlatát! (betegátadás → i.m. injekció: helyek, eszközök, menet, szövődmények → fájdalomcsillapítás ápolási terve)",
+    valasz: "1) BETEGÁTADÁS: szóbeli (ágy mellett) + írásbeli (lázlap, dekurzus). 5 elem: azonosítás, aktuális állapot, elvégzett feladatok, események, tervezett feladatok. 2) I.M. INJEKCIÓ: izomba adott gyógyszer, gyors felszívódás. Helyek: m. gluteus maximus (KÜLSŐ-FELSŐ negyed kvadráns-módszerrel), m. quadriceps femoris (comb külső), m. deltoideus (felkar, max. 1-2 ml). Eszközök: tű (hosszabb-vastagabb), fecskendő, fertőtlenítő, vatta, kesztyű, tűledobó. Menet: 5-ös szabály, légtelenítés, betegpozicionálás (hason/oldalt, lábhajlítva), fertőtlenítés, 90°-os szúrás, ASPIRÁCIÓ (kötelező!), beadás, gyors tű ki, nyomás (NEM dörzsölés). Szövődmények: helyi (fájdalom, haematoma, tályog), általános (allergia), specifikus (ülőideg sérülés). 3) FÁJDALOMCSILLAPÍTÁS terv: VAS skálán mérés, beadás, 30-60 perc múlva hatás-ellenőrzés, mellékhatás megfigyelés.",
+    magyarazat: "Komplex tétel - nem csak a 'beadás' technikája, hanem a teljes kontextus (átadás-előkészület-beadás-ellenőrzés)."
+  },
+
+  // ----- ÚJ LATIN/SZAKKIFEJEZÉSEK -----
+
+  {
+    tetel: "Latin - Izmok és injekció",
+    tipus: "latin",
+    latin: "Musculus gluteus maximus",
+    jelentes: "nagy farizom (i.m. injekció leggyakoribb helye)",
+    kiejtes: "muszkulusz glutéusz maximusz",
+    magyarazat: "Az emberi test legnagyobb izma. Kvadráns-módszer: külső-felső negyed = biztonságos szúrási hely."
+  },
+
+  {
+    tetel: "Latin - Izmok és injekció",
+    tipus: "latin",
+    latin: "Musculus quadriceps femoris",
+    jelentes: "négyfejű combizom",
+    kiejtes: "muszkulusz kvadricepsz femorisz",
+    magyarazat: "I.m. injekciónál a comb középső harmadának KÜLSŐ oldala. Csecsemőknél a vastus lateralis a választott hely."
+  },
+
+  {
+    tetel: "Latin - Izmok és injekció",
+    tipus: "latin",
+    latin: "Aspiratio",
+    jelentes: "1) belszívás (légutakba kerülés), 2) injekciónál: a fecskendő dugattyújának visszahúzása ellenőrzéshez",
+    kiejtes: "aszpiráció",
+    magyarazat: "I.m. injekciónál KÖTELEZŐ. Ha vér jön → érbe ment → új helyre szúrunk."
+  },
+
+  {
+    tetel: "Latin - Izmok és injekció",
+    tipus: "latin",
+    latin: "Haematoma",
+    jelentes: "véraláfutás (szövetbe kiömlött vér)",
+    kiejtes: "hematóma"
+  },
+
+  {
+    tetel: "Latin - Izmok és injekció",
+    tipus: "latin",
+    latin: "Abscessus",
+    jelentes: "tályog (gennyes, körülhatárolt gyulladás)",
+    kiejtes: "absceszusz",
+    magyarazat: "Sterilitás hiányából kialakulhat injekció után. Sebészi feltárás (incisio + drainage) szükséges."
+  },
+
+  {
+    tetel: "Latin - Izmok és injekció",
+    tipus: "latin",
+    latin: "Nervus ischiadicus",
+    jelentes: "ülőideg (a test legnagyobb idege, a fenéken halad le a lábba)",
+    kiejtes: "nervusz iszkiadikusz",
+    magyarazat: "Helytelen i.m. injekciónál sérülhet → tartós érzéskiesés vagy bénulás. Ezért a KÜLSŐ-FELSŐ kvadráns biztonságos."
+  },
+
+  {
+    tetel: "Latin - Izmok és injekció",
+    tipus: "latin",
+    latin: "VAS skála",
+    jelentes: "Vizuális Analóg Skála (fájdalom mérésére, 0-10)",
+    kiejtes: "vé-á-eszsz",
+    magyarazat: "0 = nincs fájdalom, 10 = elképzelhetetlen fájdalom. A beteg saját maga jelöli. Hatékony fájdalomcsillapítás → 2-3 pontos csökkenés."
+  },
+
+  // =============================================================
+  // ============ 16. TÉTEL - KARDINÁLIS TÜNETEK, LÉGZÉS ========
+  // =============================================================
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mik a KARDINÁLIS TÜNETEK?",
+    valaszok: [
+      "Csak a szívritmus és a pulzus",
+      "Életjelenségek, amik az alapvető életfunkciók működéséről adnak információt: vérnyomás, pulzus, testhőmérséklet, légzés (RR, P, T, L)",
+      "Kardiológiai vizsgálatok eredményei",
+      "Csak a szívvel kapcsolatos paraméterek"
+    ],
+    helyes: 1,
+    magyarazat: "Kardinális = sarkalatos. RR (vérnyomás/tensio), P (pulzus), T (testhőmérséklet), L (légzés). Minden állapotfelmérés alapja - ezért 'sarkalatosak'."
+  },
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a felnőtt vérnyomás normálértéke?",
+    valaszok: ["80/40 Hgmm", "100/60 Hgmm", "120/80 Hgmm körül", "150/100 Hgmm"],
+    helyes: 2,
+    magyarazat: "Normál: 120/80 Hgmm körül. Hypertonia: ≥ 140/90. Hypotonia: < 90/60. Az első érték a systolés (szívösszehúzódáskor), a második a diastolés (szívelernyedéskor)."
+  },
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a felnőtt nyugalmi PULZUS normálértéke?",
+    valaszok: ["30-50/perc", "60-80/perc", "100-120/perc", "150-180/perc"],
+    helyes: 1,
+    magyarazat: "Normál: 60-80/perc. Tachycardia: > 100/perc. Bradycardia: < 60/perc. Sportolóknál a 50/perc is fiziológiás."
+  },
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "nyitott",
+    kerdes: "Mik a TESTHŐMÉRSÉKLET kategóriái?",
+    valasz: "Normálérték: 36-37°C. Hőemelkedés (subfebrilitás): 37-38°C. Láz (febrilitás): 38°C felett. Hyperpyrexia (extrém magas láz): 41°C felett.",
+    magyarazat: "A reggeli érték általában alacsonyabb, az esti magasabb (napszaki ingadozás kb. 0,5-1°C). 35°C alatt: hypothermia."
+  },
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mikor beszélünk LÁZRÓL?",
+    valaszok: ["35°C alatt", "36-37°C között", "37-38°C között", "38°C felett"],
+    helyes: 3,
+    magyarazat: "37-38°C = hőemelkedés (subfebrilitás). 38°C felett = láz (febrilitás). Hyperpyrexia 41°C felett."
+  },
+
+  // ----- LÉGZÉSSZÁM KORTÓL FÜGGŐEN -----
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "nyitott",
+    kerdes: "Mi a légzésszám normálértéke felnőttnél, gyermeknél és újszülöttnél?",
+    valasz: "Felnőtt: 12-16/perc. Gyermek: 20-30/perc (életkortól függően magasabb). Újszülött: 40-60/perc.",
+    magyarazat: "Minél fiatalabb, annál szaporább a légzés. A csecsemő tüdeje kicsi, ezért gyakrabban kell levegőt cserélnie."
+  },
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi az ÚJSZÜLÖTT nyugalmi légzésszáma?",
+    valaszok: ["12-16/perc", "20-30/perc", "40-60/perc", "80-100/perc"],
+    helyes: 2,
+    magyarazat: "Újszülött: 40-60/perc - az emberi élet során ekkor a leggyorsabb a légzés. Csecsemőkorban 30-50, kisgyerekkorban 20-30."
+  },
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "feleletvalasztos",
+    kerdes: "1 LÉGZÉSI CIKLUS mit jelent?",
+    valaszok: [
+      "Csak a belégzést",
+      "Csak a kilégzést",
+      "Belégzés + kilégzés együtt",
+      "Belégzés + szünet + kilégzés + szünet"
+    ],
+    helyes: 2,
+    magyarazat: "1 légzés = belégzés + kilégzés. A légzésszám ezeknek a percenkénti számát jelenti."
+  },
+
+  // ----- KÓROS LÉGZÉSTÍPUSOK -----
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "nyitott",
+    kerdes: "Sorold fel és definiáld a kóros légzéstípusokat!",
+    valasz: "1) DYSPNOE (nehézlégzés): a beteg légszomjra panaszkodik, fullad. 2) ORTHOPNOE: olyan súlyos nehézlégzés, hogy CSAK ÜLŐ helyzetben enyhül. 3) APNOE: a légzés átmeneti LEÁLLÁSA. 4) CHEYNE-STOKES légzés: szünetekkel megszakított, fokozatosan mélyülő, majd elhalkuló légzés (súlyos állapot - szívelégtelenség, agysérülés, idős haldokló). 5) KUSSMAUL-légzés: nagyon mély, egyenletes, 'pöfögő' légzés (cukorbetegeknél ketoacidosisban tipikus).",
+    magyarazat: "Mindegyik más betegségre utal. Felismerésük diagnosztikai értékű."
+  },
+
+  // ----- SpO2 -----
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi az SpO2 (oxigénszaturáció) normálértéke?",
+    valaszok: ["50-70%", "85-90%", "95-100%", "100-120%"],
+    helyes: 2,
+    magyarazat: "Normál: 95-100%. 90% alatt hypoxia, 88% alatt oxigénterápia kell. Pulzoximéterrel mérjük (ujjbegyre, fülcimpára helyezhető)."
+  },
+
+  // ----- ÁPOLÁSI FELADATOK LÉGZÉSI NEHÉZSÉGNÉL -----
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "nyitott",
+    kerdes: "Mik az ápolási feladatok légzési nehézség esetén? (5 lépés)",
+    valasz: "1) POZICIONÁLÁS: azonnal félig ülő (Fowler) helyzet, vagy segítünk neki az asztalra támaszkodni. 2) SpO2 mérés pulzoximéterrel (normál 95-100%). 3) KÖRNYEZET: friss levegő (szellőztetés), szoros ruházat meglazítása, nyugodt légkör. 4) TÁJÉKOZTATÁS és segítség: orvos értesítése, orvosi utasításra oxigénterápia. 5) DOKUMENTÁLÁS: mért értékek (RR, P, L, SpO2) azonnal a lázlapon.",
+    magyarazat: "A 'asztalra támaszkodás' (orthopnoe pozíció) sokszor automatikus a betegnél - segíti a légzési segédizmok használatát."
+  },
+
+  // ----- ESZKÖZÖK -----
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "nyitott",
+    kerdes: "Mik az állapotfelmérés tálcájának eszközei?",
+    valasz: "1) Vérnyomásmérő és fonendoszkóp. 2) Lázmérő. 3) Óra (légzés és pulzus számolásához). 4) Pulzoximéter (SpO2 mérésére). 5) Kézfertőtlenítő és gumikesztyű (higiénia).",
+    magyarazat: "Modern változatban gyakran egyetlen monitor mér RR, P, SpO2-t és néha hőmérsékletet is. De az alap tálca a kórházi általános vizsgálathoz elég."
+  },
+
+  // ----- ÖSSZEFOGLALÓ -----
+
+  {
+    tetel: "16. tétel - Kardinális tünetek és légzés",
+    tipus: "nyitott",
+    kerdes: "Mondd el a 16. tétel teljes vázlatát!",
+    valasz: "1) KARDINÁLIS TÜNETEK (RR, P, T, L): RR normál 120/80, kóros = hyper/hypotonia. P 60-80/perc, kóros = tachy/bradycardia. T normál 36-37°C, hőemelkedés 37-38, láz > 38°C. 2) LÉGZÉS részletes megfigyelése: szám (felnőtt 12-16, gyermek 20-30, újszülött 40-60), ritmus, mélység (felületes vs mély). Kóros: dyspnoe, orthopnoe, apnoe, Cheyne-Stokes, Kussmaul. 3) KÍSÉRŐ TÜNETEK: cianózis, segédizmok használata, köhögés-köpet. 4) ÁPOLÁSI FELADATOK légzési nehézségnél: Fowler-pozíció, SpO2 mérés (95-100% normál), friss levegő, szoros ruházat lazítása, orvos értesítése + oxigén, dokumentálás. 5) ESZKÖZÖK: vérnyomásmérő, fonendoszkóp, lázmérő, óra, pulzoximéter, fertőtlenítő, kesztyű.",
+    magyarazat: "A 4 kardinális tünet együtt adja a beteg élettani 'pillanatképét'. Külön-külön mind fontos, együtt teljes."
+  },
+
+  // ----- ÚJ LATIN/SZAKKIFEJEZÉSEK -----
+
+  {
+    tetel: "Latin - Kardinális tünetek",
+    tipus: "latin",
+    latin: "Tensio (RR)",
+    jelentes: "vérnyomás (a vér érfalra gyakorolt nyomása)",
+    kiejtes: "tenzió",
+    magyarazat: "Normál: 120/80 Hgmm. RR = Riva-Rocci olasz orvosról nevezve, ő alkotta meg a modern vérnyomásmérőt."
+  },
+
+  {
+    tetel: "Latin - Kardinális tünetek",
+    tipus: "latin",
+    latin: "Pulsus (P)",
+    jelentes: "pulzus, az artériák lüktetése",
+    kiejtes: "pulzusz",
+    magyarazat: "Normál felnőttnél 60-80/perc. Mérjük: számát, ritmusát, teltségét."
+  },
+
+  {
+    tetel: "Latin - Kardinális tünetek",
+    tipus: "latin",
+    latin: "Temperatura (T)",
+    jelentes: "testhőmérséklet",
+    kiejtes: "temperatúra",
+    magyarazat: "Normál: 36-37°C. Mérési helyek: hónalj (axillaris), végbél (rectalis), szájüreg (oralis), homlok / fül (infravörös)."
+  },
+
+  {
+    tetel: "Latin - Kardinális tünetek",
+    tipus: "latin",
+    latin: "Respiratio (L)",
+    jelentes: "légzés (gázcsere folyamata)",
+    kiejtes: "respiráció",
+    magyarazat: "Normál felnőttnél 12-16/perc. 1 légzés = belégzés + kilégzés."
+  },
+
+  {
+    tetel: "Latin - Kardinális tünetek",
+    tipus: "latin",
+    latin: "Hyperpyrexia",
+    jelentes: "extrém magas láz (41°C felett)",
+    kiejtes: "hiperpirexia",
+    magyarazat: "Életveszélyes - gyors lázcsillapítás (fizikális + gyógyszeres) szükséges. Idős és gyermekkorban különösen veszélyes."
+  },
+
+  {
+    tetel: "Latin - Kardinális tünetek",
+    tipus: "latin",
+    latin: "Hypothermia",
+    jelentes: "csökkent testhőmérséklet (35°C alatt)",
+    kiejtes: "hipotermia",
+    magyarazat: "Lehet környezeti (hideg expozíció) vagy patológiás (sokk, szepszis, hypothyreosis)."
+  },
+
+  // =============================================================
+  // ============ 17. TÉTEL - ANAMNÉZIS, FELVÉTEL =================
+  // =============================================================
+
+  {
+    tetel: "17. tétel - Anamnézis, felvétel",
+    tipus: "nyitott",
+    kerdes: "Mi az anamnézis 6 fő tartalmi eleme?",
+    valasz: "1) SZEMÉLYES ADATOK: név, születési idő, lakcím, TAJ-szám. 2) JELEN PANASZOK: miért került kórházba, mikor kezdődtek a tünetek (pl. mellkasi fájdalom, nehézlégzés). 3) MÚLTBELI BETEGSÉGEK: korábbi műtétek, krónikus betegségek (DM, hypertonia). 4) ALLERGIA: gyógyszer-, étel- vagy fémallergia (pl. jód, tapasz). 5) SZOKÁSOK: dohányzás, alkohol, étrend (diéta). 6) GYÓGYSZEREK: mit szed rendszeresen.",
+    magyarazat: "Az anamnézis a diagnosztika alapja. Egy jó anamnézis önmagában gyakran 70-80%-ban diagnózist ad."
+  },
+
+  {
+    tetel: "17. tétel - Anamnézis, felvétel",
+    tipus: "feleletvalasztos",
+    kerdes: "Mit kell külön megkérdezni az ALLERGIÁNÁL az anamnézisben?",
+    valaszok: [
+      "Csak a gyógyszer-allergiát",
+      "Csak az étel-allergiát",
+      "Gyógyszer-, étel- ÉS fémallergiát (pl. jód, tapasz)",
+      "Csak a tetszik/nem tetszik gyógyszereket"
+    ],
+    helyes: 2,
+    magyarazat: "MINDHÁROM-ra kérdezünk: gyógyszer (Algopyrin, Aspirin, antibiotikum), étel (mogyoró, tejcukor), fém (jód a kontrasztanyagban, tapasz ragasztója). Egy elmulasztott jód-allergia életveszélyes lehet kontrasztanyagos vizsgálatnál."
+  },
+
+  // ----- TUDATÁLLAPOT FELMÉRÉSE -----
+
+  {
+    tetel: "17. tétel - Anamnézis, felvétel",
+    tipus: "nyitott",
+    kerdes: "Hogyan mérjük fel a beteg TUDATÁLLAPOTÁT?",
+    valasz: "ORIENTÁCIÓ ellenőrzése: tudja-e, hol van (hely), milyen nap van (idő), ki ő (személy). Megfigyelendő: van-e zavartság, aluszékonyság, eszméletlenség. Részletesen GCS (Glasgow Coma Scale) skálával is felmérhető (3-15 pont).",
+    magyarazat: "A 3 orientáció (hely, idő, személy) gyors szűrés. Részletesebb felmérés: GCS - szem (1-4), verbális (1-5), motoros (1-6) válaszok."
+  },
+
+  {
+    tetel: "17. tétel - Anamnézis, felvétel",
+    tipus: "feleletvalasztos",
+    kerdes: "A 'beteg orientált' jelentése:",
+    valaszok: [
+      "Csak van eszméleténél",
+      "Tudja, hol van, milyen nap van, ki ő",
+      "Nem zavart, nem álmos",
+      "Engedelmeskedik az utasításoknak"
+    ],
+    helyes: 1,
+    magyarazat: "Orientált = tájékozott. 3 dimenzióban: hely (kórház, város), idő (mai nap, hónap, év), személy (saját neve, adatai). Ha bármelyik kiesik, tudat-zavar gyanúja."
+  },
+
+  // ----- ÁPOLÁSI TERV SÜRGŐSSÉGI FELVÉTELRE -----
+
+  {
+    tetel: "17. tétel - Anamnézis, felvétel",
+    tipus: "nyitott",
+    kerdes: "Sürgősségi felvétel esetén mi az ápolási diagnózis, cél és teljes terv?",
+    valasz: "Tünet: szorongás, ismeretlen helyzet. Ápolási dg.: szorongás és fájdalom az ismeretlen betegség és a kórházi környezet miatt. Ápolási cél: a beteg biztonságérzetének javítása, a fájdalom csillapítása. Ápolási tevékenység: 1) Nyugodt, empatikus kommunikáció. 2) A beteg TÁJÉKOZTATÁSA minden beavatkozás előtt. 3) Kardinális tünetek szoros ellenőrzése. 4) Fájdalomcsillapítás orvosi utasításra és a hatás visszamérése.",
+    magyarazat: "Egy kórházba érkezett beteg gyakran riadt, nem tudja mi vár rá. A nyugodt, lépésről-lépésre tájékoztatás csökkenti a stressz-érzést és a vérnyomást is."
+  },
+
+  {
+    tetel: "17. tétel - Anamnézis, felvétel",
+    tipus: "feleletvalasztos",
+    kerdes: "Miért fontos a beteg TÁJÉKOZTATÁSA minden beavatkozás előtt?",
+    valaszok: [
+      "Mert a törvény előírja",
+      "Csökkenti a szorongást, javítja a biztonságérzetet és az együttműködést",
+      "Mert időt nyerünk vele",
+      "Csak az orvosi felelősség miatt"
+    ],
+    helyes: 1,
+    magyarazat: "A tájékoztatott beteg jobban kezelhető: nem riadt, nem küzd, együttműködik. Plus: betegjogi szempont is (informed consent). Plus: az ismeretlen ijesztőbb."
+  },
+
+  // ----- VÉRVÉTEL SÜRGŐSSÉGI HELYZETBEN -----
+
+  {
+    tetel: "17. tétel - Anamnézis, felvétel",
+    tipus: "nyitott",
+    kerdes: "Mi a sürgősségi felvétel során elvégzendő ápolói feladatsor?",
+    valasz: "1) ANAMNÉZIS (lehetőleg gyors, fókuszált). 2) Kardinális tünetek (RR, P, légzés, T) mérése. 3) Fájdalom felmérése (1-10 skálán) és tudatállapot (orientáció). 4) 12 elvezetéses EKG készítése (mellkasi fájdalomnál azonnal). 5) Monitor (folyamatos szívritmus + SpO2). 6) Pozicionálás (Fowler nehézlégzéshez). 7) Vénabiztosítás (perifériás kanül). 8) Sürgősségi laborvérvétel (vércukor, szívenzimek, vérkép). 9) Pszichés támogatás, tájékoztatás. 10) Dokumentáció (lázlap, ápolási lap).",
+    magyarazat: "Az ABCDE-elv (Airway, Breathing, Circulation, Disability, Exposure) is hasznos protokoll - a sürgősségi triázs alapja."
+  },
+
+  {
+    tetel: "17. tétel - Anamnézis, felvétel",
+    tipus: "nyitott",
+    kerdes: "Mondd el a 17. tétel teljes vázlatát! (anamnézis → kardinális tünetek → EKG → pozicionálás → beavatkozások → ápolási terv)",
+    valasz: "1) ANAMNÉZIS (6 elem): személyes adatok, jelen panasz, múltbeli betegségek, ALLERGIA (gyógyszer/étel/fém), szokások (dohányzás, alkohol, diéta), rendszeres gyógyszerek. 2) KARDINÁLIS TÜNETEK: RR, P, légzés, T. + Fájdalom (1-10 skála). + Tudatállapot (orientáció hely/idő/személy, zavartság, aluszékonyság). 3) EKG: sürgősségben 12 elvezetéses (mellkasi fájdalomnál). + Monitor (szívritmus, SpO2). 4) POZICIONÁLÁS: Fowler-helyzet légzési nehézségnél/mellkasi fájdalomnál. Ágyvédelem, higiénia. 5) BEAVATKOZÁSOK: vénabiztosítás (perifériás kanül), vérvétel sürgősségi labor (vércukor, szívenzimek, vérkép), folyamatos dokumentáció. 6) ÁPOLÁSI TERV (sürgősségi felvétel): szorongás + fájdalom. Cél: biztonságérzet, fájdalomcsillapítás. Tevékenységek: nyugodt empatikus kommunikáció, tájékoztatás minden beavatkozás előtt, kardinális tünetek monitorozása, orvosi utasításra fájdalomcsillapító + hatás visszamérése.",
+    magyarazat: "Ez a 'felvételi tétel'. Minden új beteg fogadásánál ez a logikus haladás. A pszichés támogatás éppúgy fontos, mint a műszerek."
+  },
+
+  // ----- ÚJ LATIN/SZAKKIFEJEZÉSEK -----
+
+  {
+    tetel: "Latin - Felvétel és anamnézis",
+    tipus: "latin",
+    latin: "Anamnesis",
+    jelentes: "kórelőzmény (a beteg múltja és aktuális panaszai)",
+    kiejtes: "anamnézis",
+    magyarazat: "Görög: ana = vissza, mnesis = emlékezés. Egy jó anamnézis önmagában 70-80%-os diagnózist ad."
+  },
+
+  {
+    tetel: "Latin - Felvétel és anamnézis",
+    tipus: "latin",
+    latin: "Orientatio",
+    jelentes: "tájékozottság (helyhez, időhöz, személyhez)",
+    kiejtes: "orientáció",
+    magyarazat: "3 dimenzió: hely (kórház, város), idő (nap, év), személy (saját adatok). Bármelyik hiánya = tudatzavar."
+  },
+
+  {
+    tetel: "Latin - Felvétel és anamnézis",
+    tipus: "latin",
+    latin: "GCS (Glasgow Coma Scale)",
+    jelentes: "tudatállapot felmérési skála (3-15 pont)",
+    kiejtes: "gé-cé-eszsz",
+    magyarazat: "Szem (1-4), verbális (1-5), motoros (1-6) válaszok. 15 = teljesen éber. 8 alatt → intubáció megfontolandó. 3 = mély kóma."
+  },
+
+  {
+    tetel: "Latin - Felvétel és anamnézis",
+    tipus: "latin",
+    latin: "Empátia",
+    jelentes: "beleérző képesség, együttérzés a beteg helyzetével",
+    kiejtes: "empátia",
+    magyarazat: "Az ápolás egyik legfontosabb tulajdonsága. Más, mint a SZIMPÁTIA (sajnálat) - az empátia segít, a szimpátia inkább kiégéshez vezet."
   }
 
 ];
