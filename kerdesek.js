@@ -4971,6 +4971,1541 @@ const KERDESEK = [
     jelentes: "vesetok (a vese külső burka)",
     kiejtes: "kapszula renálisz",
     magyarazat: "NEM összetévesztendő a Bowman-tokkal! A capsula renalis a vesét körülveszi, a Bowman-tok a glomerulust."
+  },
+
+  // =============================================================
+  // ============ 2. TÉTEL BŐVÍTÉS - KIDOLGOZOTT VERZIÓ =========
+  // =============================================================
+
+  {
+    tetel: "2. tétel - Vérvétel és szív",
+    tipus: "feleletvalasztos",
+    kerdes: "Mikor beszélünk INSTABIL angina pectorisról (preinfarktusos állapotról)?",
+    valaszok: [
+      "Csak fizikai terhelésre jelentkezik, pihenésre múlik",
+      "Nyugalomban is jelentkezik, > 20 percig tart, nitroglicerinre nem múlik",
+      "Csak étkezés után, max. 5 perc",
+      "Pszichés stresszre, kávéra"
+    ],
+    helyes: 1,
+    magyarazat: "Stabil angina = terheléskor, max. néhány perc, nitroglicerinre múlik. Instabil = NYUGALOMBAN is, hosszabb (> 20 perc), nitroglicerinre kevésbé reagál → infarktus küszöbén. Sürgős kórházi ellátás kell."
+  },
+
+  {
+    tetel: "2. tétel - Vérvétel és szív",
+    tipus: "nyitott",
+    kerdes: "Mi az instabil angina pectoris klinikai jellemzői és gyógyszeres kezelése?",
+    valasz: "Klinikai jellemzők: a fájdalom nyugalomban is jelentkezhet, hosszabb ideig tart (20 percnél tovább), a szokásos nitroglicerinre kevésbé vagy egyáltalán nem szűnik. Preinfarktusos állapotnak tekintendő. Gyógyszerek: 1) Nitroglicerin - értágító, csökkenti a szív terhelését. 2) Aspirin (vagy más thrombocyta-aggregáció gátló) - megakadályozza a vérrögök további növekedését. 3) Béta-blokkolók - csökkentik a szív oxigénigényét és a pulzusszámot. 4) ACE-gátlók - vérnyomáscsökkentő és szívvédő hatásúak. 5) Statinok - koleszterinszint-csökkentők az érfali plakkok stabilizálására.",
+    magyarazat: "5 fő gyógyszercsoport: nitrát, antikoaguláns/aggregáció-gátló, béta-blokkoló, ACE-gátló, statin. Mindegyik más mechanizmussal támad: a sokoldalú megközelítés a kulcs."
+  },
+
+  {
+    tetel: "2. tétel - Vérvétel és szív",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a STATINOK fő szerepe instabil angina pectoris kezelésében?",
+    valaszok: [
+      "Értágítás",
+      "Vérrög-képződés gátlása",
+      "Koleszterinszint-csökkentés és érfali plakkok stabilizálása",
+      "Pulzusszám csökkentés"
+    ],
+    helyes: 2,
+    magyarazat: "A statinok elsősorban koleszterincsökkentők, de a plakk-stabilizáló hatásuk is fontos: a meglévő érelmeszesedési plakkokat 'bevonják', csökkentik a felrepedés veszélyét."
+  },
+
+  {
+    tetel: "2. tétel - Vérvétel és szív",
+    tipus: "nyitott",
+    kerdes: "Mondd el a mellkasi fájdalommal érkező beteg ápolási feladatainak sorrendjét!",
+    valasz: "1) Azonnali nyugalomba helyezés - fizikai és pszichés terhelés minimalizálása. 2) Pozicionálás: félig ülő (orthopnoe) helyzet a légzés megkönnyítésére. 3) Monitorozás: vérnyomás, pulzus, szaturáció folyamatos ellenőrzése, 12 elvezetéses EKG készítése. 4) Vénabiztosítás és vérvétel - sürgős labor: szívenzimek (troponin, CK-MB). 5) Oxigénterápia orvosi utasításra, ha a szaturáció alacsony. 6) Adminisztráció: a fájdalom jellegének, helyének és intenzitásának pontos dokumentálása a lázlapon.",
+    magyarazat: "A 'sorrend' itt nem mereven kötött, de mindig: NYUGALOM elsőként, utána monitor + vérvétel + EKG egyszerre. Az oxigén csak indikáció esetén (rutinszerűen NEM)."
+  },
+
+  {
+    tetel: "2. tétel - Vérvétel és szív",
+    tipus: "feleletvalasztos",
+    kerdes: "A félig ülő pozíció szakneve légzéskönnyítésre:",
+    valaszok: [
+      "Trendelenburg-helyzet",
+      "Orthopnoe helyzet",
+      "Fowler-helyzet (ami félig ülő = orthopnoe-ra utal)",
+      "Sims-helyzet"
+    ],
+    helyes: 1,
+    magyarazat: "Az 'orthopnoe' tulajdonképpen TÜNETET jelent (csak ülve tud lélegezni), de a beteg fektetésére is használjuk a kifejezést: 'orthopnoe helyzet'. A Fowler-helyzet 45-60° emelt felsőtest - tartalmilag ugyanaz."
+  },
+
+  {
+    tetel: "2. tétel - Vérvétel és szív",
+    tipus: "feleletvalasztos",
+    kerdes: "Vérvétel UTÁN miért NE hajlítsa be a beteg a karját?",
+    valaszok: [
+      "Mert kényelmetlen",
+      "Mert véraláfutást (haematomát) okozhat",
+      "Mert lassítja a vérvételt",
+      "Az igazából teljesen mindegy"
+    ],
+    helyes: 1,
+    magyarazat: "Ha behajlítja, a vénafal sérül és nem zár jól → vér szivárog a szövetek közé → kék folt, fájdalmas. Csak NYÚJTOTT karral nyomjon, vattabuccal, néhány percig."
+  },
+
+  {
+    tetel: "2. tétel - Vérvétel és szív",
+    tipus: "nyitott",
+    kerdes: "Mit alkot az endocardium (szívbelhártya) és milyen rétege a szívnek?",
+    valasz: "Az endocardium a LEGBELSŐ, vékony fénylő réteg. Béleli a szív üregeit (pitvar, kamra) ÉS alkotja a billentyűket. Ezért a billentyű-betegségek (pl. endocarditis utáni vitium) az endocardium érintettsége miatt alakulnak ki.",
+    magyarazat: "3 réteg kívülről befelé: pericardium (kívül), myocardium (közép), endocardium (belül). A billentyűk endocardiumból állnak."
+  },
+
+  {
+    tetel: "2. tétel - Vérvétel és szív",
+    tipus: "feleletvalasztos",
+    kerdes: "Miért VASTAGABB a bal kamra fala a jobb kamráénál?",
+    valaszok: [
+      "Több vér áramlik benne",
+      "Nagyobb erővel kell pumpálnia, mert a NAGY vérkört látja el",
+      "Korábban fejlődik ki a magzati korban",
+      "Más a szívizom típusa"
+    ],
+    helyes: 1,
+    magyarazat: "A bal kamra a teljes testbe pumpálja a vért (nagy vérkör, magas nyomás). A jobb kamra csak a tüdőbe (kis vérkör, alacsony nyomás)."
+  },
+
+  {
+    tetel: "2. tétel - Vérvétel és szív",
+    tipus: "nyitott",
+    kerdes: "Milyen szerkezetű a pericardium (szívburok), és mi a feladata?",
+    valasz: "A pericardium a szívet kívülről borító KETTŐS FALÚ zsák. A két lemez (visceralis és parietalis) között savós folyadék van. Védelmet nyújt a szívnek és biztosítja a SÚRLÓDÁSMENTES elmozdulást a mellkasban a szívösszehúzódások közben.",
+    magyarazat: "Pericarditis (szívburokgyulladás) → a két lemez egymáson dörzsölődik → mellkasi fájdalom, súrlódási hang. Tamponád → folyadék a két lemez között szorítja a szívet."
+  },
+
+  {
+    tetel: "2. tétel - Vérvétel és szív",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik ér indul ki a JOBB kamrából?",
+    valaszok: [
+      "Aorta",
+      "Truncus pulmonalis (tüdőartéria)",
+      "Vena cava superior",
+      "Sinus coronarius"
+    ],
+    helyes: 1,
+    magyarazat: "Truncus pulmonalis = a tüdőartéria törzse. A jobb kamrából indul, oxigénszegény vért szállít a tüdőbe. A bal kamrából az AORTA indul."
+  },
+
+  {
+    tetel: "2. tétel - Vérvétel és szív",
+    tipus: "nyitott",
+    kerdes: "Hogyan kapcsolódnak a szív üregei a nagyerekhez? (mind a 4 üreg)",
+    valasz: "JOBB PITVAR: ide érkezik a test felől a vena cava superior és inferior, valamint a szív saját vénás vére (sinus coronarius). JOBB KAMRA: innen indul a truncus pulmonalis (tüdőartéria), ami oxigénszegény vért szállít a tüdő felé. BAL PITVAR: ide érkezik a tüdő felől a 4 vena pulmonalis (oxigéndús vér). BAL KAMRA: innen indul az aorta (főverőér), ami a szervezet egészébe továbbítja az oxigéndús vért.",
+    magyarazat: "Vér útja: test → vena cava → JP → JK → trunc. pulm. → tüdő → vena pulmonalis → BP → BK → aorta → test. A jobb fél = kis vérkör (tüdő), a bal fél = nagy vérkör (test)."
+  },
+
+  // ----- ÚJ LATIN SZAVAK -----
+
+  {
+    tetel: "Latin - Anatómia",
+    tipus: "latin",
+    latin: "Truncus pulmonalis",
+    jelentes: "tüdőartéria-törzs (a jobb kamrából indul)",
+    kiejtes: "trunkusz pulmonálisz",
+    magyarazat: "A jobb kamrából kilépve két ágra (jobb és bal arteria pulmonalis) válik. Oxigénszegény vért szállít a tüdőbe."
+  },
+
+  {
+    tetel: "Latin - Anatómia",
+    tipus: "latin",
+    latin: "Sinus coronarius",
+    jelentes: "koszorúér öböl (a szív saját vénás vére ide gyűlik, majd a jobb pitvarba ürül)",
+    kiejtes: "szinusz koronáriusz",
+    magyarazat: "A myocardiumot ellátó koszorúerek vénás vére itt gyűlik össze, és a jobb pitvarba ürül."
+  },
+
+  {
+    tetel: "Latin - Légzési állapotok",
+    tipus: "latin",
+    latin: "Orthopnoe",
+    jelentes: "csak ülve / félig ülve tud lélegezni",
+    kiejtes: "ortopnoé",
+    magyarazat: "Bal szívfél elégtelenség jellegzetes tünete. Fektetésnél a tüdővéna pangás fokozódik, a beteg fuldoklik. Ülve a gravitáció segít. Az 'orthopnoe helyzet' = félig ülő pozíció."
+  },
+
+  // =============================================================
+  // ============ 3. TÉTEL BŐVÍTÉS - KIDOLGOZOTT VERZIÓ =========
+  // =============================================================
+
+  {
+    tetel: "3. tétel - Légzés és oxigénterápia",
+    tipus: "feleletvalasztos",
+    kerdes: "Mit jelent a 'W csoport' a köpetmintavétellel kapcsolatban?",
+    valaszok: [
+      "A vízzel keverhető mintákat",
+      "Súlyos fertőző betegségeket (pl. meningitis, szepszis), amik fokozott elővigyázatot igényelnek",
+      "A wéres váladékot",
+      "A reggeli (Wake-up) első köpetet"
+    ],
+    helyes: 1,
+    magyarazat: "W csoport = a különösen veszélyes kórokozók osztálya (Weiterleitungsbeschränkt - továbbítási korlátozott). Ide tartozik pl. meningitis, szepszis. Védőfelszerelés és különleges szállítási előírások szükségesek."
+  },
+
+  {
+    tetel: "3. tétel - Légzés és oxigénterápia",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a REDUKTOR funkciója az oxigénpalackon?",
+    valaszok: [
+      "Felmelegíti az oxigént",
+      "Nyomáskiegyenlítő - csökkenti a palackban lévő nagy nyomást használható szintre",
+      "Mérő, ami mutatja a maradék gáz mennyiségét",
+      "Szelep, ami kinyitja a palackot"
+    ],
+    helyes: 1,
+    magyarazat: "A reduktor (vagy 'nyomáscsökkentő') a palackban uralkodó nagy nyomást (akár 200 bar) lecsökkenti olyan szintre, amilyen a betegnek adható (1-2 bar). Áramlásmérővel együtt szabályozza a perces áramlást."
+  },
+
+  {
+    tetel: "3. tétel - Légzés és oxigénterápia",
+    tipus: "nyitott",
+    kerdes: "Mondd el a 3. tétel teljes vázlatát! (állapotfelmérés → légzés megfigyelés → köpetmintavétel → oxigénterápia → inhalációs terápia)",
+    valasz: "1) ÁLLAPOTFELMÉRÉS: tájékoztatás, azonosítás, intimitás. Pozicionálás félig ülve (45-60°). Vitális paraméterek (RR, P, hőmérséklet, légzésszám). Oxigénszaturáció (SpO2). Anamnézis: gyógyszerek, leletek, láz időtartam, lázcsillapító. Felső légúti fertőzés tünetei: torokfájás, köhögés, orrdugulás, fejfájás, láz, sárgás-zöldes orrfolyás. 2) LÉGZÉS MEGFIGYELÉSE: ritmus, légzésszám, mellkasi kitérés szimmetriája, dyspnoe foka, segédizmok, orrszárnyi légzés, telt nyaki vénák, köpet (szín, szag, állag, mennyiség, tartalom). 3) KÖPETMINTAVÉTEL: cél = kórokozó kimutatása. Reggeli első friss köpet, előtte nincs evés-ivás-szájápolás. W csoport (meningitis, szepszis) fokozott elővigyázat. Eszközök: köpőcsésze, vesetál, gumikesztyű, papírvatta, ágyvédelem. Felcímkézve laborba vagy ÁNTSZ-be. 4) OXIGÉNTERÁPIA: cél = vér oxigénszintjének stabilizálása. Biztonság: NYÍLT LÁNG TILOS! Eszközök: palack, reduktor, desztillált víz vagy sóoldat (párásítás), orrkatéter/maszk, összekötő cső. Menete: összeszerelés, párásító feltöltése, áramlás beállítása (általában 4 l/perc). Palack: először reduktort, utána palackot nyitjuk; záráskor fordítva. Megfigyelés: kardiális tünetek, szaturáció, bőrszín. 5) INHALÁCIÓS TERÁPIA: célja a légzőizmok erősítése és fizikai terhelhetőség javítása. Módszer: irányított ki- és belégzési légzőgyakorlatok.",
+    magyarazat: "Ez a teljes szóbeli felmondás struktúrája. Vizsgán logikus sorrend: betegtől indul az állapotfelmérés, aztán specifikusan a légzésre koncentrálunk, mintát veszünk, oxigént adunk, és gyakorlatokkal segítjük."
+  },
+
+  {
+    tetel: "3. tétel - Légzés és oxigénterápia",
+    tipus: "feleletvalasztos",
+    kerdes: "Az oxigénpalack zárásánál mi a HELYES sorrend?",
+    valaszok: [
+      "Először a palackot, utána a reduktort",
+      "Először a reduktort, utána a palackot",
+      "Egyszerre kell zárni",
+      "Mindegy, melyik sorrendben"
+    ],
+    helyes: 0,
+    magyarazat: "ZÁRÁSKOR FORDÍTVA: először a palackot, utána a reduktort. Nyitásnál: először a reduktort, utána a palackot. (A reduktor mindig 'felénk' van - ez segít megjegyezni: nyitásnál mi vagyunk az utolsó láncszem.)"
+  },
+
+  // =============================================================
+  // ============ 5. TÉTEL - FIZIKÁLIS VIZSGÁLAT, SZÉKLET =======
+  // =============================================================
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a fizikális vizsgálat 5 módszerét!",
+    valasz: "1) Megtekintés (inspekció). 2) Tapintás (palpáció). 3) Kopogtatás (perkusszió). 4) Hallgatózás (auszkultáció). 5) Szaglás.",
+    magyarazat: "Klasszikus '4 érzékszerv': látás, tapintás, kopogtatás (= hallás kombinálva tapintással), hallgatózás. A szaglás az 5. - egyes betegségek jellegzetes szaggal járnak."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik vizsgálati módszer méri a SZERVEK GÁZTARTALMÁT (pl. hasi puffadás, mellkasi folyadék)?",
+    valaszok: ["Inspekció", "Palpáció", "Perkusszió (kopogtatás)", "Auszkultáció"],
+    helyes: 2,
+    magyarazat: "A perkusszió: a testfelszínre mért ütésekkel keltett hangokból következtetünk. Telt szerv = tompa hang, gáz = dobszerű (timpanikus) hang."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "nyitott",
+    kerdes: "Mit figyelünk meg INSPEKCIÓVAL (megtekintéssel)?",
+    valasz: "A beteg egészének vagy egyes testrészeinek megfigyelése. Figyeljük: bőr színét, turgorát (rugalmasságát), tisztaságát, esetleges ödémákat, beteg testtartását, mozgását és arckifejezését.",
+    magyarazat: "Az inspekció a legelső és gyakran legfontosabb vizsgálati módszer. A beteg már a szobába belépéskor sok mindent elárul magáról."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "nyitott",
+    kerdes: "Mit vizsgálunk PALPÁCIÓVAL (tapintással)?",
+    valasz: "Bőr hőmérsékletét és nedvességét. Szervek helyzetét, nagyságát. Nyomásérzékenységet, csomókat. Pulzust.",
+    magyarazat: "Hideg-meleg kontrasztot mindig hasonlítjuk: bal-jobb kézhát = ugyanolyan? Vagy egyik végtag hűvösebb (érelzáródás gyanú)?"
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "nyitott",
+    kerdes: "Mit hallgatunk AUSZKULTÁCIÓVAL (hallgatózással)?",
+    valasz: "A szervezetben keletkező hangok (fonendoszkóppal): szívhangok, tüdőhangok (légzési zörejek), bélhangok.",
+    magyarazat: "Klasszikus tüdőzörejek: szörcszörej (folyadék), sípolás (asztma), pattogás (atelectasia). Bélhangok: élénk (gyulladás), csengő (ileus), néma (paralyticus ileus)."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "nyitott",
+    kerdes: "Milyen jellegzetes szagok árulkodóak (szaglás)?",
+    valasz: "Acetonos lehelet → cukorbetegség (ketoacidosis). Ammóniás szag → veseelégtelenség. Bűzös váladékok → gennyes folyamat. Édeskés szag → gangrena, súlyos szepszis.",
+    magyarazat: "A szaglás 'ősi' diagnosztikai módszer - de máig hasznos."
+  },
+
+  // ----- SZÉKLET MEGFIGYELÉSE -----
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "nyitott",
+    kerdes: "Mit figyelünk meg a széklet vizsgálatakor? (6 szempont)",
+    valasz: "1) Gyakoriság (normálisan napi 1-2x, heti 3 - napi 3 elfogadható). 2) Mennyiség (100-200 g, függ az ételtől). 3) Állag (normálisan formált hengeres; lehet kemény-bogyós, kenőcsös, híg-vizes). 4) Szín (normálisan barna - sterkobilin miatt). 5) Szag (jellegzetes; kóros: savanyú = erjedés, bűzös = rothadás). 6) Összetétel (normálisan nincs benne emésztetlen étel-rostokon kívül-vér, genny, nyák, paraziták).",
+    magyarazat: "A széklet vizsgálata diagnosztikai 'aranybánya'. A laikusoknak kínos téma, de pontos megfigyelés sok betegséget jelez korán."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "feleletvalasztos",
+    kerdes: "A széklet normál BARNA színét melyik festékanyag adja?",
+    valaszok: ["Bilirubin", "Sterkobilin", "Hemoglobin", "Karotin"],
+    helyes: 1,
+    magyarazat: "A sterkobilin a bilirubin lebomlási terméke a vastagbélben. Ezért az epeút elzáródásánál (amikor nincs bilirubin az emésztőrendszerben) a széklet AGYAGSZÍNŰ (acholiás)."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "feleletvalasztos",
+    kerdes: "MELAENA (szurokszéklet) jellemzői és jelentése:",
+    valaszok: [
+      "Vörös csíkos, alsó tápcsatorna vérzés",
+      "Fekete, fényes, kenőcsös - FELSŐ tápcsatorna vérzés (gyomor, nyombél)",
+      "Világos szürke, májbetegség",
+      "Zöldes, gyulladás"
+    ],
+    helyes: 1,
+    magyarazat: "A felső tápcsatornai vér átmegy a gyomorsavon és a teljes emésztőrendszeren, ezért megfeketedik. Friss vér csak az alsó szakaszról kerül ki."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "feleletvalasztos",
+    kerdes: "FRISS VÉRES (piros csíkos) széklet jellemzően mire utal?",
+    valaszok: [
+      "Felső tápcsatorna vérzés",
+      "Alsó tápcsatorna vérzés vagy aranyér",
+      "Májzsugor",
+      "Hasnyálmirigy gyulladás"
+    ],
+    helyes: 1,
+    magyarazat: "A friss piros vér nem volt időben emésztősavakkal érintkezésben → az alsó szakaszról (rectum, sigma, vastagbél, vagy aranyér) származik."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "feleletvalasztos",
+    kerdes: "AGYAGSZÍNŰ (acholiás) széklet jellemző oka:",
+    valaszok: [
+      "Vastartalmú gyógyszerek",
+      "Vastagbél daganat",
+      "Epeút-elzáródás (epekő)",
+      "Hasmenés"
+    ],
+    helyes: 2,
+    magyarazat: "Acholias = epe nélküli. Ha az epe nem jut a bélbe (kőtörés, daganat), akkor nincs sterkobilin → szürkésfehér 'agyagszínű' széklet. + a beteg sárgaságos lesz, mert a bilirubin a vérben felhalmozódik."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "nyitott",
+    kerdes: "Hogyan befolyásolja a táplálék és a gyógyszer a széklet színét?",
+    valasz: "Étel: cékla → pirosas. Spenót → zöldes. Gyógyszer: vas-tartalmú szerek → fekete (de NEM melaena!). Aktív szén → fekete. Bizonyos antibiotikumok → színváltozás.",
+    magyarazat: "A vasos-fekete szék NEM EGYENLŐ melaenával. Anamnézis kell: mit szed a beteg? Hesemoccult tesztet érdemes csinálni gyanú esetén."
+  },
+
+  // ----- HASMENÉS ÉS SZÉKREKEDÉS -----
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "nyitott",
+    kerdes: "Mi a hasmenés (diarrhoea) - okai és veszélyei?",
+    valasz: "Hasmenés = gyakori, híg székletürítés. Okai: fertőzések, ételmérgezés, gyulladásos bélbetegségek, stressz. Veszélyek: gyors kiszáradás (dehidráció) és elektrolitvesztés.",
+    magyarazat: "Csecsemőknél és időseknél különösen veszélyes: 24-48 óra alatt halálos lehet az exsiccosis. Folyadék- és elektrolitpótlás kulcs."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "nyitott",
+    kerdes: "Mi a székrekedés (obstipatio) - okai?",
+    valasz: "Obstipatio = ritka, nehéz ürítés, kemény széklet. Okai: rostszegény táplálkozás, kevés folyadékfogyasztás, mozgáshiány, bizonyos gyógyszerek mellékhatása (pl. opiátok, antikolinerg szerek).",
+    magyarazat: "Időseknél, ágyban fekvő betegeknél nagyon gyakori. Megelőzés: rost, folyadék, mozgás. Krónikus obstipatio kivizsgálandó (pl. vastagbéldaganat)."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "feleletvalasztos",
+    kerdes: "A hasmenés legveszélyesebb azonnali következménye:",
+    valaszok: [
+      "Vérzés a bélben",
+      "Dehidráció és elektrolitvesztés",
+      "Sárgaság",
+      "Vérnyomás-emelkedés"
+    ],
+    helyes: 1,
+    magyarazat: "Hasmenéskor sok víz és só (Na, K) vész. Csecsemőkben és időseknél órák alatt drámai kiszáradás lehet. Pótolni kell oralis rehidrációval vagy iv. infúzióval."
+  },
+
+  // ----- FIZIKÁLIS VIZSGÁLAT ESZKÖZEI -----
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a fizikális vizsgálat tálcán szereplő 8 eszközt!",
+    valasz: "1) Mérleg és magasságmérő (testsúly, BMI). 2) Fonendoszkóp (hallgatózás). 3) Vérnyomásmérő (sphygmomanometer). 4) Lázmérő (testhőmérséklet). 5) Nyelvlapoc (spatula) és zseblámpa (torok, pupillák). 6) Reflexkalapács (reflexek). 7) Mérőszalag / centi (has körfogat, végtag duzzanat). 8) Gumikesztyű (higiénia, fertőzésvédelem).",
+    magyarazat: "Modern eszközök: pulzoximéter, otoscope, ophthalmoscope, glucometer is ezek mellé. Az alap-tálca a kórházi általános vizsgálathoz elég."
+  },
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "feleletvalasztos",
+    kerdes: "Hogy hívják a vérnyomásmérőt szakszóval?",
+    valaszok: ["Stethoscope", "Sphygmomanometer", "Tonometer", "Manometer"],
+    helyes: 1,
+    magyarazat: "Sphygmo- = pulzus, manometer = nyomásmérő. A 'tonometer' szemnyomás-mérő."
+  },
+
+  // ----- ÖSSZEFOGLALÓ NYITOTT KÉRDÉS -----
+
+  {
+    tetel: "5. tétel - Fizikális vizsgálat és széklet",
+    tipus: "nyitott",
+    kerdes: "Mondd el a teljes 5. tétel vázlatát! (fizikális vizsgálat módszerei → széklet megfigyelése → defekáció zavarai → eszközök)",
+    valasz: "1) FIZIKÁLIS VIZSGÁLATI MÓDSZEREK: a) Inspekció (megtekintés): bőrszín, turgor, ödémák, testtartás. b) Palpáció (tapintás): bőrhőmérséklet, szerv-helyzet, csomók, pulzus. c) Perkusszió (kopogtatás): szervek határai, gáztartalom. d) Auszkultáció (hallgatózás): szív-, tüdő-, bélhangok. e) Szaglás: aceton (DM), ammónia (vese), bűzös váladék. 2) SZÉKLET MEGFIGYELÉSE: gyakoriság (napi 1-2x), mennyiség (100-200 g), állag (formált), szín (barna - sterkobilin), szag, összetétel. Kóros színek: melaena (fekete = felső GI vérzés), friss véres (alsó GI vagy aranyér), agyagszín (acholiás = epeút-elzáródás). 3) DEFEKÁCIÓ ZAVARAI: hasmenés (diarrhoea) - veszély: dehidráció. Székrekedés (obstipatio) - okai: rostszegény, kevés folyadék, mozgáshiány, gyógyszerek. 4) ESZKÖZÖK: mérleg + magasságmérő, fonendoszkóp, sphygmomanometer, lázmérő, nyelvlapoc + zseblámpa, reflexkalapács, mérőszalag, gumikesztyű.",
+    magyarazat: "Vizsga felmondási struktúra: módszerek → konkrét megfigyelés (széklet) → eltérések → eszközök. Logikus haladás."
+  },
+
+  // ----- ÚJ LATIN SZAVAK -----
+
+  {
+    tetel: "Latin - Fizikális vizsgálat",
+    tipus: "latin",
+    latin: "Inspectio",
+    jelentes: "megtekintés",
+    kiejtes: "inszpekció",
+    magyarazat: "A vizsgálati sor első lépése. Néha a beteg már belépéskor felismerhető diagnózissal érkezik."
+  },
+
+  {
+    tetel: "Latin - Fizikális vizsgálat",
+    tipus: "latin",
+    latin: "Palpatio",
+    jelentes: "tapintás",
+    kiejtes: "palpáció"
+  },
+
+  {
+    tetel: "Latin - Fizikális vizsgálat",
+    tipus: "latin",
+    latin: "Percussio",
+    jelentes: "kopogtatás",
+    kiejtes: "perkusszió",
+    magyarazat: "Az ujjbeggyel a testfelszínre ütünk - a hang minőségéből (tompa, dobszerű) következtetünk."
+  },
+
+  {
+    tetel: "Latin - Fizikális vizsgálat",
+    tipus: "latin",
+    latin: "Auscultatio",
+    jelentes: "hallgatózás (fonendoszkóppal)",
+    kiejtes: "auszkultáció"
+  },
+
+  {
+    tetel: "Latin - Fizikális vizsgálat",
+    tipus: "latin",
+    latin: "Defecatio",
+    jelentes: "székletürítés",
+    kiejtes: "defekáció"
+  },
+
+  {
+    tetel: "Latin - Fizikális vizsgálat",
+    tipus: "latin",
+    latin: "Diarrhoea",
+    jelentes: "hasmenés",
+    kiejtes: "diarrhoé",
+    magyarazat: "Görög eredetű: dia = át, rhein = folyni. Veszélye: kiszáradás."
+  },
+
+  {
+    tetel: "Latin - Fizikális vizsgálat",
+    tipus: "latin",
+    latin: "Obstipatio",
+    jelentes: "székrekedés",
+    kiejtes: "obsztipáció"
+  },
+
+  {
+    tetel: "Latin - Fizikális vizsgálat",
+    tipus: "latin",
+    latin: "Acholiás széklet",
+    jelentes: "agyagszínű (epe nélküli) széklet",
+    kiejtes: "akóliás",
+    magyarazat: "A- = nélküli, chole = epe. Epeút-elzáródás jele. Sárgaság kíséri (a bilirubin a vérben felhalmozódik)."
+  },
+
+  {
+    tetel: "Latin - Fizikális vizsgálat",
+    tipus: "latin",
+    latin: "Sphygmomanometer",
+    jelentes: "vérnyomásmérő",
+    kiejtes: "sfigmomanométer",
+    magyarazat: "Sphygmo = pulzus, manometer = nyomásmérő."
+  },
+
+  // =============================================================
+  // ============ 7. TÉTEL - LÉGZÉS, POZICIONÁLÁS, ÁTADÁS =======
+  // =============================================================
+
+  {
+    tetel: "7. tétel - Légzés, Fowler, betegátadás",
+    tipus: "feleletvalasztos",
+    kerdes: "Mennyi a felnőtt nyugalmi légzésszáma?",
+    valaszok: ["6-10 / perc", "12-16 / perc", "20-25 / perc", "30-40 / perc"],
+    helyes: 1,
+    magyarazat: "Felnőtt nyugalmi légzésszám: 12-16 / perc (egyes források szerint 12-20). 20 felett tachypnoe, 12 alatt bradypnoe."
+  },
+
+  {
+    tetel: "7. tétel - Légzés, Fowler, betegátadás",
+    tipus: "nyitott",
+    kerdes: "Mit kell rögzíteni a légzés vizsgálatakor? (6 jellemző)",
+    valasz: "1) Légzésszám (felnőttnél nyugalomban 12-16/perc). 2) Légzés ritmusa (szabályos vagy szabálytalan, pl. Cheyne-Stokes, Kussmaul). 3) Légzés mélysége (felületes vagy mély). 4) Légzési hangok (zörejek, hörgés, sípolás/stridor). 5) Légzési segédizmok használata (orrszárnyi légzés, bordaközi behúzódások). 6) Cianózis (kékes elszíneződés ajkakon, körömágyon).",
+    magyarazat: "Soha ne csak a légzésszámot nézd - a ritmus, mélység, hang és segédizom-használat együtt adnak teljes képet a légzés állapotáról."
+  },
+
+  {
+    tetel: "7. tétel - Légzés, Fowler, betegátadás",
+    tipus: "feleletvalasztos",
+    kerdes: "A CHEYNE-STOKES légzés jellemzője:",
+    valaszok: [
+      "Mély, szapora, egyenletes légzés (acidosisban)",
+      "Periodikus váltakozás: fokozatosan mélyülő légzés - apnoe - újraindulás",
+      "Sípoló kilégzés (asztmás roham)",
+      "Felületes szapora légzés"
+    ],
+    helyes: 1,
+    magyarazat: "Cheyne-Stokes = ciklusos. A légzés fokozatosan mélyül, majd elhalkul, légzéskimaradás (apnoe), aztán újraindul. Súlyos szívelégtelenségben, agyi sérülésben, idős haldokló betegnél tipikus."
+  },
+
+  {
+    tetel: "7. tétel - Légzés, Fowler, betegátadás",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a STRIDOR?",
+    valaszok: [
+      "Felső légúti szűkület okozta sípoló légzés (főleg belégzéskor)",
+      "Sokk tüneteiben mély légzés",
+      "Mélyalvás közbeni horkolás",
+      "Tüdőgyulladásra jellemző zörej"
+    ],
+    helyes: 0,
+    magyarazat: "Stridor = magas hangú, sípoló hang főleg BELÉGZÉSKOR, ami felső légúti szűkületet (gégeödéma, idegen test, krupp) jelez. Sürgős! Az asztmás 'sípolás' inkább KILÉGZÉSI."
+  },
+
+  {
+    tetel: "7. tétel - Légzés, Fowler, betegátadás",
+    tipus: "nyitott",
+    kerdes: "Mi a bordaközi behúzódások jelentése?",
+    valasz: "A légzési segédizmok használatát mutatja - a beteg fokozott munkával lélegzik. A bordaközi izmok (musculi intercostales) erőteljes összehúzódásakor a bőr a bordák között 'behúzódik'. Súlyos légzési elégtelenség jele. Csecsemőknél különösen jellegzetes.",
+    magyarazat: "A normális légzéshez a rekeszizom önmagában elég. Ha segédizmok aktiválódnak (interkostális, sternocleidomastoideus, scaleni), az fokozott légzési munkát jelez."
+  },
+
+  {
+    tetel: "7. tétel - Légzés, Fowler, betegátadás",
+    tipus: "nyitott",
+    kerdes: "Mi a Fowler-helyzet (félig ülő pozíció) ÉLETTANI hatása a légzésre?",
+    valasz: "Az ágy fejvégét 45-60°-os szögbe emeljük. A hasi szervek lejjebb ereszkednek a gravitáció miatt. Ezért a rekeszizom mozgása szabadabbá válik (lefelé tud mozdulni) → a tüdő tágulékonysága javul → könnyebb a légzés és nő az oxigenizáció.",
+    magyarazat: "Lapos fekvésnél a hasi szervek nyomják a rekeszizmot felfelé → kisebb tüdőtérfogat. Ülő helyzetben a gravitáció segít a tüdő tágulásában. Ezért nehézlégzéses beteg ÖSZTÖNÖSEN ülni próbál (orthopnoe)."
+  },
+
+  {
+    tetel: "7. tétel - Légzés, Fowler, betegátadás",
+    tipus: "feleletvalasztos",
+    kerdes: "Mikor javasolt a Fowler-helyzet (45-60°)?",
+    valaszok: [
+      "Hasi sérülésnél",
+      "Nehézlégzés, mellkasi fájdalom, hányinger esetén",
+      "Gerincsérülésnél",
+      "Sokkos betegnél"
+    ],
+    helyes: 1,
+    magyarazat: "Nehézlégzés (dyspnoea), mellkasi fájdalom, hányinger - mindezekben a Fowler-helyzet enyhít. Hasi sérülésnél felhúzott térdekkel hanyatt. Sokkban Trendelenburg."
+  },
+
+  {
+    tetel: "7. tétel - Légzés, Fowler, betegátadás",
+    tipus: "nyitott",
+    kerdes: "Mit kell tartalmaznia a betegátadásnak (műszakváltáskor / osztályok között)?",
+    valasz: "1) Beteg azonosító adatai. 2) Diagnózis. 3) Aktuális állapot (vitális paraméterek). 4) Elvégzett beavatkozások. 5) Tervezett beavatkozások. 6) Gyógyszerelés. Az átadás ALAPJA a pontosan vezetett lázlap és ápolási dokumentáció.",
+    magyarazat: "Strukturált átadás (pl. SBAR módszer: Situation, Background, Assessment, Recommendation) csökkenti a hibákat. A 'kollégának ne legyen kérdése' a célunk."
+  },
+
+  {
+    tetel: "7. tétel - Légzés, Fowler, betegátadás",
+    tipus: "nyitott",
+    kerdes: "Légzési nehézség esetén mi az ápolási diagnózis, cél és terv?",
+    valasz: "Tünet: nehézlégzés, fulladás. Ápolási dg.: nem megfelelő légzés a szív- vagy tüdőelégtelenség miatt. Ápolási cél: a légzés könnyítése, a szaturáció javítása. Ápolási terv: félig ülő (Fowler) helyzet biztosítása, szellőztetés, orvosi utasításra oxigénterápia, folyamatos monitorozás (RR, P, SpO2).",
+    magyarazat: "A nyitott ablak / szellőztetés régi, de hatékony módszer - a frisslevegő-érzés pszichésen is megnyugtatja a beteget. De NE adj 100% O2-t COPD-snek - rontana!"
+  },
+
+  {
+    tetel: "7. tétel - Légzés, Fowler, betegátadás",
+    tipus: "nyitott",
+    kerdes: "Mondd el a 7. tétel teljes vázlatát! (állapotfelmérés → légzés megfigyelés → Fowler-helyzet → betegátadás)",
+    valasz: "1) ÁLLAPOTFELMÉRÉS: bemutatkozás, betegazonosítás, intimitás, környezet. Általános megtekintés (bőrszín-cianózis, tudat, testtartás). Vitális paraméterek (RR, P, légzés). Fájdalom és panaszok dokumentálása. 2) LÉGZÉS MEGFIGYELÉS (6 szempont): légzésszám (12-16/perc), ritmus (Cheyne-Stokes, Kussmaul), mélység (felületes/mély), légzési hangok (zörej, hörgés, stridor), segédizmok (orrszárnyi légzés, bordaközi behúzódás), cianózis. 3) FOWLER-HELYZET (45-60°): a hasi szervek lejjebb ereszkednek → rekeszizom szabadabban mozog → tüdőtágulékonyság javul. Indikáció: nehézlégzés, mellkasi fájdalom, hányinger. 4) BETEGÁTADÁS: azonosító, diagnózis, aktuális állapot, elvégzett és tervezett beavatkozások, gyógyszerelés - lázlap és ápolási dokumentáció alapján.",
+    magyarazat: "A vázlat logikája: betegtől indulunk (általános), aztán specifikus légzés-vizsgálat, beavatkozás (pozícionálás), majd kollégának átadjuk."
+  },
+
+  // ----- ÚJ LATIN SZAVAK -----
+
+  {
+    tetel: "Latin - Légzési állapotok",
+    tipus: "latin",
+    latin: "Stridor",
+    jelentes: "magas hangú, sípoló légzési hang (felső légúti szűkület)",
+    kiejtes: "sztridor",
+    magyarazat: "Belégzéskor jellemző. Sürgős - laryngitis, gégeödéma, idegen test okozhatja. NEM összetévesztendő az asztmás 'sípolással' (ami kilégzéskor)."
+  },
+
+  {
+    tetel: "Latin - Légzési állapotok",
+    tipus: "latin",
+    latin: "Cheyne-Stokes légzés",
+    jelentes: "periodikus légzés: fokozatosan mélyülő, majd elhalkuló, apnoeval váltakozó",
+    kiejtes: "csejn-sztóksz",
+    magyarazat: "Súlyos szívelégtelenség, agyi sérülés, idős haldokló betegnél tipikus. Eponym - két orvos (John Cheyne és William Stokes) leírása alapján."
+  },
+
+  {
+    tetel: "Latin - Légzési állapotok",
+    tipus: "latin",
+    latin: "Fowler-helyzet",
+    jelentes: "félig ülő pozíció (45-60° emelt felsőtest)",
+    kiejtes: "fauler",
+    magyarazat: "George Ryerson Fowler amerikai sebészről nevezve. Light Fowler 30°, Semi-Fowler 30-45°, Standard Fowler 45-60°, High Fowler 60-90°."
+  },
+
+  {
+    tetel: "Latin - Légzési állapotok",
+    tipus: "latin",
+    latin: "Musculi intercostales",
+    jelentes: "bordaközi izmok",
+    kiejtes: "muszkuli interkosztálesz",
+    magyarazat: "Légzési segédizmok. Erős légzési erőfeszítésnél a bőr behúzódik a bordák között - 'bordaközi behúzódás' = a légzési elégtelenség jele."
+  },
+
+  // =============================================================
+  // ============ 10. TÉTEL - HÜVELYI VÁLADÉK ÉS VÉRZÉS =========
+  // =============================================================
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "nyitott",
+    kerdes: "Mit kell megfigyelni a hüvelyi váladéknál (fluor)?",
+    valasz: "1) Mennyiség (normál: kevés, nedvesen tartja a nyálkahártyát; kóros: bő, átütő). 2) Szín (normál: átlátszó vagy fehéres; kóros: sárgás-zöldes = gyulladás, véres = rózsaszín/barna). 3) Állag (híg, nyúlós, tapadós, vagy túrós/darabos = gombafertőzés jele). 4) Szag (normálisan szagtalan vagy enyhén savanykás; kóros: kellemetlen, bűzös). 5) Kísérő tünetek: viszketés, égető érzés, fájdalmas vizeletürítés.",
+    magyarazat: "A 'túrós-darabos' váladék klasszikus Candida (gombás) fertőzésre utal. A bűzös sárgászöld bakteriális vaginózisra (BV) vagy Trichomonasra. A normál ciklus során is változik a váladék mennyisége és állaga (ovulációkor nyúlós, fonalhúzó)."
+  },
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "feleletvalasztos",
+    kerdes: "A TÚRÓS-DARABOS hüvelyi váladék jellemzően mire utal?",
+    valaszok: [
+      "Bakteriális fertőzés",
+      "Vírusfertőzés",
+      "Gombafertőzés (Candida)",
+      "Méhnyakdaganat"
+    ],
+    helyes: 2,
+    magyarazat: "A Candida albicans okozta fertőzés (vulvovaginitis candidosa) klasszikus jele a túrós, darabos váladék + viszketés + égő érzés. Antibiotikum-szedés, terhesség, DM hajlamosít rá."
+  },
+
+  // ----- VÉRZÉSI ZAVAROK -----
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a HYPERMENORRHOEA?",
+    valaszok: [
+      "Túl gyakori vérzés",
+      "Túl bő vérzés",
+      "Cikluson kívüli vérzés",
+      "Vérzés hiánya"
+    ],
+    helyes: 1,
+    magyarazat: "Hyper- = túl sok, menorrhoea = menstruációs vérzés. Hypermenorrhoea = túl bő mennyiségű vérzés. Vasszegénységhez vezethet."
+  },
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a POLYMENORRHOEA?",
+    valaszok: [
+      "Túl bő vérzés",
+      "Túl gyakori vérzés (rövidült ciklus)",
+      "Cikluson kívüli vérzés",
+      "Két ciklus között vérzés"
+    ],
+    helyes: 1,
+    magyarazat: "Poly- = sok. Polymenorrhoea = túl gyakori vérzés (a ciklus < 21 nap). Hormonális zavar tipikus oka."
+  },
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a METRORRHAGIA?",
+    valaszok: [
+      "Túl bő menstruáció",
+      "Túl gyakori menstruáció",
+      "Cikluson kívüli, rendszertelen vérzés",
+      "Vérzés teljes hiánya"
+    ],
+    helyes: 2,
+    magyarazat: "Metro- = méh, rhagia = vérzés. Metrorrhagia = a normál ciklustól független, rendszertelen vérzés. Mindig orvosi vizsgálatra szorul (méhnyakrák, polip, hormonális zavar gyanúja)."
+  },
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a kóros menstruációs vérzéseket és jelentésüket!",
+    valasz: "Hypermenorrhoea: túl bő vérzés. Polymenorrhoea: túl gyakori vérzés (rövidült ciklus). Metrorrhagia: cikluson kívüli, rendszertelen vérzés. (Plus: amenorrhoea = vérzés teljes hiánya, oligomenorrhoea = ritka vérzés, dysmenorrhoea = fájdalmas menstruáció.)",
+    magyarazat: "A görög-latin elvre épülnek: hyper/poly/oligo/a- (előtag) + menorrhoea (vérzés). Metrorrhagia a méhből (metro-) szabálytalan vérzés."
+  },
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "nyitott",
+    kerdes: "Mit figyelünk meg a hüvelyi vérzés jellemzőinél?",
+    valasz: "Vérzés szín: friss piros, alvadékos (darabos), vagy barnás ('cafatos'). Mennyiség mérése: az ÁTÜTÖTT BETÉTEK SZÁMA alapján becsüljük meg a vérvesztést. Vérzés időbeli jellemzői: kezdete, időtartama. Kísérő tünetek: fájdalom, görcs, szédülés.",
+    magyarazat: "A betét-számlálás egyszerű, de hasznos becslés: 1 átütött betét ≈ 5-10 ml vér. > 8 betét/nap → orvoshoz irányítás."
+  },
+
+  // ----- ÁPOLÁSI FELADATOK BŐ VÉRZÉSNÉL -----
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "feleletvalasztos",
+    kerdes: "Bő hüvelyi vérzésnél mi a LEGFONTOSABB azonnali ápolói teendő?",
+    valaszok: [
+      "Betétcsere",
+      "Vitális paraméterek (RR, P) szoros figyelése a hipovolémia miatt",
+      "Pszichológiai támogatás",
+      "Állapotfelmérés a kórelőzményről"
+    ],
+    helyes: 1,
+    magyarazat: "Bő vérzés → vérvesztés → hipovolémiás sokk veszélye. RR, P 15-30 percenként mérendő. Sápadtság, szédülés a sokk korai jele."
+  },
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "nyitott",
+    kerdes: "Erős hüvelyi vérzés esetén mi az ápolási diagnózis, cél és teljes terv?",
+    valasz: "Tünet: erős hüvelyi vérzés. Ápolási dg.: folyadékvolumen-hiány veszélye a bő hüvelyi vérzés miatt. Ápolási cél: vérvesztés minimalizálása, keringés stabilizálása. Ápolási terv: 1) Beteg nyugalomba helyezése, vízszintes fektetés. 2) Szoros megfigyelés (RR, P 15-30 percenként). 3) Vérzés mértékének ellenőrzése (betétek gyűjtése / megtekintése). 4) Orvosi utasításra vénabiztosítás, infúzió bekötése, laborvizsgálatok (vérkép, vércsoport). 5) Pszichés támogatás (szorongás oldása).",
+    magyarazat: "A vízszintes fektetés (akár Trendelenburg) segíti a perifériák felől a központ felé áramlást a sokk megelőzésében. Az infúzió volumenpótlás. A vércsoport-meghatározás transzfúzió miatt fontos, ha bő a vérzés."
+  },
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "nyitott",
+    kerdes: "Mi a teendő a kórelőzménynél (anamnézis) hüvelyi panasszal érkező nőnél?",
+    valasz: "Megkérdezzük az utolsó rendes menstruáció időpontját (LMP - Last Menstrual Period). A vérzés kezdetét és jellegét. Egyéb panaszok: viszketés, égető érzés, fájdalmas vizeletürítés. Kísérő tünetek: szédülés, sápadtság (sokk gyanú).",
+    magyarazat: "Az LMP különösen fontos, mert a terhesség kizárása alapvető. Pozitív teszt esetén az ektopikus terhesség életveszélyes lehet hüvelyi vérzéssel."
+  },
+
+  // ----- HIGIÉNIA -----
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "nyitott",
+    kerdes: "Mik az ápolói higiéniai feladatok hüvelyi panaszos beteg esetén?",
+    valasz: "Segítségnyújtás a tisztálkodásban. Betétcsere segítése. Az intim terület bőrének védelme (szárazon tartás, kíméletes mosás). Orvosi utasításra segítségnyújtás hüvelyváladék-mintavételnél (tenyésztéshez vagy citológiához).",
+    magyarazat: "A nedves intim terület gyors irritáció és fertőzés helye. Mosás semleges szappannal vagy csak vízzel, illatosított termékek kerülése."
+  },
+
+  // ----- KISMEDENCEI UH ELŐKÉSZÍTÉS -----
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "feleletvalasztos",
+    kerdes: "HASI ultrahang kismedencei vizsgálatánál mi az előkészítés?",
+    valaszok: [
+      "Üres húgyhólyag (előtte WC-re küldjük)",
+      "Telt húgyhólyag (sok folyadékot iszik, NEM megy WC-re)",
+      "Éhgyomri állapot",
+      "Beöntés a vizsgálat előtt"
+    ],
+    helyes: 1,
+    magyarazat: "Hasi UH-nál a TELT HÚGYHÓLYAG 'ablakot' képez a hangnak, és kitolja a beleket. Ezért a beteg sokat iszik 1 órával előtte, és NEM ürítheti."
+  },
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "feleletvalasztos",
+    kerdes: "HÜVELYI (transvaginális) UH-nál mi az előkészítés?",
+    valaszok: [
+      "Telt húgyhólyag",
+      "Üres húgyhólyag",
+      "Éhgyomri állapot 12 órán át",
+      "Hashajtó előzőleg"
+    ],
+    helyes: 1,
+    magyarazat: "Transvaginális UH-nál ÜRES húgyhólyag kell - a telt hólyag eltávolítaná a méhet a vizsgálati területről. A beteg WC-re megy a vizsgálat előtt."
+  },
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "nyitott",
+    kerdes: "Mi a különbség a hasi és transvaginális kismedencei UH előkészítésében és miért?",
+    valasz: "HASI UH: telt húgyhólyag - sok folyadékot iszik 1 órával előtte, NEM megy WC-re. Indok: a telt hólyag 'ablakot' képez a hangnak, kitolja a beleket. TRANSVAGINÁLIS UH: üres húgyhólyag - WC-re megy közvetlen előtte. Indok: a telt hólyag eltolná a méhet a vizsgálati területről, valamint kényelmetlen lenne.",
+    magyarazat: "A két vizsgálat kiegészíti egymást. Hasi UH áttekintés, transvaginális részlet. Ezért gyakran egymás után végzik őket - először hasi tele hólyaggal, aztán a beteg vizel és transvaginális következik."
+  },
+
+  {
+    tetel: "10. tétel - Hüvelyi váladék és vérzés",
+    tipus: "nyitott",
+    kerdes: "Mondd el a 10. tétel teljes vázlatát! (váladék → vérzés → állapotfelmérés → ápolási terv → UH előkészítés)",
+    valasz: "1) HÜVELYI VÁLADÉK (fluor) MEGFIGYELÉSE: mennyiség (kevés vs bő), szín (átlátszó-fehér vs sárgás-zöldes-véres), állag (híg, nyúlós, tapadós, túrós-darabos = Candida), szag (szagtalan vs bűzös), kísérő tünetek (viszketés, égés, fájdalmas vizelés). 2) HÜVELYI VÉRZÉS: normál menstruáció 3-7 nap. Kóros: hypermenorrhoea (bő), polymenorrhoea (gyakori), metrorrhagia (cikluson kívüli). Vér jellemzői: szín (friss piros, alvadékos, barnás), mennyiség (átütött betétek száma). 3) ÁLLAPOTFELMÉRÉS: anamnézis (LMP, vérzés kezdete, jellege). Vitális paraméterek (RR, P) bő vérzésnél kiemelten - sokkveszély. Bőr sápadtsága, szédülés. Higiénia (betétcsere, intim ápolás). 4) ÁPOLÁSI TERV erős vérzésnél: nyugalomba helyezés vízszintesen, monitorozás 15-30 percenként, vérzés mértékének mérése betétekkel, vénabiztosítás + infúzió, vérkép + vércsoport, pszichés támogatás. 5) UH ELŐKÉSZÍTÉS: hasi → telt hólyag, transvaginális → üres hólyag.",
+    magyarazat: "Komplex tétel - 4 részterület. A vizsgán logikus haladás: kis panasz (fluor) → komolyabb (vérzés) → akut helyzet (sokk) → diagnosztika (UH)."
+  },
+
+  // ----- ÚJ LATIN SZAVAK -----
+
+  {
+    tetel: "Latin - Nőgyógyászat",
+    tipus: "latin",
+    latin: "Fluor (vaginalis)",
+    jelentes: "hüvelyi váladék",
+    kiejtes: "fluor",
+    magyarazat: "Az élettani fluor szín nélküli vagy fehéres. A kóros (sárgás, bűzös, túrós) fertőzésre utal."
+  },
+
+  {
+    tetel: "Latin - Nőgyógyászat",
+    tipus: "latin",
+    latin: "Hypermenorrhoea",
+    jelentes: "túl bő mennyiségű menstruáció",
+    kiejtes: "hipermenorrhoea",
+    magyarazat: "Hyper- = sok, menorrhoea = vérzés."
+  },
+
+  {
+    tetel: "Latin - Nőgyógyászat",
+    tipus: "latin",
+    latin: "Polymenorrhoea",
+    jelentes: "túl gyakori menstruáció (rövidült ciklus < 21 nap)",
+    kiejtes: "polimenorrhoea"
+  },
+
+  {
+    tetel: "Latin - Nőgyógyászat",
+    tipus: "latin",
+    latin: "Oligomenorrhoea",
+    jelentes: "ritka menstruáció (ciklus > 35 nap)",
+    kiejtes: "oligomenorrhoea"
+  },
+
+  {
+    tetel: "Latin - Nőgyógyászat",
+    tipus: "latin",
+    latin: "Amenorrhoea",
+    jelentes: "vérzés teljes hiánya",
+    kiejtes: "amenorrhoea",
+    magyarazat: "A- = nélküli. Primer (sosem volt menstruációja), secunder (volt, de elmaradt). Terhesség, menopauza, anorexia, súlyos sport stb. okozhatja."
+  },
+
+  {
+    tetel: "Latin - Nőgyógyászat",
+    tipus: "latin",
+    latin: "Dysmenorrhoea",
+    jelentes: "fájdalmas menstruáció",
+    kiejtes: "dizmenorrhoea"
+  },
+
+  {
+    tetel: "Latin - Nőgyógyászat",
+    tipus: "latin",
+    latin: "Metrorrhagia",
+    jelentes: "cikluson kívüli, rendszertelen vérzés",
+    kiejtes: "metrorrágia",
+    magyarazat: "Metro = méh, rhagia = vérzés. MINDIG orvosi vizsgálatra szorul (méhnyakrák, polip, hormonális zavar)."
+  },
+
+  // =============================================================
+  // ============ 11. TÉTEL - VITÁLIS, EKG, MVT, EMBÓLIA ========
+  // =============================================================
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "nyitott",
+    kerdes: "Mi a 4 vitális paraméter, és miért fontosak trombózis/embólia gyanújánál?",
+    valasz: "1) Vérnyomás (RR) - hirtelen esés sokk jele lehet (embóliánál!). 2) Pulzus (P) - szám, ritmus, teltség. Trombózis és fájdalom tachycardiát okozhat. 3) Légzés - légzésszám és nehézség (embóliánál szapora). 4) Testhőmérséklet (T) - mélyvénás trombózis gyakran jár hőemelkedéssel ('trombózis-láz').",
+    magyarazat: "A 4 vitális paraméter komplex képet ad. MVT-nél mind a 4 megváltozhat: tachycardia, mérsékelt láz, esetleg vérnyomásesés ha embolizál."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a 'trombózis-láz'?",
+    valaszok: [
+      "A trombózist okozó fertőzés magas láza",
+      "Mélyvénás trombózisnál tipikus mérsékelt hőemelkedés vagy láz",
+      "A láz, ami a vérrögképződést kiváltja",
+      "A keringési láz egy formája"
+    ],
+    helyes: 1,
+    magyarazat: "A MVT mérsékelt lázat (37-38°C) okozhat - a gyulladásos reakció miatt. A tartós, magas láz inkább szepszisre vagy más fertőzésre utal."
+  },
+
+  // ----- EKG KÉSZÍTÉS RÉSZLETESEN -----
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "nyitott",
+    kerdes: "Hogyan készítjük elő a beteget EKG-ra?",
+    valasz: "1) A beteget HANYATT FEKTETJÜK. 2) Szabaddá tesszük a mellkast, csuklókat és bokákat. 3) Eltávolítjuk a fém tárgyakat (óra, ékszer). 4) Bőr zsírtalanítása vagy kontakt gél/spray használata az elektródák alatt.",
+    magyarazat: "A fémek és zsíros bőr zavarják a vezetést → torzított görbe. A tisztítás kulcs a jó minőségű EKG-hoz."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "nyitott",
+    kerdes: "Mik az EKG VÉGTAGI elektródák színkódjai? (4 db)",
+    valasz: "Piros: jobb kar. Sárga: bal kar. Zöld: bal láb. Fekete: jobb láb (földelés).",
+    magyarazat: "Memóriasegítő: 'Piros - sárga - zöld - fekete'. A KKZ + a fekete földelő. Nemzetközi szabvány (kontinentális Európa)."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "feleletvalasztos",
+    kerdes: "Az EKG-n melyik színű elektróda kerül a JOBB karra?",
+    valaszok: ["Sárga", "Piros", "Zöld", "Fekete"],
+    helyes: 1,
+    magyarazat: "Piros = jobb kar. Sárga = bal kar. (Memóriaseggítő: 'Piros' szó kétszer vékony - jobb karra; 'Sárga' szó három betű - bal karra...)"
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "feleletvalasztos",
+    kerdes: "Az EKG-n melyik színű elektróda a FÖLDELÉS?",
+    valaszok: ["Piros", "Zöld", "Fekete (jobb láb)", "Sárga"],
+    helyes: 2,
+    magyarazat: "Fekete elektróda → jobb láb → FÖLDELÉS. Levezeti az interferenciákat a beteg testéből."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "feleletvalasztos",
+    kerdes: "Mit jelent a MŰTERMÉK az EKG-n?",
+    valaszok: [
+      "A szívizom valódi elváltozása",
+      "Az elektromos zavarok (pl. izommozgás, beszéd) okozta torzítás a görbén",
+      "A vezetési rendszer hibája",
+      "Az elektródák lejárata"
+    ],
+    helyes: 1,
+    magyarazat: "Műtermék = ARTEFAKTUM. Az izommozgás, remegés, beszéd, hideg - mindezek torzítják az EKG-t. A betegnek mozdulatlanul, nyugodtan kell feküdnie, nem beszélhet."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "nyitott",
+    kerdes: "Hogyan helyezzük el a MELLKASI elvezetések elektródáit (V1-V6)?",
+    valasz: "Vákuumos elektródákat helyezünk meghatározott anatómiai pontokra a bordaközökbe. V1: 4. bordaköz, jobb mellkasi szegélynél. V2: 4. bordaköz, bal mellkasi szegélynél. V3: V2 és V4 között félúton. V4: 5. bordaköz, bal medioclavicularis vonalban. V5: V4 magasságában, elülső axilláris vonalban. V6: V4 magasságában, középső axilláris vonalban.",
+    magyarazat: "A V elvezetések a szív különböző szögeit nézik a mellkason: V1-V2 = jobb kamra/septum, V3-V4 = anterior fal, V5-V6 = lateralis fal."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "nyitott",
+    kerdes: "Mit kell mondani a betegnek az EKG vizsgálat alatt?",
+    valasz: "Nyugodtan, mozdulatlanul kell feküdnie. NEM beszélhet (mert az izommozgás zavarja a görbét). Lazítania kell, ne legyen feszült. A vizsgálat fájdalmatlan, csak pár percig tart.",
+    magyarazat: "A nyugodt, ellazult állapot kritikus a tiszta EKG-hoz. A fázós beteg remeg → torzítás. Hideg helyiségben takarás indokolt."
+  },
+
+  // ----- MÉLYVÉNÁS TROMBÓZIS RÉSZLETESEN -----
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "nyitott",
+    kerdes: "Mik a mélyvénás trombózis (MVT) tünetei? (4 fő tünet)",
+    valasz: "1) Duzzanat (ödéma): az érintett végtag körfogata nagyobb. 2) Fájdalom: izomlázszerű vagy feszítő érzés a vádliban, amely járásra vagy a lábfej visszahajlítására fokozódik. 3) Bőrelszíneződés: fénylő, feszes, kékes-vöröses (cianotikus) bőr. 4) Hőmérséklet: az érintett terület melegebb tapintású.",
+    magyarazat: "Klasszikus 4 tünet: duzzanat + fájdalom + cianózis + meleg tapintat. A láb körfogat-mérése (mindkét oldal!) egyszerű és érzékeny módszer."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "feleletvalasztos",
+    kerdes: "MVT esetén a fájdalom a lábfej VISSZAHAJLÍTÁSÁRA hogyan változik?",
+    valaszok: ["Csökken", "Megszűnik", "Fokozódik", "Nem változik"],
+    helyes: 2,
+    magyarazat: "Ez a Homans-jel: passzív dorzálflexiónál (lábfej felfelé hajlítása) a vádlifájdalom fokozódik. Klasszikus MVT-tünet, bár nem 100%-osan specifikus."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "feleletvalasztos",
+    kerdes: "MVT-nél a bőr jellemzően:",
+    valaszok: [
+      "Sápadt, hideg",
+      "Fénylő, feszes, kékes-vöröses, melegebb tapintat",
+      "Sárgás",
+      "Foltos rózsaszín"
+    ],
+    helyes: 1,
+    magyarazat: "MVT = vénás pangás → ödéma → feszes-fénylő bőr. Cianotikus (kékes-vöröses) szín az oxigénszegény pangó vér miatt. Meleg tapintat a gyulladás miatt."
+  },
+
+  // ----- TÜDŐEMBÓLIA -----
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "nyitott",
+    kerdes: "Mik a TÜDŐEMBÓLIA vészjósló tünetei?",
+    valasz: "Hirtelen fellépő nehézlégzés (dyspnoea). Éles mellkasi fájdalom. Köhögés (esetleg véres köpet). Halálfélelem. Szapora légzés és pulzus (tachypnoe + tachycardia). Vérnyomásesés.",
+    magyarazat: "A 'halálfélelem' nem irreális - reális szubjektív érzés súlyos hipoxiánál. Életveszélyes állapot - sürgős CT angiográfia, antikoaguláns/trombolítikus terápia."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "feleletvalasztos",
+    kerdes: "Mit TILOS tüdőembólia gyanújánál?",
+    valaszok: [
+      "Beteget oxigént kapni",
+      "Beteget mozgatni - újabb rögök indulhatnak el",
+      "Vénabiztosítást",
+      "EKG-t készíteni"
+    ],
+    helyes: 1,
+    magyarazat: "ABSZOLÚT NYUGALOM! A mozgatás, ülésbe emelés újabb thrombusokat lökhet el a vénákból → újabb embolizáció. Mozdulatlan fektetés + orvos."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "nyitott",
+    kerdes: "Mi az AZONNALI teendő tüdőembólia gyanújánál?",
+    valasz: "1) Orvos értesítése. 2) Beteg mozdulatlan nyugalomba helyezése (TILOS mozgatni!). 3) Oxigén adása. 4) Vénabiztosítás (ha lehet anélkül, hogy a beteget mozgatnánk). 5) Folyamatos monitorozás (RR, P, SpO2). 6) Reanimációs eszközök előkészítése.",
+    magyarazat: "A 'mozdulatlan' itt szó szerint értendő. NE rakjuk ülő helyzetbe - akármennyire is fuldokol. A jó O2-ellátás és gyógyszer az életmentő, nem a pozícionálás."
+  },
+
+  // ----- MEGELŐZÉS -----
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "nyitott",
+    kerdes: "Hogyan előzhető meg a mélyvénás trombózis?",
+    valasz: "1) Műtét utáni KORAI MOBILIZÁLÁS (mihamarabb felkelés, járás). 2) Bőséges folyadékfogyasztás. 3) Rugalmas pólya (fásli) vagy kompressziós harisnya alkalmazása. 4) Orvosi utasításra véralvadásgátló (pl. LMWH injekció) beadása.",
+    magyarazat: "Az immobilizáció (ágyban fekvés, hosszú repülés) a fő rizikó. A korai mobilizálás kulcsfontosságú a kórházban. LMWH = Low Molecular Weight Heparin (alacsony molekulasúlyú heparin), s.c. injekció."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "feleletvalasztos",
+    kerdes: "Az LMWH (alacsony molekulasúlyú heparin) injekciót JELLEMZŐEN hova adjuk?",
+    valaszok: [
+      "Vénába (i.v.)",
+      "Izomba (i.m.)",
+      "Bőr alá (s.c.) - tipikusan hasfalba",
+      "Bőrre (per cutan)"
+    ],
+    helyes: 2,
+    magyarazat: "LMWH s.c. = subcutan = bőr alá. Tipikus helyek: hasfal (köldök körüli zóna, kivéve közvetlen környéke), comb, felkar. Mastectomiás karban TILOS!"
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "feleletvalasztos",
+    kerdes: "A D-DIMER laborérték mire jó MVT/embólia gyanújánál?",
+    valaszok: [
+      "Pontosan diagnosztizálja a trombózist",
+      "Mutatja az infarktus súlyosságát",
+      "Negatív értéke segít KIZÁRNI a trombózist (érzékeny, de nem specifikus)",
+      "Csak a véralvadási idő jelzője"
+    ],
+    helyes: 2,
+    magyarazat: "D-dimer = fibrinlebomlási termék. Magas → lehet trombus, de lehet más is (gyulladás, terhesség, daganat). Negatív → valószínűleg NINCS aktív trombózis. Tehát kizárásra jó, megerősítésre nem."
+  },
+
+  {
+    tetel: "11. tétel - EKG, MVT, embólia",
+    tipus: "nyitott",
+    kerdes: "Mondd el a 11. tétel teljes vázlatát! (vitális paraméterek → EKG → MVT → tüdőembólia → megelőzés)",
+    valasz: "1) VITÁLIS PARAMÉTEREK: RR (vérnyomás), P (pulzus), légzés, T (testhőmérséklet). MVT-nél tachycardia, trombózis-láz; embóliánál vérnyomásesés. 2) EKG: előkészítés (hanyatt, fémek le, mellkas-csuklók-bokák szabadon, bőr zsírtalanítás). Színkódok: piros = jobb kar, sárga = bal kar, zöld = bal láb, fekete = jobb láb (földelés). Mellkasi V1-V6 vákuumos elektródákkal a bordaközökbe. Beteg: nyugodt, mozdulatlan, NEM beszél (műtermék elkerülése). 3) MVT TÜNETEI: duzzanat, vádlifájdalom (lábfej-visszahajlításra fokozódik = Homans-jel), fénylő-feszes-cianotikus bőr, melegebb tapintat. 4) TÜDŐEMBÓLIA: hirtelen dyspnoe, mellkasi fájdalom, véres köpet, halálfélelem, tachypnoe + tachycardia, vérnyomásesés. AZONNALI teendő: orvos, MOZDULATLAN nyugalomba helyezés (TILOS mozgatni!), oxigén. 5) MEGELŐZÉS: korai mobilizálás műtét után, bőséges folyadék, kompressziós harisnya / fásli, LMWH s.c. (hasfalba). D-dimer labor a kizáráshoz.",
+    magyarazat: "Az 5 fő alpont logikus haladás: alapvizsgálat → diagnosztikai eszköz (EKG) → konkrét betegség (MVT) → szövődmény (embólia) → prevenció."
+  },
+
+  // ----- ÚJ LATIN/SZAKKIFEJEZÉSEK -----
+
+  {
+    tetel: "Latin - EKG és vérrög",
+    tipus: "latin",
+    latin: "Elektrokardiogramma (EKG)",
+    jelentes: "a szív elektromos tevékenységét rögzítő görbe",
+    kiejtes: "elektrokardiogram",
+    magyarazat: "Elektro- = elektromos, cardio- = szív, -gramma = írás/rögzítés. 1903-ban Willem Einthoven fejlesztette ki, Nobel-díjat kapott érte."
+  },
+
+  {
+    tetel: "Latin - EKG és vérrög",
+    tipus: "latin",
+    latin: "Thrombus",
+    jelentes: "vérrög (érben kialakult alvadék)",
+    kiejtes: "trombusz"
+  },
+
+  {
+    tetel: "Latin - EKG és vérrög",
+    tipus: "latin",
+    latin: "Embolus",
+    jelentes: "elszabadult vérrög vagy egyéb anyag, ami éren keresztül vándorol",
+    kiejtes: "embolusz",
+    magyarazat: "Az embolus eredete lehet trombus (leggyakoribb), zsír (csonttörésnél), levegő, magzatvíz."
+  },
+
+  {
+    tetel: "Latin - EKG és vérrög",
+    tipus: "latin",
+    latin: "Homans-jel",
+    jelentes: "a lábfej passzív dorzálflexiójára (felfelé hajlítására) jelentkező vádlifájdalom (MVT-jel)",
+    kiejtes: "hómánsz-jel",
+    magyarazat: "John Homans amerikai sebészről nevezve. Klasszikus, de nem 100% specifikus MVT-jel - ma inkább csak kiegészítő vizsgálat."
+  },
+
+  {
+    tetel: "Latin - EKG és vérrög",
+    tipus: "latin",
+    latin: "LMWH",
+    jelentes: "Low Molecular Weight Heparin = alacsony molekulasúlyú heparin (véralvadásgátló)",
+    kiejtes: "el-em-vé-há",
+    magyarazat: "Példák: Fraxiparine, Clexane, Fragmin. Subcutan adva, hasfalba. Trombózis-megelőzésre és kezelésre."
+  },
+
+  {
+    tetel: "Latin - EKG és vérrög",
+    tipus: "latin",
+    latin: "D-dimer",
+    jelentes: "fibrin-lebomlási termék (vérrög-aktivitás jelzője)",
+    kiejtes: "dé-dimer",
+    magyarazat: "Magas érték → aktív véralvadás van, de nem specifikus (lehet trombus, gyulladás, daganat). Negatív érték → kizárja a friss trombózist."
+  },
+
+  {
+    tetel: "Latin - EKG és vérrög",
+    tipus: "latin",
+    latin: "Műtermék (artefaktum)",
+    jelentes: "a vizsgálati görbén megjelenő zavar (nem valódi élettani jelenség)",
+    kiejtes: "artefaktum",
+    magyarazat: "EKG-n: izommozgás, remegés, beszéd, hideg, rossz elektróda-kapcsolat → torzított görbe. Tisztítás, nyugodt környezet a kulcs."
+  },
+
+  // =============================================================
+  // ============ 12. TÉTEL - ÁLLAPOTFELMÉRÉS, SÚLY, ÖDÉMA =====
+  // =============================================================
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi a különbség a SZUBJEKTÍV és OBJEKTÍV adat között az állapotfelmérésnél?",
+    valaszok: [
+      "Szubjektív = orvos által mért, objektív = beteg által elmondott",
+      "Szubjektív = beteg által elmondott (panasz), objektív = mérhető paraméterek",
+      "Nincs különbség a kettő között",
+      "Szubjektív = laborérték, objektív = képalkotó vizsgálat"
+    ],
+    helyes: 1,
+    magyarazat: "SZUBJEKTÍV = a beteg által elmondott (fájdalom, szorongás, nehézlégzés). OBJEKTÍV = mérhető paraméterek (RR, P, légzésszám, SpO2, testtömeg). Mindkettő fontos, együtt adnak teljes képet."
+  },
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a szubjektív és az objektív adatok példáit az állapotfelmérésnél!",
+    valasz: "SZUBJEKTÍV (a beteg által elmondott): fájdalom, szorongás, nehézlégzés, hányinger, gyengeség, szédülés. OBJEKTÍV (mérhető): vérnyomás (RR), pulzus (P), légzés, szaturáció (SpO2), testtömeg, testhőmérséklet.",
+    magyarazat: "A kettő együtt adja az állapotfelmérés teljes képét. Egyik sem mellőzhető."
+  },
+
+  // ----- TESTTÖMEG-MÉRÉS -----
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "feleletvalasztos",
+    kerdes: "Hirtelen súlynövekedés (napi 0,5-1 kg felett) MIT jelez?",
+    valaszok: [
+      "Hízást",
+      "Étvágy javulását",
+      "Vízfelhalmozódást (ödémát) - szív- vagy veseelégtelenség jele",
+      "Anyagcsere lassulást"
+    ],
+    helyes: 2,
+    magyarazat: "Napi 0,5-1 kg vagy több emelkedés NEM lehet zsír (annyit nem lehet enni). Folyadékvisszatartás → ÖDÉMA. Szívelégtelenség, veseelégtelenség, gyógyszermellékhatás."
+  },
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "nyitott",
+    kerdes: "Miért fontos a pontos testtömeg-mérés a kórházban?",
+    valasz: "1) Ödémafigyelés: hirtelen súlynövekedés (napi 0,5-1 kg felett) vízfelhalmozódást jelez (szív-/veseelégtelenség). 2) Gyógyszeradagolás: számos gyógyszer (véralvadásgátlók, kemoterápiás szerek, antibiotikumok) dózisát a testsúly alapján számolják. 3) Tápláltsági állapot felmérése: alultápláltság (cachexia) vagy elhízás kockázati tényező a gyógyulásnál. 4) Folyadékegyensúly követése.",
+    magyarazat: "A testtömeg = nem csak 'súly', hanem klinikai paraméter. Naponta mérendő ödéma vagy folyadékpótlás esetén."
+  },
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "nyitott",
+    kerdes: "Mik a testtömeg-mérés szabályai?",
+    valasz: "1) Lehetőleg REGGEL. 2) ÉHGYOMORRA. 3) ÜRÍTÉS UTÁN (vizelet, székelés). 4) AZONOS RUHÁZATBAN (vagy ruha nélkül, ha lehetséges). 5) Ugyanazon a mérlegen, ha lehet ugyanabban a helyzetben (állva vagy fekve).",
+    magyarazat: "A pontos összehasonlíthatóság a kulcs: ha egyszer ebéd után, egyszer reggel mérünk, az 1-2 kg-os különbség simán bekövetkezhet anélkül, hogy valós változás történne."
+  },
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "feleletvalasztos",
+    kerdes: "Melyik gyógyszer-csoportoknál FÜGGNEK a testsúlytól a dózisok?",
+    valaszok: [
+      "Csak vitaminok",
+      "Véralvadásgátlók (LMWH), kemoterápiás szerek, néhány antibiotikum",
+      "Csak köhögéscsillapítók",
+      "Csak fájdalomcsillapító tabletták"
+    ],
+    helyes: 1,
+    magyarazat: "Súlyfüggő dózisú szerek: LMWH (heparin), kemoterápia, néhány antibiotikum (gentamicin, vancomycin), érzéstelenítők. Túl- vagy aluldozírozás veszélyes."
+  },
+
+  // ----- POZICIONÁLÁS, ESZMÉLETLEN BETEG -----
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "feleletvalasztos",
+    kerdes: "Eszméletlen betegnél miért TILOS a vízszintes hanyatt fektetés?",
+    valaszok: [
+      "Mert kellemetlen",
+      "Aspiráció (félrenyelés) veszélye - hányadék, váladék a légutakba kerülhet",
+      "Mert a fej fáj",
+      "Mert az ízületek merevvé válnak"
+    ],
+    helyes: 1,
+    magyarazat: "Eszméletlen betegnél nincsenek védelmi reflexek. Ha hanyatt fekszik és hány vagy nyál gyűlik, az a légutakba kerülhet → aspirációs pneumonia, fulladás. Stabil OLDALFEKVÉS a megoldás!"
+  },
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "nyitott",
+    kerdes: "Mikor használjuk az OLDALFEKVÉST?",
+    valasz: "1) Alvásnál (kényelmes). 2) Hányásveszély vagy hányás esetén (aspiráció megelőzésére). 3) Eszméletlen betegnél (stabil oldalfekvés). 4) Felfekvés (decubitus) megelőzése céljából (oldalankénti váltás).",
+    magyarazat: "A stabil oldalfekvés alapvető elsősegélynyújtási helyzet eszméletlen, lélegző betegnél. Az alsó kar a fej alatt, a felső láb behajlítva."
+  },
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "feleletvalasztos",
+    kerdes: "A SOKK-FEKTETÉS hogyan történik?",
+    valaszok: [
+      "Hanyatt fekvés, lábak emelve",
+      "Félig ülő helyzet",
+      "Hason fekvés",
+      "Oldalfekvés"
+    ],
+    helyes: 0,
+    magyarazat: "Sokk = vérnyomásesés. A láb emelése (Trendelenburg) a vért a központ (szív, agy) felé irányítja. Csak ha NINCS gerincsérülés!"
+  },
+
+  // ----- BETEGÁTADÁS RÉSZLETESEN -----
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "nyitott",
+    kerdes: "Mikor és mit kell átadni a betegátadáskor?",
+    valasz: "MIKOR? Műszakváltáskor, osztályok közötti áthelyezéskor, műtétre/vizsgálatra küldéskor. MIT? Diagnózis, elvégzett beavatkozások, gyógyszerelés, diéta, mozgáskorlátozottság, utolsó mért vitális paraméterek, a beteg állapotának változásai (pl. 'éjszakája nyugodt volt', 'mellkasi fájdalomra panaszkodott').",
+    magyarazat: "A vizit során az ápoló röviden, lényegre törően tájékoztatja az orvost. A részletes információk a dokumentációban (lázlap, ápolási lap) találhatók."
+  },
+
+  // ----- ÖDÉMA ÁPOLÁSI TERV -----
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "nyitott",
+    kerdes: "Ödéma esetén mi az ápolási diagnózis, cél és teljes terv?",
+    valasz: "Tünet: ödéma. Ápolási dg.: folyadékfelszaporodás a szervezetben a szívműködés elégtelensége miatt. Ápolási cél: az ödémák csökkentése, a folyadékegyensúly helyreállítása. Ápolási tevékenység: 1) Napi testsúlymérés és dokumentálás. 2) Folyadéklap vezetése (felvett és ürített folyadék mennyisége). 3) Sószegény diéta betartatása. 4) Orvosi utasításra vízhajtó (diuretikum) beadása és hatásának (vizeletmennyiség) megfigyelése. 5) A végtagok felpolcolása az ödéma csökkentésére.",
+    magyarazat: "A só visszatartja a vizet → sószegény diéta csökkenti az ödémát. A diuretikum kihajtja a felesleges vizet (de ezzel kálium is fogy → laborkontroll!). Felpolcolás → gravitáció segíti a vénás visszafolyást."
+  },
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "feleletvalasztos",
+    kerdes: "Mit jelent a FOLYADÉKLAP vezetése ödémás betegnél?",
+    valaszok: [
+      "A vér viszkozitásának mérése",
+      "A felvett (ivott + iv. infúzió) és ürített (vizelet) folyadékmennyiség dokumentálása",
+      "A betétek súlyának mérése",
+      "A vérnyomás dokumentálása óránként"
+    ],
+    helyes: 1,
+    magyarazat: "Folyadéklap (folyadékmérleg) = mennyit ivott + iv. kapott, mennyit ürített. Ha bevitt > ürített → felhalmozódás (ödéma). Ezért a diuretikumok hatékonyságát is itt követjük."
+  },
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "feleletvalasztos",
+    kerdes: "Miért fontos a SÓSZEGÉNY diéta ödémás betegnél?",
+    valaszok: [
+      "Mert a só keserű",
+      "A nátrium visszatartja a vizet a szervezetben - kevesebb só = kevesebb visszatartott víz",
+      "Mert a só drága",
+      "Mert a só karcolja a gyomrot"
+    ],
+    helyes: 1,
+    magyarazat: "Na+ → osmotikus aktivitás → vízmegtartás. Tehát kevesebb só = kevesebb folyadékfelhalmozódás. Szívelégtelenségben, magas vérnyomásban, ödémás állapotban kötelező."
+  },
+
+  {
+    tetel: "12. tétel - Állapotfelmérés, súly, ödéma",
+    tipus: "nyitott",
+    kerdes: "Mondd el a 12. tétel teljes vázlatát! (állapotfelmérés → súlymérés → betegátadás → pozicionálás → ödéma ápolási terv)",
+    valasz: "1) ÁLLAPOTFELMÉRÉS: szubjektív (panaszok) + objektív (mérhető paraméterek) adatok. Fizikális vizsgálat: megtekintés, tapintás, hallgatózás. 2) TESTTÖMEG-MÉRÉS: napi 0,5-1 kg súlynövekedés = ödéma. Gyógyszer-dózis számítás (LMWH, kemo). Tápláltsági állapot. Szabályok: reggel, éhgyomorra, ürítés után, azonos ruházatban. 3) BETEGÁTADÁS: műszakváltáskor, áthelyezéskor. Diagnózis, beavatkozások, gyógyszerek, diéta, mozgáskorlátozás, utolsó vitális paraméterek. Vizit során ápoló az orvost tájékoztatja a változásokról. 4) POZICIONÁLÁS: Fowler (45-60°) légzéshez, mellkasi fájdalomhoz. Vízszintes hanyatt: vizsgálatokhoz, sokk-fektetésnél (lábak emelve), DE ESZMÉLETLEN BETEGNÉL TILOS (aspiráció)! Oldalfekvés: alvás, hányásveszély, decubitus megelőzés. 5) ÖDÉMA ÁPOLÁSI TERV: napi testsúlymérés, folyadéklap, sószegény diéta, diuretikum, végtagok felpolcolása.",
+    magyarazat: "Klasszikus felmondás-struktúra: alapvizsgálat → konkrét mérés (súly) → információ-továbbadás → fektetés → konkrét tünet kezelése."
+  },
+
+  // =============================================================
+  // ============ 13. TÉTEL - VÉGTAGOK ÉS VÉRCUKORMÉRÉS =========
+  // =============================================================
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "nyitott",
+    kerdes: "Milyen kóros jeleket kell azonosítani a végtagok megfigyelésekor?",
+    valasz: "1) Sápadt, hideg végtag → artériás keringési elégtelenség, érszűkület (a vér nem jut a perifériákra). 2) Cianotikus (kékes-szürke) → oxigénhiány. Lehet perifériás (helyi keringési zavar) vagy centrális (szív- vagy tüdőbetegség). 3) Vörös, meleg → gyulladás vagy MVT. 4) Ödémás (duzzadt) → szív-, vese- vagy nyirokkeringési zavar.",
+    magyarazat: "Logikus következtetés: meleg = vér ott van (gyulladás vagy pangás). Hideg = vér nem ér oda (artériás baj). Cianózis = vér ott van, de oxigén nincs."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "feleletvalasztos",
+    kerdes: "Sápadt, HIDEG végtag mire utal?",
+    valaszok: [
+      "Mélyvénás trombózis",
+      "Artériás keringési elégtelenség / érszűkület",
+      "Limfödéma",
+      "Allergiás reakció"
+    ],
+    helyes: 1,
+    magyarazat: "Hideg + sápadt = nincs vér. Artériás elzáródás vagy érszűkület. Az '5 P' jellemzi: Pain (fájdalom), Pallor (sápadtság), Pulselessness (pulzustalanság), Paresthesia (zsibbadás), Paralysis (bénulás)."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "feleletvalasztos",
+    kerdes: "VÖRÖS, MELEG, fájdalmas, duzzadt végtag mire utal?",
+    valaszok: [
+      "Artériás elzáródás",
+      "Mélyvénás trombózis vagy gyulladás",
+      "Sokk",
+      "Hypovolaemia"
+    ],
+    helyes: 1,
+    magyarazat: "Vörös, meleg, fájdalmas + duzzanat → MVT vagy cellulitis (bőr-gyulladás). Mindkettő sürgősen kivizsgálandó."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "nyitott",
+    kerdes: "Mi a különbség a CENTRÁLIS és PERIFÉRIÁS cyanosis között?",
+    valasz: "CENTRÁLIS cyanosis: az ajkakon, nyelven és nyálkahártyákon is látszik. Oka: szív- vagy tüdőbetegség, az egész vér oxigénszegény. PERIFÉRIÁS cyanosis: csak a végtagokon (kéz, láb, ujjak), a centrális területek normál színűek. Oka: helyi keringési zavar (érszűkület, sokk, hideg).",
+    magyarazat: "Egyszerű teszt: nézd meg a nyelvet. Ha az is kék → centrális (komolyabb). Ha rózsaszín → csak perifériás."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "feleletvalasztos",
+    kerdes: "Az UJJNYOMÁS-PRÓBA (pitting test) ödémánál mit vizsgál?",
+    valaszok: [
+      "Az ízületek mozgékonyságát",
+      "Hogy az ujjnyomás után visszamarad-e behúzódás (gödör) - 'pitting' ödéma",
+      "A vérnyomás eltérését",
+      "Az ujjak rugalmasságát"
+    ],
+    helyes: 1,
+    magyarazat: "Pitting ödéma = ujjnyomás után visszamarad a 'gödör' a bőrön. Tipikus szív- és veseelégtelenségben. A nem-pitting (tészta-szerű) ödéma viszont limfödéma vagy myxoedema (hypothyreosis)."
+  },
+
+  // ----- VÉRCUKORMÉRÉS ESZKÖZEI ÉS MENET -----
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "nyitott",
+    kerdes: "Mik a vércukormérés (capilláris) eszközei?",
+    valasz: "Vércukormérő készülék (glükométer), tesztcsík, ujjbegyszúró lándzsa, fertőtlenítő (alkoholos buci), száraz vatta, gumikesztyű, veszélyeshulladék-gyűjtő (tűledobó).",
+    magyarazat: "Egyszerű, gyors eljárás. A lándzsa egyszerhasználatos, a tűledobóba kerül utána. Nem szabad kétszer ugyanazt a lándzsát használni!"
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "nyitott",
+    kerdes: "Mondd el a vércukormérés (kapilláris) menetét lépésről lépésre!",
+    valasz: "1) Beteg tájékoztatása és higiénés kézmosás. 2) Tesztcsík behelyezése a gépbe (szavatosság és kódszám ellenőrzése). 3) Szúrás helyének (UJJBEGY OLDALSÓ RÉSZE) fertőtlenítése, majd MEGVÁRJUK, amíg megszárad. 4) Szúrás után az ELSŐ vércseppet száraz vattával LETÖRÖLJÜK, a MÁSODIK cseppet juttatjuk a tesztcsíkra. 5) Mérés után száraz vattával nyomást gyakorolunk a szúrás helyére. 6) Eredmény dokumentálása a vércukornaplóban vagy lázlapon.",
+    magyarazat: "Az első csepp kontaminálva van (alkohol, szövetfolyadék) → letöröljük. A második adja a pontos eredményt."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "feleletvalasztos",
+    kerdes: "Hova szúrunk a vércukormérésnél az ujjbegyen?",
+    valaszok: [
+      "Az ujjbegy KÖZEPÉRE",
+      "Az ujjbegy OLDALSÓ részére",
+      "A körömágy mellé",
+      "A tenyérközép közepébe"
+    ],
+    helyes: 1,
+    magyarazat: "Az ujjbegy oldalsó része kevésbé fájdalmas (kevesebb idegvégződés ott). Plus a beteg úgy tudja használni az ujját, hogy a szúrás helyét ne nyomkodja."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "feleletvalasztos",
+    kerdes: "Miért MEGVÁRJUK, hogy az alkohol megszáradjon a szúrás előtt?",
+    valaszok: [
+      "Esztétikai okból",
+      "Az alkohol hígíthatja a vért és FÁJDALMASABB a szúrás",
+      "Az alkohol elektromos zavart okoz a glükométernek",
+      "Hogy a fertőtlenítés érvényesüljön"
+    ],
+    helyes: 1,
+    magyarazat: "Az alkohol VÉG ronthatja a mérési pontosságot (hígítás). Plus a nedves bőrön át történő szúrás fájdalmasabb. Mindig megvárjuk, amíg megszárad."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "feleletvalasztos",
+    kerdes: "Miért törli LE az ELSŐ vércseppet a szúrás után?",
+    valaszok: [
+      "Az első csepp túl kicsi",
+      "Az első csepp kontaminált (alkohol, szövetfolyadék) - pontatlan eredményt adna",
+      "Hogy a beteg ne lássa",
+      "A higiénia miatt"
+    ],
+    helyes: 1,
+    magyarazat: "Az első csepp keveredik a maradék alkohollal és intersticiális folyadékkal → nem reprezentatív vércukor. A második csepp már 'tiszta' kapilláris vér."
+  },
+
+  // ----- VÉRCUKOR NORMÁLÉRTÉKEK ÉS TEENDŐK -----
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mi az ÉHGYOMRI vércukor normálértéke?",
+    valaszok: [
+      "0 - 3 mmol/l",
+      "3,9 - 6,1 mmol/l",
+      "7 - 10 mmol/l",
+      "11 - 15 mmol/l"
+    ],
+    helyes: 1,
+    magyarazat: "Éhgyomri normál: 3,9-6,1 mmol/l. Étkezés utáni: < 7,8 mmol/l (egészséges). Diabetes diagnózis: éhgyomri ≥ 7,0, OGTT 2 órás ≥ 11,1 mmol/l."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mit jelent a HYPOGLYCAEMIA, és melyik értéktől beszélünk róla?",
+    valaszok: [
+      "Magas vércukor, > 7 mmol/l felett",
+      "Alacsony vércukor, 3,9 mmol/l alatt",
+      "Ingadozó vércukor",
+      "Egyik sem"
+    ],
+    helyes: 1,
+    magyarazat: "Hypoglycaemia = alacsony vércukor (< 3,9 mmol/l). Tünetek: remegés, verítékezés, éhségérzet, zavartság, eszméletvesztés. Sürgős cukor-bevitel kell!"
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "nyitott",
+    kerdes: "Mi a teendő hypoglycaemia esetén?",
+    valasz: "Ha a beteg ESZMÉLETÉNÉL VAN: cukros ital (gyümölcslé, szénsavas üdítő) vagy szőlőcukor adása szájon át. Ha NEM eszméleténél: vénásan glukóz (orvosi utasításra) vagy glukagon injekció. Soha ne adjunk szájon át bármit eszméletlen betegnek (aspiráció)!",
+    magyarazat: "Általános szabály: 15 g szénhidrátot adunk, 15 perc múlva újra mérünk. Ha még mindig alacsony, ismételjük."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "feleletvalasztos",
+    kerdes: "Mit jelent a HYPERGLYCAEMIA, és melyik értéktől beszélünk róla (éhgyomri)?",
+    valaszok: [
+      "Alacsony vércukor",
+      "Magas vércukor, éhgyomri > 7,0 mmol/l felett",
+      "Magas vércukor, > 4 mmol/l felett",
+      "Ingadozó vércukor"
+    ],
+    helyes: 1,
+    magyarazat: "Hyperglycaemia = magas vércukor. Éhgyomri > 7,0 mmol/l → DM gyanú. Tünetek: szájszárazság, polyuria, polydypsia, acetonos lehelet."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "nyitott",
+    kerdes: "Sorold fel a HYPER- és HYPO-glycaemia tüneteit és teendőit!",
+    valasz: "HYPOGLYCAEMIA (< 3,9 mmol/l): tünetek: remegés, verítékezés, éhségérzet, zavartság, sápadt, hűvös bőr, telt pulzus. Teendő: szőlőcukor / cukros ital szájon át (ha eszméleténél van), vagy glukóz iv. HYPERGLYCAEMIA (éhgyomri > 7,0 mmol/l): tünetek: szájszárazság, polyuria, polydypsia, acetonos lehelet, kipirult-meleg-száraz bőr, könnyen elnyomható pulzus, Kussmaul-légzés. Teendő: orvos értesítése, inzulin adása orvosi utasításra.",
+    magyarazat: "Vészhelyzetben: ha bizonytalan, ADJ CUKROT. A hyper-nek kis dózis cukor nem árt, a hypo életet menthet."
+  },
+
+  // ----- DM ÁPOLÁSI TERV -----
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "nyitott",
+    kerdes: "Diabetes mellitus esetén mi az ápolási diagnózis, cél és teljes terv?",
+    valasz: "Tünet: instabil vércukorszint. Ápolási dg.: instabil vércukorszint kockázata az étrend vagy az inzulinadagolás hiányosságai miatt. Ápolási cél: vércukorszint célértéken tartása, szövődmények megelőzése. Ápolási tevékenységek: 1) Rendszeres vércukormérés (PROFIL MÉRÉS: étkezések előtt és után). 2) Diéta (szénhidrátmennyiség) pontos betartatása. 3) Inzulin beadása az előírt időpontban és módon (subcutan). 4) Beteg oktatása a LÁBÁPOLÁSRA (a sérülések elkerülése végett, mert rosszabbul gyógyulnak).",
+    magyarazat: "A 'profil mérés' = több vércukor egy nap (reggeli előtt-után, ebéd előtt-után, vacsora előtt-után, lefekvéskor) → teljes kép a szabályozásról."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "feleletvalasztos",
+    kerdes: "Az inzulint MILYEN módon adjuk?",
+    valaszok: [
+      "Intravénásan (i.v.)",
+      "Izomba (i.m.)",
+      "Bőr alá (subcutan)",
+      "Szájon át (per os)"
+    ],
+    helyes: 2,
+    magyarazat: "Inzulin s.c. = subcutan = bőr alá. Tipikus helyek: hasfal, comb, felkar, fenék. A helyeket VÁLTOGATNI kell (lipodisztrófia megelőzése)."
+  },
+
+  {
+    tetel: "13. tétel - Végtagok és vércukormérés",
+    tipus: "nyitott",
+    kerdes: "Mondd el a 13. tétel teljes vázlatát! (végtagok megfigyelése → vércukormérés → normálértékek → DM ápolási terv)",
+    valasz: "1) VÉGTAGOK MEGFIGYELÉSE: sápadt, hideg → artériás. Cianotikus → oxigénhiány (centrális vagy perifériás). Vörös, meleg → gyulladás/MVT. Ödémás → szív/vese/nyirok. Pitting teszt = ujjnyomás után gödör. 2) VÉRCUKORMÉRÉS: eszközök (glükométer, tesztcsík, lándzsa, alkoholos buci, vatta, gumikesztyű, tűledobó). Menet: tájékoztatás-kézmosás → tesztcsík be → ujjbegy oldalsó részének fertőtlenítése + megszáradás → szúrás → első csepp letörlése → második csepp tesztcsíkra → nyomás vattával → dokumentálás. 3) NORMÁLÉRTÉKEK: éhgyomri 3,9-6,1 mmol/l. Hypo < 3,9 (remegés, izzadás, éhség → cukros ital). Hyper > 7,0 éhgyomri (szájszárazság, polyuria, aceton lehelet → orvos, inzulin). 4) DM ÁPOLÁSI TERV: profil mérés étkezések előtt-után, diéta szénhidrát betartása, inzulin s.c. előírt időben, lábápolás oktatása.",
+    magyarazat: "Komplex tétel: megfigyelés → mérés-technika → értelmezés → kezelés. Logikus haladás."
+  },
+
+  // ----- ÚJ LATIN/SZAKKIFEJEZÉSEK -----
+
+  {
+    tetel: "Latin - Vér és anyagcsere",
+    tipus: "latin",
+    latin: "Glükométer",
+    jelentes: "vércukormérő készülék (kapilláris vér mérésére)",
+    kiejtes: "glükométer",
+    magyarazat: "Otthoni és kórházi használatra is. A kalibrálás (kódszám) és a tesztcsík szavatosságának ellenőrzése fontos."
+  },
+
+  {
+    tetel: "Latin - Vér és anyagcsere",
+    tipus: "latin",
+    latin: "Pitting ödéma",
+    jelentes: "ujjnyomásnál visszamaradó 'gödör' a bőrön",
+    kiejtes: "pitting ödéma",
+    magyarazat: "Tipikus szív- és veseelégtelenségben. A nem-pitting ('tészta-szerű') ödéma limfödémát vagy myxoedemát (hypothyreosis) jelez."
+  },
+
+  {
+    tetel: "Latin - Vér és anyagcsere",
+    tipus: "latin",
+    latin: "Cyanosis centralis",
+    jelentes: "centrális cianózis (ajkakon, nyelven, nyálkahártyákon is)",
+    kiejtes: "cianózis centrálisz",
+    magyarazat: "Az egész vér oxigénszegény. Szív- vagy tüdőbetegség jele."
+  },
+
+  {
+    tetel: "Latin - Vér és anyagcsere",
+    tipus: "latin",
+    latin: "Cyanosis peripherica",
+    jelentes: "perifériás cianózis (csak a végtagokon, nyelv normál)",
+    kiejtes: "cianózis periferika",
+    magyarazat: "Helyi keringési zavar: érszűkület, sokk, hideg behatás, MVT."
   }
 
 ];
